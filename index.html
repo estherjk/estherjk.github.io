@@ -1,0 +1,64 @@
+---
+layout: default
+title: Esther Jun Kim
+---
+
+<div class="site-jumbotron">
+  <div class="container">
+    <img class="logo" src="/assets/img/logo/logo-transparent.png">
+
+    <p>
+      Hi, I'm Esther Jun Kim.
+      <br>
+      I like to create things and understand how people use them.
+    </p>
+  </div>
+</div>
+
+<div class="site-feature bg-gray text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 featurette">
+        <i class="fa fa-mobile fa-6"></i>
+        <i class="fa fa-desktop fa-6"></i>
+        <h2>Coder</h2>
+        <p>
+          I develop software whether it's to build a web application, hack a mobile prototype together, or analyze data.
+        </p>
+      </div>
+      <div class="col-md-6 featurette">
+        <i class="fa fa-bar-chart fa-6"></i>
+        <i class="fa fa-line-chart fa-6"></i>
+        <h2>UX Researcher</h2>
+        <p>
+          I discover user needs and make informed design decisions by applying quantitative user research methods.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="site-feature">
+  <div class="container">
+    <h2 class="text-center">Latest post</h2>
+
+    <hr class="hr-feature">
+
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h3><a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a><br>
+          <small>{{ site.posts[0].date | date: "%d %B %Y" }}</small>
+        </h3>
+        <p>
+          {{ site.posts[0].excerpt }}
+        </p>
+      </div>
+    </div>
+
+    <hr class="hr-feature">
+
+    <div class="text-center">
+      <a href="/blog" class="btn btn-lg btn-red">See more posts</a>
+    </div>
+  </div>
+</div>
