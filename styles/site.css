@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
 /*** Sticky footer styles ***/
 
@@ -220,9 +220,9 @@ a:focus {
 }
 
 .blog-item-date {
-  font-family: 'Ubuntu Mono';
   padding-right: 5px;
-  color: #888;
+  font-family: 'Inconsolata';
+  color: #999;
 }
 
 .post-header {
@@ -231,6 +231,7 @@ a:focus {
 
 .post-header .post-date {
   margin-bottom: 0;
+  font-family: 'Inconsolata';
   color: #999;
 }
 
