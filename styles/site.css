@@ -146,10 +146,16 @@ a:focus {
   height: 140px;
 }
 
-.site-jumbotron p {
+.site-jumbotron .lead {
   margin: 0;
   font-size: 2.5em;
-  font-weight: 100;
+  font-weight: 300
+}
+
+@media (max-width: 767px) {
+  .site-jumbotron .lead {
+    font-size: 2em;
+  }
 }
 
 .site-feature {
