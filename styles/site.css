@@ -62,8 +62,8 @@ a:focus {
   text-decoration: underline;
 }
 
-h1, h2, h3 {
-  font-weight: 300;
+.normal {
+  font-weight: normal;
 }
 
 .btn-red {
@@ -77,7 +77,7 @@ h1, h2, h3 {
 }
 
 .bg-gray {
-  background-color: #f8f8f8;
+  background-color: #eee;
 }
 
 .video-container {
@@ -160,9 +160,8 @@ h1, h2, h3 {
   text-transform: uppercase;
 }
 
-.site-feature p {
-  font-size: 1.2em;
-  font-weight: 300;
+.site-feature .post-date {
+  color: #999;
 }
 
 .hr-feature {
@@ -228,10 +227,9 @@ h1, h2, h3 {
   border-color: #FFD9D9;
 }
 
-.post-date {
+.post-header .post-date {
   margin-bottom: 0;
-  font-size: 0.9em;
-  color: #888;
+  color: #999;
 }
 
 .post-content {
