@@ -86,10 +86,22 @@ a:focus {
   border-bottom: 1px solid #FFD9D9;
 }
 
-.h2-caps {
+.h2-sm-caps {
   margin-top: 0;
   font-size: 18px;
   text-transform: uppercase;
+}
+
+.hr-pink {
+  width: 100%;
+  margin: 40px 0;
+  border-color: #FFD9D9;
+}
+
+.hr-short-pink {
+  width: 200px;
+  margin: 40px auto;
+  border-color: #FFD9D9;
 }
 
 .video-container {
@@ -176,18 +188,6 @@ a:focus {
 
 .site-feature .post-date {
   color: #999;
-}
-
-.hr-long {
-  width: 100%;
-  margin: 40px 0;
-  border-color: #FFD9D9;
-}
-
-.hr-feature {
-  width: 200px;
-  margin: 40px auto;
-  border-color: #FFD9D9;
 }
 
 .featurette {
