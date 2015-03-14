@@ -12,7 +12,9 @@ title: Blog
 
 <div class="container">
   {% for section in site.blogCategories %}
-    <h2>{{ section.title }}</h2>
+    <div class="h2-page-header">
+      <h2>{{ section.title }}</h2>
+    </div>
 
     <ul class="blog-list">
       {% for post in site.posts %}
