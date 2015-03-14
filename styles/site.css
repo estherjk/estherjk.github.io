@@ -86,6 +86,12 @@ a:focus {
   border-bottom: 1px solid #FFD9D9;
 }
 
+.h2-caps {
+  margin-top: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 .video-container {
   position: relative;
   margin-top: 20px;
@@ -172,6 +178,12 @@ a:focus {
   color: #999;
 }
 
+.hr-long {
+  width: 100%;
+  margin: 40px 0;
+  border-color: #FFD9D9;
+}
+
 .hr-feature {
   width: 200px;
   margin: 40px auto;
@@ -179,7 +191,7 @@ a:focus {
 }
 
 .featurette {
-  margin: 40px 0;
+  margin-top: 40px;
 }
 
 /*** Site header styles ***/
@@ -211,6 +223,14 @@ a:focus {
   margin-bottom: 0;
   color: #FFD9D9;
   font-size: 24px;
+}
+
+/*** Bio styles ***/
+
+.headshot {
+  margin-bottom: 0;
+  height: auto;
+  width: 360px;
 }
 
 /*** Blog styles ***/
