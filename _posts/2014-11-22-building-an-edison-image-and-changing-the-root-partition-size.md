@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building an Edison image and changing the root partition size
-categories: edison
+tags: edison
 ---
 
 *Update: As of February 2015, the newest version of the Edison image comes with a default root partition size of 1.4GB, which should be sufficiently large for most people. If you would still like to change the root partition size, these instructions should still work, but with a couple differences in the Linux source files, which are noted below.*

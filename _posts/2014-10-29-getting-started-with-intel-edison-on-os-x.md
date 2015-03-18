@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with Intel Edison on OS X
-categories: edison
+tags: edison
 ---
 
 *Note that much of the following information is available in the <a href="https://communities.intel.com/docs/DOC-23148" target="_blank">Getting Started Guide from Intel</a>. However, there is some additional information for assembling the Mini Breakout Board, SSH-ing over Wi-Fi, and package management.*
@@ -81,8 +81,8 @@ Press **Enter**. A blank screen will appear. Press **Enter** a few more times un
 At the login prompt, type `root` and press **Enter**. You may be prompted for a password, but if you've never set up Edison before, just hit **Enter**.
 
     edison login: root
-    Password: 
-    root@edison:~# 
+    Password:
+    root@edison:~#
 
 Congratulations, you are now connected to Edison from your Mac!
 
@@ -148,8 +148,8 @@ Congratulations, Edison is now connected to Wi-Fi!
 Now that Edison is connected to Wi-Fi, it's also possible to SSH over Wi-Fi, provided that the computer you want to log in from is on the same network. If so, open a new Terminal window and enter the following:
 
     $ ssh root@myedison.local
-    root@myedison.local's password: 
-    root@myedison:~# 
+    root@myedison.local's password:
+    root@myedison:~#
 
 When prompted for a password, use the password you created when configuring Edison.
 

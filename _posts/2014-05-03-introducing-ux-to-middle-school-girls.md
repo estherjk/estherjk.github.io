@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing UX to middle school girls
-categories: ux
+tags: ux
 ---
 
 Last month, I had the privilege of speaking to the girls who participate in GAINS (Girls Achieving in Non-Traditional Subjects) at <a href="https://pms-scusd-ca.schoolloop.com/GAINSProgram" target="_blank">Peterson Middle School</a>. The purpose of the program is to introduce middle school and high school girls to careers where there have historically been less women, such as the STEM-related fields. I've never really spoken about my experiences as a female engineer to a younger audience before, so I thought this would be a great opportunity to introduce them to what I do -- user experience -- and why I like to do it.

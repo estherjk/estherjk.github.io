@@ -6,12 +6,3 @@ navigation:
   url: /bio/
 - title: Blog
   url: /blog/
-blogCategories:
-- category: edison
-  title: Intel Edison
-- category: mobile
-  title: Mobile
-- category: ux
-  title: UX
-- category: web
-  title: Web Apps

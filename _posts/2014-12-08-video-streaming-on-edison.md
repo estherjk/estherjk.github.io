@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Video streaming on Edison
-categories: edison
+tags: edison web nodejs
 ---
 
 My <a href="/blog">earlier posts</a> on Edison have been building to this, and here is the result: video streaming to a browser from a webcam connected to Edison... all powered by a 9V battery. It's a relatively simple starter project, and one that I thought would be a nice introduction to Edison, especially if you have some experience with Linux and Node.js.

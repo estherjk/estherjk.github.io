@@ -11,22 +11,102 @@ title: Blog
 </div>
 
 <div class="container">
-  {% for section in site.blogCategories %}
-    <div class="h2-page-header">
-      <h2 class="h2-sm-caps">{{ section.title }}</h2>
+  <div class="row">
+    <div class="col-sm-9" id="posts">
+      <div class="blog-list-container" id="all-container">
+        <ul class="blog-list">
+          {% for post in site.posts %}
+            <li>
+              <span class="blog-item-date">{{ post.date | date: "%d %b %Y" }}</span>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- Reference: http://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/ -->
+      {% for tag in site.tags %}
+        {% assign t = tag | first %}
+        {% assign posts = tag | last %}
+        <div class="blog-list-container hidden" id="{{t}}-container">
+          <ul class="blog-list">
+            {% for post in posts %}
+              {% if post.tags contains t %}
+                <li>
+                  <span class="blog-item-date">{{ post.date | date: "%d %b %Y" }}</span>
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+
+          {% assign numPosts = posts | size %}
+          {% if numPosts == 1 %}
+            <p>{{ posts | size }} post containing tag <b>{{ t }}</b></p>
+          {% else %}
+            <p>{{ posts | size }} posts containing tag <b>{{ t }}</b></p>
+          {% endif %}
+        </div>
+      {% endfor %}
     </div>
 
-    <ul class="blog-list">
-      {% for post in site.posts %}
-        {% if post.categories contains section.category %}
+    <div class="col-sm-3">
+      <h2 class="h2-sm-caps">Tags</h2>
 
-        <li>
-          <span class="blog-item-date">{{ post.date | date: "%d %b %Y" }}</span>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
+      <ul class="blog-tags-list">
+        {% assign sorted_tags = site.tags | sort %}
+        {% for tag in sorted_tags %}
+          {% assign t = tag | first %}
+          {% assign posts = tag | last %}
+          <li class="blog-tag-item" id="{{t}}-item">
+            <a href onclick="filter('{{t}}'); return false;">{{ t }}</a>
+          </li>
+        {% endfor %}
+      </ul>
 
-        {% endif %}
-      {% endfor %}
-    </ul>
-  {% endfor %}
+      <p>
+        <a href onclick="filter('all'); return false;">Show all posts</a>
+      </p>
+    </div>
+  </div>
 </div>
+
+<script type="text/javascript">
+  if(window.location.hash) {
+    var tag = window.location.hash.split('#')[1];
+    filter(tag);
+  }
+
+  function filter(tag) {
+    setActiveTag(tag);
+    showContainer(tag);
+  }
+
+  function setActiveTag(tag) {
+    // loop through all items and remove active class
+    var items = document.getElementsByClassName('blog-tag-item');
+    for(var i=0; i < items.length; i++) {
+      items[i].setAttribute('class', 'blog-tag-item');
+    }
+
+    // set the selected tag's item to active
+    var item = document.getElementById(tag + '-item');
+    if(item) {
+      item.setAttribute('class', 'blog-tag-item active');
+    }
+  }
+
+  function showContainer(tag) {
+    // loop through all lists and hide them
+    var lists = document.getElementsByClassName('blog-list-container');
+    for(var i=0; i < lists.length; i++) {
+      lists[i].setAttribute('class', 'blog-list-container hidden');
+    }
+
+    // remove the hidden class from the selected tag
+    var list = document.getElementById(tag + '-container');
+    if(list) {
+      list.setAttribute('class', 'blog-list-container');
+    }
+  }
+</script>

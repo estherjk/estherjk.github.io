@@ -11,6 +11,14 @@ layout: default
       </div>
 
       <div class="post-content">{{ content }}</div>
+      <div class="post-tags-container">
+        <span class="tag-label">Tags</span>
+
+        {% assign sorted_tags = page.tags | sort %}
+        {% for tag in sorted_tags %}
+          <span class="tag"><a href="/blog#{{tag}}">{{ tag }}</a></span>
+        {% endfor %}
+      </div>
 
       <div id="disqus_thread"></div>
       <script type="text/javascript">

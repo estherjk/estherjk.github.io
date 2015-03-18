@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connecting a USB device to the Edison Mini breakout board
-categories: edison
+tags: edison
 ---
 
 ## Introduction
@@ -49,7 +49,7 @@ where `myedison` is the name of your Edison.
 Type `lsusb` at the prompt. This is a Linux command for displaying information about connected USB devices. Hopefully, your console output looks something like this:
 
     root@myedison:~# lsusb
-    Bus 001 Device 002: ID 041e:4095 Creative Technology, Ltd 
+    Bus 001 Device 002: ID 041e:4095 Creative Technology, Ltd
     Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
     Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 
@@ -80,7 +80,7 @@ Verify that the webcam is detected by typing `dmsg -c`. The console output shoul
 
 Also, verify that the video device node has been created by typing `ls -l /dev/video0`:
 
-    root@eejun-edison02:~# ls -l /dev/video0 
+    root@eejun-edison02:~# ls -l /dev/video0
     crw-rw----    1 root     video      81,   0 Nov 10 15:57 /dev/video0
 
 Congratulations! You have now successfuly connected a USB device!
