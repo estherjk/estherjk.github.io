@@ -18,7 +18,9 @@ Before getting started, you also need a Linux machine. In my case, I created an 
 
 On your Linux machine, <a href="https://communities.intel.com/docs/DOC-23242?_ga=1.214972689.701615573.1414539807" target="_blank">download</a> the Edison Linux source files (`.tgz`). Unpack the `.tgz` file. If you saved it in the shared folder (if you are using the Vagrant VM), I suggest unpacking the file with the following command:
 
-    tar xvf edison-src.tgz -C ~
+```bash
+tar xvf edison-src.tgz -C ~
+```
 
 where `edison-src.tgz` is the name of the downloaded file. `-C ~` unpacks it into the home directory of the VM. I ran into issues when building the image if the source files were in the shared directory.
 
@@ -26,7 +28,9 @@ where `edison-src.tgz` is the name of the downloaded file. `-C ~` unpacks it int
 
 First, modify `edison.env`. Based on which version of the Linux sources files you have, the location of the file is different. The quickest way to find it is by typing the following:
 
-    find * -name 'edison.env'
+```bash
+find * -name 'edison.env'
+```
 
 In my case, the file was originally located at:
 
@@ -34,7 +38,9 @@ In my case, the file was originally located at:
 
 As of February 2015, it is now located at:
 
-    edison-src/device-software/meta-edison/recipes-bsp/u-boot/files/
+```bash
+edison-src/device-software/meta-edison/recipes-bsp/u-boot/files/
+```
 
 To change the root partition size, update `rootfs` in the partitions definition to the desired size in MB. In my case, I increased it from 512MB to 1024MB.
 
@@ -53,7 +59,9 @@ Before going any further, I should mention that building an image can take HOURS
 
 Once building the image is complete, copy the necessary files to the `build/toFlash` directory:
 
-    ./edison-src/device-software/utils/flash/postBuild.sh
+```bash
+./edison-src/device-software/utils/flash/postBuild.sh
+```
 
 As of February 2015, no modification to `flashall.sh` needs to be made and you can skip the rest of this section. If you have an older version of the Edison source files, please continue reading.
 
@@ -61,15 +69,19 @@ To <a href="https://communities.intel.com/thread/56219" target="_blank">re-parti
 
 To do so, change the script from:
 
-    echo "Flashing U-Boot Environment Backup"  
-    flash-command --alt u-boot-env1 -D "${VARIANT_FILE}"  
+```bash
+echo "Flashing U-Boot Environment Backup"  
+flash-command --alt u-boot-env1 -D "${VARIANT_FILE}"  
+```
 
 to:
 
-    echo "Flashing U-Boot Environment Backup and rebooting to apply partition changes"  
-    flash-command --alt u-boot-env1 -D "${VARIANT_FILE}" -R
+```bash
+echo "Flashing U-Boot Environment Backup and rebooting to apply partition changes"  
+flash-command --alt u-boot-env1 -D "${VARIANT_FILE}" -R
 
-    dfu-wait
+dfu-wait
+```
 
 This modification causes Edison to reboot and resume flashing once it comes back online.
 
@@ -77,49 +89,55 @@ This modification causes Edison to reboot and resume flashing once it comes back
 
 To flash Edison with the new image:
 
-    sudo ./edison-src/build/toFlash/flashall.sh
+```bash
+sudo ./edison-src/build/toFlash/flashall.sh
+```
 
 Follow the on-screen instructions. Note that the process can take some time (longer than 5 minutes), so please be patient. Once it's complete, the console should look similar to this:
 
-    Using U-Boot target: edison-blank
-    Now waiting for dfu device 8087:0a99
-    Please plug and reboot the board
-    Flashing IFWI
-    ##################################################] finished!
-    ##################################################] finished!
-    Flashing U-Boot
-    ##################################################] finished!
-    Flashing U-Boot Environment
-    ##################################################] finished!
-    Flashing U-Boot Environment Backup and rebooting to apply partition changes
-    ##################################################] finished!
-    Now waiting for dfu device 8087:0a99
-    Please plug and reboot the board
-    Flashing boot partition (kernel)
-    ##################################################] finished!
-    Flashing rootfs, (it can take up to 5 minutes... Please be patient)
-    ##################################################] finished!
-    Rebooting
-    U-boot & Kernel System Flash Success...
-    Your board needs to reboot twice to complete the flashing procedure, please do not unplug it for 2 minutes.
+```
+Using U-Boot target: edison-blank
+Now waiting for dfu device 8087:0a99
+Please plug and reboot the board
+Flashing IFWI
+##################################################] finished!
+##################################################] finished!
+Flashing U-Boot
+##################################################] finished!
+Flashing U-Boot Environment
+##################################################] finished!
+Flashing U-Boot Environment Backup and rebooting to apply partition changes
+##################################################] finished!
+Now waiting for dfu device 8087:0a99
+Please plug and reboot the board
+Flashing boot partition (kernel)
+##################################################] finished!
+Flashing rootfs, (it can take up to 5 minutes... Please be patient)
+##################################################] finished!
+Rebooting
+U-boot & Kernel System Flash Success...
+Your board needs to reboot twice to complete the flashing procedure, please do not unplug it for 2 minutes.
+```
 
 ## Checking the new image
 
 Log into Edison and check if the partition has changed by typing `df -h`:
 
-    Filesystem                Size      Used Available Use% Mounted on
-    /dev/root               927.9M    306.5M    554.2M  36% /
-    devtmpfs                480.2M         0    480.2M   0% /dev
-    tmpfs                   480.5M         0    480.5M   0% /dev/shm
-    tmpfs                   480.5M    480.0K    480.0M   0% /run
-    tmpfs                   480.5M         0    480.5M   0% /sys/fs/cgroup
-    tmpfs                   480.5M    480.0K    480.0M   0% /etc/machine-id
-    systemd-1                 5.5M      5.1M    468.0K  92% /boot
-    tmpfs                   480.5M      4.0K    480.5M   0% /tmp
-    systemd-1                 1.8G      2.8M      1.7G   0% /home
-    tmpfs                   480.5M         0    480.5M   0% /var/volatile
-    /dev/mmcblk0p5         1003.0K     21.0K    911.0K   2% /factory
-    /dev/mmcblk0p10           1.8G      2.8M      1.7G   0% /home
-    /dev/mmcblk0p7            5.5M      5.1M    468.0K  92% /boot
+```
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root               927.9M    306.5M    554.2M  36% /
+devtmpfs                480.2M         0    480.2M   0% /dev
+tmpfs                   480.5M         0    480.5M   0% /dev/shm
+tmpfs                   480.5M    480.0K    480.0M   0% /run
+tmpfs                   480.5M         0    480.5M   0% /sys/fs/cgroup
+tmpfs                   480.5M    480.0K    480.0M   0% /etc/machine-id
+systemd-1                 5.5M      5.1M    468.0K  92% /boot
+tmpfs                   480.5M      4.0K    480.5M   0% /tmp
+systemd-1                 1.8G      2.8M      1.7G   0% /home
+tmpfs                   480.5M         0    480.5M   0% /var/volatile
+/dev/mmcblk0p5         1003.0K     21.0K    911.0K   2% /factory
+/dev/mmcblk0p10           1.8G      2.8M      1.7G   0% /home
+/dev/mmcblk0p7            5.5M      5.1M    468.0K  92% /boot
+```
 
 Flashing succeeded! The size of `/dev/root` has increased!

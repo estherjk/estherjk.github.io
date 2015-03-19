@@ -48,10 +48,12 @@ where `myedison` is the name of your Edison.
 
 Type `lsusb` at the prompt. This is a Linux command for displaying information about connected USB devices. Hopefully, your console output looks something like this:
 
-    root@myedison:~# lsusb
-    Bus 001 Device 002: ID 041e:4095 Creative Technology, Ltd
-    Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
-    Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+```
+root@myedison:~# lsusb
+Bus 001 Device 002: ID 041e:4095 Creative Technology, Ltd
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+```
 
 The first line shows that my Creative Cam is detected.
 
@@ -61,26 +63,32 @@ If you set up <a href="http://alextgalileo.altervista.org/edison-package-repo-co
 
 To install the UVC driver, type:
 
-    opkg install kernel-module-uvcvideo
+```bash
+opkg install kernel-module-uvcvideo
+```
 
 If the webcam was already plugged into the board, unplug and plug it back in to make sure the webcam is detected properly.
 Verify that the webcam is detected by typing `dmsg -c`. The console output should look similar to this:
 
-    [   92.910838] hub 2-0:1.0: USB hub found
-    [   92.910899] hub 2-0:1.0: 1 port detected
-    [   92.957888] pmic_ccsm pmic_ccsm: USB VBUS Detected. Notifying OTG driver
-    [   93.210150] usb 1-1: new high-speed USB device number 2 using dwc3-host
-    [   93.329961] usb 1-1: New USB device found, idVendor=041e, idProduct=4095
-    [   93.329992] usb 1-1: New USB device strings: Mfr=3, Product=1, SerialNumber=2
-    [   93.330014] usb 1-1: Product: Live! Cam Sync HD VF0770
-    [   93.330033] usb 1-1: Manufacturer: Creative Technology Ltd.
-    [   93.330052] usb 1-1: SerialNumber: 2014090439994
-    [   93.339634] uvcvideo: Found UVC 1.00 device Live! Cam Sync HD VF0770 (041e:4095)
-    [   93.352641] input: Live! Cam Sync HD VF0770 as /devices/pci0000:00/0000:00:11.0/dwc3-host.2/usb1/1-1/1-1:1.0/input/input3
+```
+[   92.910838] hub 2-0:1.0: USB hub found
+[   92.910899] hub 2-0:1.0: 1 port detected
+[   92.957888] pmic_ccsm pmic_ccsm: USB VBUS Detected. Notifying OTG driver
+[   93.210150] usb 1-1: new high-speed USB device number 2 using dwc3-host
+[   93.329961] usb 1-1: New USB device found, idVendor=041e, idProduct=4095
+[   93.329992] usb 1-1: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+[   93.330014] usb 1-1: Product: Live! Cam Sync HD VF0770
+[   93.330033] usb 1-1: Manufacturer: Creative Technology Ltd.
+[   93.330052] usb 1-1: SerialNumber: 2014090439994
+[   93.339634] uvcvideo: Found UVC 1.00 device Live! Cam Sync HD VF0770 (041e:4095)
+[   93.352641] input: Live! Cam Sync HD VF0770 as /devices/pci0000:00/0000:00:11.0/dwc3-host.2/usb1/1-1/1-1:1.0/input/input3
+```
 
 Also, verify that the video device node has been created by typing `ls -l /dev/video0`:
 
-    root@eejun-edison02:~# ls -l /dev/video0
-    crw-rw----    1 root     video      81,   0 Nov 10 15:57 /dev/video0
+```
+root@eejun-edison02:~# ls -l /dev/video0
+crw-rw----    1 root     video      81,   0 Nov 10 15:57 /dev/video0
+```
 
 Congratulations! You have now successfuly connected a USB device!

@@ -21,25 +21,33 @@ Next, install the remote-atom package. To do so, go to `Atom > Preferences > Ins
 
 On your Edison, install the remote client, `rmate`, which is the same executable used for TextMate and Sublime:
 
-    curl -o /usr/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate
-    chmod +x /usr/bin/rmate
+```bash
+curl -o /usr/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate
+chmod +x /usr/bin/rmate
+```
 
 Rename the file to `ratom`:
 
-    mv /usr/bin/rmate /usr/bin/ratom
+```bash
+mv /usr/bin/rmate /usr/bin/ratom
+```
 
 ## Usage
 
 On your PC, go to `Packages > Remote Atom > Start Server`. Then, open a SSH connection to your Edison with port-forwarding:
 
-    ssh -R 52698:localhost:52698 root@myedison.local
+```bash
+ssh -R 52698:localhost:52698 root@myedison.local
+```
 
 where `myedison` is the name of your Edison. Note that port 52698 is the default port used when starting the server.
 
 Create a file on your Edison and open it using `ratom`:
 
-    touch test.txt
-    ratom test.txt
+```bash
+touch test.txt
+ratom test.txt
+```
 
 You should now see the same file `test.txt` open on the Atom client on your PC.
 
@@ -49,8 +57,10 @@ Here's a snapshot with the Edison SSH window on the left and my Mac Atom client 
 
 To save time when connecting via SSH in the future, add the following to `~/.ssh/config` on your PC:
 
-    Host myedison.local
-        RemoteForward 52698 localhost:52698
-        User root
+```
+Host myedison.local
+    RemoteForward 52698 localhost:52698
+    User root
+```
 
 Now, you can connect using `ssh myedison.local`, which is a much shorter command!

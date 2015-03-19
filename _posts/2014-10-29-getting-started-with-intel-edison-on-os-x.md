@@ -60,29 +60,39 @@ To get Edison up-to-date, download the <a href="https://communities.intel.com/do
 
 To connect to Edison via USB, open a new Terminal window and type the following:
 
-    screen /dev/cu.usbserial
+```
+screen /dev/cu.usbserial
+```
 
 Press **Tab** to auto-complete:
 
-    screen /dev/cu.usbserial-A402EXQL
+```bash
+screen /dev/cu.usbserial-A402EXQL
+```
 
 Then type `115200 -L`. The final line should look similar to this:
 
-    screen /dev/cu.usbserial-A402EXQL 115200 -L
+```
+screen /dev/cu.usbserial-A402EXQL 115200 -L
+```
 
 Note that the characters after `cu.usbserial-` may be different for you.
 
 Press **Enter**. A blank screen will appear. Press **Enter** a few more times until text appears on the screen. The Terminal window should contain text similar to this:
 
-    Poky (Yocto Project Reference Distro) 1.6 edison ttyMFD2
+```
+Poky (Yocto Project Reference Distro) 1.6 edison ttyMFD2
 
-    edison login:
+edison login:
+```
 
 At the login prompt, type `root` and press **Enter**. You may be prompted for a password, but if you've never set up Edison before, just hit **Enter**.
 
-    edison login: root
-    Password:
-    root@edison:~#
+```
+edison login: root
+Password:
+root@edison:~#
+```
 
 Congratulations, you are now connected to Edison from your Mac!
 
@@ -90,52 +100,64 @@ Congratulations, you are now connected to Edison from your Mac!
 
 Now that you're connected to Edison, let's configure it:
 
-    configure_edison --setup
+```
+configure_edison --setup
+```
 
 This will walk you through the setup process. Use the `--help` flag to see other configuration options that are available.
 
 After pressing **Enter**, you will be prompted to give Edison a unique name. For example purposes, let's give the name `myedison`, but feel free to choose your own name:
 
-    Configure Edison: Device Name
+```
+Configure Edison: Device Name
 
-    Give this Edison a unique name.
-    This will be used for the access point SSID and mDNS address.
-    Make it at least five characters long (leave empty to skip): myedison
-    Is myedison correct? [Y or N]: Y
+Give this Edison a unique name.
+This will be used for the access point SSID and mDNS address.
+Make it at least five characters long (leave empty to skip): myedison
+Is myedison correct? [Y or N]: Y
+```
 
 You will then be prompted to enter a password:
 
-    Configure Edison: Device Password
+```
+Configure Edison: Device Password
 
-    Enter a new password (leave empty to abort)
-    This will be used to connect to the access point and login to the device.
-    Password:       ******
-    Please enter the password again:        ******
-    The device password has been changed.
+Enter a new password (leave empty to abort)
+This will be used to connect to the access point and login to the device.
+Password:       ******
+Please enter the password again:        ******
+The device password has been changed.
+```
 
 You will then be asked to set up Wi-Fi:
 
-    Do you want to set up wifi? [Y or N]: Y
+```
+Do you want to set up wifi? [Y or N]: Y
+```
 
 Edison will then scan for available networks. Enter the number for the network that you would like to connect to:
 
-    Configure Edison: WiFi Connection
+```
+Configure Edison: WiFi Connection
 
-    Scanning: 1 seconds leftt
+Scanning: 1 seconds leftt
 
-    0 :     Rescan for networks
-    1 :     Manually input a hidden SSID
-    2 :     MyNetworkName
-    3 :     MyOtherNetworkName
+0 :     Rescan for networks
+1 :     Manually input a hidden SSID
+2 :     MyNetworkName
+3 :     MyOtherNetworkName
 
 
-    Enter 0 to rescan for networks.
-    Enter 1 to input a hidden network SSID.
-    Enter a number between 2 to 3 to choose one of the listed network SSIDs: 2
+Enter 0 to rescan for networks.
+Enter 1 to input a hidden network SSID.
+Enter a number between 2 to 3 to choose one of the listed network SSIDs: 2
+```
 
 Once successfully connected, you should see a message similar to this:
 
-    Done. Please connect your laptop or PC to the same network as this device and go to http://12.345.67.89 or http://myedison.local in your browser.
+```
+Done. Please connect your laptop or PC to the same network as this device and go to http://12.345.67.89 or http://myedison.local in your browser.
+```
 
 Entering either URL in a browser window should give you a page that looks like this:
 
@@ -147,9 +169,11 @@ Congratulations, Edison is now connected to Wi-Fi!
 
 Now that Edison is connected to Wi-Fi, it's also possible to SSH over Wi-Fi, provided that the computer you want to log in from is on the same network. If so, open a new Terminal window and enter the following:
 
-    $ ssh root@myedison.local
-    root@myedison.local's password:
-    root@myedison:~#
+```
+$ ssh root@myedison.local
+root@myedison.local's password:
+root@myedison:~#
+```
 
 When prompted for a password, use the password you created when configuring Edison.
 
