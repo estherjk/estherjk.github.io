@@ -62,6 +62,14 @@ a:focus {
   text-decoration: underline;
 }
 
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #333;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
 .normal {
   font-weight: normal;
 }
