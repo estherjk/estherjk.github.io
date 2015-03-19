@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migrating my website to Jekyll
-tags: jekyll web
+tags: jekyll web nodejs angularjs
 ---
 
 This website was originally developed on the MEAN stack (for those of you who aren't familiar with it, check out this <a href="/blog/2013/12/30/the-mean-stack">post</a>). While MEAN is really great for creating data-driven websites, it's definitely overkill for primarily static websites... like mine. The only dynamic content I had were the blog posts. However, I'd argue that blog posts aren't necessarily dynamic after creation, since they are rarely modified afterwards.

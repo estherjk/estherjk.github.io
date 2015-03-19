@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The MEAN stack
-tags: nodejs web
+tags: nodejs web angularjs
 ---
 
 My new favorite web application development platform is the MEAN stack: <a href="http://www.mongodb.org" target="_blank">MongoDB</a>, <a href="http://expressjs.com" target="_blank">Express</a>, <a href="http://angularjs.org" target="_blank">AngularJS</a>, and <a href="http://nodejs.org" target="_blank">Node.js</a>.
