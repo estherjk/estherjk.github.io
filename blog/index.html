@@ -28,7 +28,7 @@ title: Blog
       {% for tag in site.tags %}
         {% assign t = tag | first %}
         {% assign posts = tag | last %}
-        <div class="blog-list-container hidden" id="{{t}}-container">
+        <div class="blog-list-container hidden" id="{{ t }}-container">
           <ul class="blog-list">
             {% for post in posts %}
               {% if post.tags contains t %}
@@ -58,8 +58,8 @@ title: Blog
         {% for tag in sorted_tags %}
           {% assign t = tag | first %}
           {% assign posts = tag | last %}
-          <li class="blog-tag-item" id="{{t}}-item">
-            <a href onclick="filter('{{t}}'); return false;">{{ t }}</a>
+          <li class="blog-tag-item" id="{{ t }}-item">
+            <a href onclick="filter('{{ t }}'); return false;">{{ t }}</a>
           </li>
         {% endfor %}
       </ul>
@@ -103,7 +103,7 @@ title: Blog
       lists[i].setAttribute('class', 'blog-list-container hidden');
     }
 
-    // remove the hidden class from the selected tag
+    // remove the hidden class from the list corresponding to the selected tag
     var list = document.getElementById(tag + '-container');
     if(list) {
       list.setAttribute('class', 'blog-list-container');
