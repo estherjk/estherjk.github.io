@@ -114,7 +114,7 @@ I also wanted to provide links to related posts when a user is reading a given p
 {% raw %}
 {% assign sorted_tags = page.tags | sort %}
 {% for tag in sorted_tags %}
-  <span class="tag"><a href="/blog#{{ tag }}">{{ tag }}</a></span>
+  <span class="tag"><a href="/blog/#{{ tag }}">{{ tag }}</a></span>
 {% endfor %}
 {% endraw %}
 ```
