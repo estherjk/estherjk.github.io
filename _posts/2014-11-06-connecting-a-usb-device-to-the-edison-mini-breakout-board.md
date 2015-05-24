@@ -68,7 +68,7 @@ opkg install kernel-module-uvcvideo
 ```
 
 If the webcam was already plugged into the board, unplug and plug it back in to make sure the webcam is detected properly.
-Verify that the webcam is detected by typing `dmsg -c`. The console output should look similar to this:
+Verify that the webcam is detected by typing `dmesg -c`. The console output should look similar to this:
 
 ```
 [   92.910838] hub 2-0:1.0: USB hub found
