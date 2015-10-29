@@ -74,6 +74,10 @@ code {
   font-weight: normal;
 }
 
+.container-top-margin {
+  margin-top: 20px;
+}
+
 .btn-red {
   border: 1px solid #D33939;
   color: #D33939;
