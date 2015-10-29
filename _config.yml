@@ -1,8 +1,8 @@
 github: [Repository metadata]
 permalink: /blog/:year/:month/:day/:title
 navigation:
-- title: Bio
-  url: /bio/
+- title: About
+  url: /about/
 - title: Blog
   url: /blog/
 markdown: redcarpet
