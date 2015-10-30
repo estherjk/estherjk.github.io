@@ -50,7 +50,18 @@ body {
   padding: 0;
 }
 
-/*** Global styles ***/
+/*** Custom Font Awesome styles ***/
+
+.fa-8 {
+  font-size: 8em;
+  padding: 0 10px;
+}
+
+.fa-navbar {
+  font-size: 18px;
+}
+
+/*** Other global styles ***/
 
 a {
   color: #D33939;
@@ -142,19 +153,6 @@ code {
   max-width: 100%;
 }
 
-/*** Custom Font Awesome styles ***/
-
-.fa-8 {
-  font-size: 8em;
-  padding: 0 10px;
-}
-
-.fa-navbar {
-  font-size: 18px;
-}
-
-/*** Home page styles ***/
-
 .site-jumbotron {
   padding: 80px 0;
   color: white;
@@ -207,8 +205,6 @@ code {
   color: #999;
 }
 
-/*** Site header styles ***/
-
 .site-header {
   padding: 40px 0;
   color: white;
@@ -235,96 +231,4 @@ code {
   margin-bottom: 0;
   color: #FFD9D9;
   font-size: 24px;
-}
-
-/*** About styles ***/
-
-.headshot {
-  height: auto;
-  width: 293px;
-}
-
-.table-rating {
-  font-size: 20px;
-}
-
-.rating {
-  color: #227F7F;
-}
-
-/*** Blog styles ***/
-
-.blog-list {
-  padding: 0;
-  list-style-type: none;
-}
-
-.blog-list li {
-  padding-bottom: 5px;
-}
-
-.blog-tags-list {
-  padding: 0;
-  list-style-type: none;
-}
-
-.blog-tags-list li {
-  display: inline-block;
-  margin-bottom: 5px;
-  padding: 5px;
-  background-color: #FFEFEF;
-  border-radius: 2px;
-}
-
-.blog-tags-list li.active {
-  display: inline-block;
-  margin-bottom: 5px;
-  padding: 5px;
-  background-color: #D33939;
-  border-radius: 2px;
-}
-
-.blog-tags-list li.active>a {
-  color: white;
-  text-decoration: none;
-}
-
-.blog-item-date {
-  padding-right: 5px;
-  font-family: 'Inconsolata';
-  color: #999;
-}
-
-.post-header {
-  border-color: #FFD9D9;
-}
-
-.post-header .post-date {
-  margin-bottom: 0;
-  font-family: 'Inconsolata';
-  color: #999;
-}
-
-.post-content {
-  margin-bottom: 20px;
-}
-
-.post-tags-container {
-  border-top: 1px solid #FFD9D9;
-  margin-bottom: 40px;
-  padding-top: 9px;
-}
-
-.post-tags-container .tag-label {
-  margin-right: 10px;
-  font-size: 1.1em;
-  font-weight: 300;
-}
-
-.post-tags-container .tag {
-  display: inline-block;
-  margin-bottom: 5px;
-  padding: 5px;
-  background-color: #FFEFEF;
-  border-radius: 2px;
 }
