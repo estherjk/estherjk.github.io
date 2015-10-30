@@ -192,6 +192,12 @@ code {
   padding: 80px 0;
 }
 
+@media (max-width: 767px) {
+  .site-feature .lead {
+    font-size: 21px;
+  }
+}
+
 .site-feature .post-date {
   color: #999;
 }
