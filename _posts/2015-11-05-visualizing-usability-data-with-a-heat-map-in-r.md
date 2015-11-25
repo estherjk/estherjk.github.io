@@ -78,7 +78,7 @@ The following pictures show what's happening at each step:
     <div class="thumbnail">
       <img src="/assets/img/uxr-heatmap/heatmap-step1.png" alt="Heat map step 1" class="img-responsive">
       <div class="caption text-center">
-        <h4>1. Create heat map</h4>
+        <h4 class="h4-caption">1. Create heat map</h4>
         <p>
           This creates color cells using the scale specified. The limits of the scale should go from 0 to the total number of users.
         </p>
@@ -89,7 +89,7 @@ The following pictures show what's happening at each step:
     <div class="thumbnail">
       <img src="/assets/img/uxr-heatmap/heatmap-step2.png" alt="Heat map step 2" class="img-responsive">
       <div class="caption text-center">
-        <h4>2. Add text</h4>
+        <h4 class="h4-caption">2. Add text</h4>
         <p>
           The values themselves are still meaningful, so let's include them.
         </p>
@@ -100,7 +100,7 @@ The following pictures show what's happening at each step:
     <div class="thumbnail">
       <img src="/assets/img/uxr-heatmap/heatmap-step3.png" alt="Heat map step 3" class="img-responsive">
       <div class="caption text-center">
-        <h4>3. Re-size the plot</h4>
+        <h4 class="h4-caption">3. Re-size the plot</h4>
         <p>
           The size of the plot can use an update. ggplot2 defaults to creating plots where one unit is the same length on each axis. However, it's possible to change this. In our case, we want the y-axis to be just tall enough to fit our data.
         </p>
@@ -111,7 +111,7 @@ The following pictures show what's happening at each step:
     <div class="thumbnail">
       <img src="/assets/img/uxr-heatmap/heatmap.png" alt="Heat map step 4" class="img-responsive">
       <div class="caption text-center">
-        <h4>4. Give finishing touches</h4>
+        <h4 class="h4-caption">4. Give finishing touches</h4>
         <p>
           By default, ggplot2 creates axis titles, tick marks, and uses a gray background. Let's remove all that and add a title to create the final plot.
         </p>
