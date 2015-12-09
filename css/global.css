@@ -73,6 +73,13 @@ a:focus {
   text-decoration: underline;
 }
 
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #B31B1B;
+  text-decoration: none
+}
+
 code {
   padding: 2px 4px;
   font-size: 90%;
@@ -97,6 +104,21 @@ code {
 .btn-red:hover {
   background-color: #D33939;
   color: white;
+}
+
+.btn-red-inverse {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.btn-red-inverse:hover {
+  background-color: #fff;
+  color: #D33939;
+}
+
+.btn-extra-margin {
+  margin: 10px;
 }
 
 .bg-whitesmoke {
@@ -213,6 +235,26 @@ code {
 
 .site-feature .post-date {
   color: #999;
+}
+
+.site-project-header {
+  padding: 80px 0;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+  word-break: break-word;
+  background-image: -webkit-gradient(
+    linear,
+    right bottom,
+    right top,
+    color-stop(0, #B31B1B),
+    color-stop(1, #D33939)
+  );
+  background-image: -o-linear-gradient(top, #B31B1B 0%, #D33939 100%);
+  background-image: -moz-linear-gradient(top, #B31B1B 0%, #D33939 100%);
+  background-image: -webkit-linear-gradient(top, #B31B1B 0%, #D33939 100%);
+  background-image: -ms-linear-gradient(top, #B31B1B 0%, #D33939 100%);
+  background-image: linear-gradient(to top, #B31B1B 0%, #D33939 100%);
 }
 
 .site-header {

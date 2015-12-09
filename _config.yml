@@ -5,5 +5,24 @@ navigation:
   url: /about/
 - title: Blog
   url: /blog/
+projects:
+- title: AndroidWearMotionSensors
+  url: /projects/AndroidWearMotionSensors/
+  img: /assets/img/projects/AndroidWearMotionSensors.jpg
+- title: edi-cam
+  url: /projects/edi-cam/
+  img: /assets/img/projects/edi-cam.jpg
+- title: face-detection-node-opencv
+  url: /projects/face-detection-node-opencv/
+  img: /assets/img/projects/face-detection-node-opencv.jpg
+- title: led-speech-edison
+  url: /projects/led-speech-edison/
+  img: /assets/img/projects/led-speech-edison.jpg
+- title: LediMote
+  url: /projects/LediMote/
+  img: /assets/img/projects/LediMote.jpg
+- title: Reading Quantified
+  url: http://drejkim.com/reading-quantified/
+  img: /assets/img/projects/reading-quantified.png
 markdown: redcarpet
 highlighter: pygments

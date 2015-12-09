@@ -15,7 +15,7 @@ title: Esther Jun Kim
   </div>
 </div>
 
-<div class="site-feature bg-whitesmoke text-center">
+<div class="site-feature text-center">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -40,6 +40,8 @@ title: Esther Jun Kim
   </div>
 </div>
 
+<hr>
+
 <div class="site-feature">
   <div class="container">
     <h2 class="normal text-uppercase text-center">Latest post</h2>
@@ -58,6 +60,29 @@ title: Esther Jun Kim
 
     <div class="text-center">
       <a href="/blog" class="btn btn-lg btn-red">See more posts</a>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="site-feature">
+  <div class="container">
+    <h2 class="normal text-uppercase text-center">Projects</h2>
+
+    <hr class="hr-short-pink">
+
+    <div class="row">
+      {% for project in site.projects %}
+      <div class="col-sm-4">
+        <a href="{{ project.url }}" class="thumbnail">
+          <img src="{{ project.img }}" alt="{{ project.title }}">
+          <div class="caption text-center">
+            <p>{{ project.title }}</p>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </div>
