@@ -14,7 +14,7 @@ body {
   height: auto !important;
   height: 100%;
   /* Negative indent footer by it's height */
-  margin: 0 auto -80px;
+  margin: 0 auto -60px;
 }
 
 #wrap-content {
@@ -25,7 +25,7 @@ body {
 /* Set the fixed height of the footer here */
 #push,
 #footer {
-  height: 80px;
+  height: 60px;
 }
 
 #footer {
