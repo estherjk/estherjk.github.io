@@ -68,21 +68,29 @@ title: Esther Jun Kim
 
 <div class="site-feature">
   <div class="container">
-    <h2 class="normal text-uppercase text-center">Projects</h2>
+    <h2 class="normal text-uppercase text-center">Selected Projects</h2>
 
     <hr class="hr-short-pink">
 
     <div class="row">
       {% for project in site.projects %}
-      <div class="col-sm-4">
-        <a href="{{ project.url }}" class="thumbnail">
-          <img src="{{ project.img }}" alt="{{ project.title }}">
-          <div class="caption text-center">
-            <p>{{ project.title }}</p>
-          </div>
-        </a>
-      </div>
+        {% if project.showcase == true %}
+        <div class="col-sm-4">
+          <a href="{{ project.url }}" class="thumbnail">
+            <img src="{{ project.img }}" alt="{{ project.title }}">
+            <div class="caption text-center">
+              <p>{{ project.title }}</p>
+            </div>
+          </a>
+        </div>
+        {% endif %}
       {% endfor %}
+    </div>
+
+    <hr class="hr-short-pink">
+
+    <div class="text-center">
+      <a href="/projects" class="btn btn-lg btn-red">See more projects</a>
     </div>
   </div>
 </div>

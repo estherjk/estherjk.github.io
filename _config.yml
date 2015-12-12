@@ -5,6 +5,8 @@ navigation:
   url: /about/
 - title: Blog
   url: /blog/
+- title: Projects
+  url: /projects/
 projects:
 - title: AndroidWearMotionSensors
   url: /projects/AndroidWearMotionSensors/
@@ -12,6 +14,7 @@ projects:
 - title: edi-cam
   url: /projects/edi-cam/
   img: /assets/img/projects/edi-cam.jpg
+  showcase: true
 - title: face-detection-node-opencv
   url: /projects/face-detection-node-opencv/
   img: /assets/img/projects/face-detection-node-opencv.jpg
@@ -21,8 +24,10 @@ projects:
 - title: LediMote
   url: /projects/LediMote/
   img: /assets/img/projects/LediMote.jpg
+  showcase: true
 - title: Reading Quantified
   url: http://drejkim.com/reading-quantified/
   img: /assets/img/projects/reading-quantified.png
+  showcase: true
 markdown: redcarpet
 highlighter: pygments

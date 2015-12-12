@@ -20,15 +20,6 @@
             <a href="{{ link.url }}">{{ link.title }}</a>
         </li>
         {% endfor %}
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            {% for project in site.projects %}
-            <li><a href="{{ project.url }}">{{ project.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">

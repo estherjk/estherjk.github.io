@@ -1,0 +1,26 @@
+---
+layout: default
+title: Projects
+---
+
+<div class="site-header">
+  <div class="container">
+    <h1>Projects</h1>
+    <p class="lead">A collection of my work</p>
+  </div>
+</div>
+
+<div class="container container-top-margin">
+  <div class="row">
+    {% for project in site.projects %}
+    <div class="col-sm-4 col-md-3">
+      <a href="{{ project.url }}" class="thumbnail">
+        <img src="{{ project.img }}" alt="{{ project.title }}">
+        <div class="caption text-center">
+          <p>{{ project.title }}</p>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
