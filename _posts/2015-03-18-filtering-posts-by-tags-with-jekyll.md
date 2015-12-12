@@ -5,9 +5,9 @@ tags: web jekyll
 excerpt: The blog section has been redesigned to take advantage of Jekyll's tags. Now, it's possible to filter posts by tags and see related posts....
 ---
 
-The blog section has been redesigned to take advantage of <a href="http://jekyllrb.com/docs/frontmatter/" target="_blank">Jekyll's tags</a>. Now, it's possible to filter posts by tags and see related posts.
+The blog section has been redesigned to take advantage of <a href="http://jekyllrb.com/docs/frontmatter/">Jekyll's tags</a>. Now, it's possible to filter posts by tags and see related posts.
 
-To get started, I came across <a href="http://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/" target="_blank">this blog</a>, which shows how to list all the site tags and display all the posts by tag. I expanded upon this by doing the following:
+To get started, I came across <a href="http://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/">this blog</a>, which shows how to list all the site tags and display all the posts by tag. I expanded upon this by doing the following:
 
 * Sort and display all the site tags
 * Show only the list of posts related to a tag when that tag is clicked
@@ -99,7 +99,7 @@ The following HTML shows how to list the corresponding posts by tag:
 {% endraw %}
 ```
 
-The `hidden` class is added to all the lists to start and is removed for the appropriate list of posts when `showContainer(tag)` is called (see the JavaScript code above). The `hidden` class is provided by <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>, but you can manually add it into your own CSS file:
+The `hidden` class is added to all the lists to start and is removed for the appropriate list of posts when `showContainer(tag)` is called (see the JavaScript code above). The `hidden` class is provided by <a href="http://getbootstrap.com">Bootstrap</a>, but you can manually add it into your own CSS file:
 
 ```css
 .hidden {
@@ -128,4 +128,4 @@ if(window.location.hash) {
 }
 ```
 
-And that's pretty much it! To see it used in context, feel free to take a look at this website's source code on <a href="https://github.com/drejkim/drejkim.github.io" target="_blank">GitHub</a>.
+And that's pretty much it! To see it used in context, feel free to take a look at this website's source code on <a href="https://github.com/drejkim/drejkim.github.io">GitHub</a>.

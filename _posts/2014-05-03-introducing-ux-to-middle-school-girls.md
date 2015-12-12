@@ -4,7 +4,7 @@ title: Introducing UX to middle school girls
 tags: ux
 ---
 
-Last month, I had the privilege of speaking to the girls who participate in GAINS (Girls Achieving in Non-Traditional Subjects) at <a href="https://pms-scusd-ca.schoolloop.com/GAINSProgram" target="_blank">Peterson Middle School</a>. The purpose of the program is to introduce middle school and high school girls to careers where there have historically been less women, such as the STEM-related fields. I've never really spoken about my experiences as a female engineer to a younger audience before, so I thought this would be a great opportunity to introduce them to what I do -- user experience -- and why I like to do it.
+Last month, I had the privilege of speaking to the girls who participate in GAINS (Girls Achieving in Non-Traditional Subjects) at <a href="https://pms-scusd-ca.schoolloop.com/GAINSProgram">Peterson Middle School</a>. The purpose of the program is to introduce middle school and high school girls to careers where there have historically been less women, such as the STEM-related fields. I've never really spoken about my experiences as a female engineer to a younger audience before, so I thought this would be a great opportunity to introduce them to what I do -- user experience -- and why I like to do it.
 
 The last thing I hoped to do was bore the girls, so I tried to make my talk as interactive as possible. To give them a feel for what user experience is, I discussed a common pain point that we can all relate to... owning a lot of chargers and the resulting tangled mess of wires.
 
@@ -16,7 +16,7 @@ I asked them a few questions:
 * What are some of the issues you have when charging many devices at once?
 * What would be some ways to address these issues?
 
-I then showed the product, <a href="http://www.callpod.com/products/chargepod" target="_blank">Chargepod</a>, which was designed to address some of these problems:
+I then showed the product, <a href="http://www.callpod.com/products/chargepod">Chargepod</a>, which was designed to address some of these problems:
 
 <img class="img-responsive" src="http://www.callpod.com/en_US/static/images4/gallery/chargepod/chargepod_3.jpg">
 

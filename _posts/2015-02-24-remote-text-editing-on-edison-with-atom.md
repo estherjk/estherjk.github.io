@@ -7,13 +7,13 @@ excerpt: Recently, I've started using Atom, the open-source text editor from Git
 
 ## Introduction
 
-Recently, I've started using <a href="https://atom.io/" target="_blank">Atom</a>, the open-source text editor from GitHub. Since it's billed as a "hackable text editor," many 3rd party packages have cropped up that provide additional features. An extremely useful one that I've discovered is <a href="https://atom.io/packages/remote-atom" target="_blank">remote-atom</a>, which allows remote editing via SSH port-forwarding.
+Recently, I've started using <a href="https://atom.io/">Atom</a>, the open-source text editor from GitHub. Since it's billed as a "hackable text editor," many 3rd party packages have cropped up that provide additional features. An extremely useful one that I've discovered is <a href="https://atom.io/packages/remote-atom">remote-atom</a>, which allows remote editing via SSH port-forwarding.
 
 So, what's the benefit? Well, now I can use my new favorite text editor instead of vi or nano to edit files on my Edison. Although the installation instructions are pretty straightforward from the remote-atom documentation, I thought I'd write more explicit ones for the Edison.
 
 ## Installing the Atom client on your PC
 
-First, install <a href="https://atom.io/" target="_blank">Atom</a> on your PC. Downloads are available for Mac, Windows, RedHat Linux, and Ubuntu Linux. For reference, my PC is a Mac, so I am unsure how much they differ on other platforms.
+First, install <a href="https://atom.io/">Atom</a> on your PC. Downloads are available for Mac, Windows, RedHat Linux, and Ubuntu Linux. For reference, my PC is a Mac, so I am unsure how much they differ on other platforms.
 
 Next, install the remote-atom package. To do so, go to `Atom > Preferences > Install`, search for `remote-atom`, and click `Install`.
 

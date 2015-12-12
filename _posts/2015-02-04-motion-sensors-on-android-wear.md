@@ -4,7 +4,7 @@ title: Motion sensors on Android Wear
 tags: android
 ---
 
-Recently, I was able to get my hands on a Moto 360 and decided to play with the motion sensors. So, I created a demo that displays the raw sensor data and performs simple shake and rotation detection using the accelerometer and gyroscope, respectively. The source code is available on <a href="https://github.com/drejkim/AndroidWearMotionSensors" target="_blank">GitHub</a>.
+Recently, I was able to get my hands on a Moto 360 and decided to play with the motion sensors. So, I created a demo that displays the raw sensor data and performs simple shake and rotation detection using the accelerometer and gyroscope, respectively. The source code is available on <a href="https://github.com/drejkim/AndroidWearMotionSensors">GitHub</a>.
 
 See it in action here:
 

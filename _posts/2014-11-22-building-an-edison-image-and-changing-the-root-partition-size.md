@@ -10,13 +10,13 @@ tags: edison
 
 I've been using Edison for a few weeks now, and one of the issues I quickly ran into was not having enough space in the `/dev/root` partition. By default, the size is 512MB, which becomes very small once you start installing packages.
 
-I started investigating on the forums and noticed this very helpful <a href="https://communities.intel.com/thread/55612?start=0&tstart=0" target="_blank">discussion</a> on changing the partition's size. After some trial and error, I was able to build a new Edison image with a larger partition for `/dev/root`, which I have summarized below. For reference, see this <a href="https://communities.intel.com/docs/DOC-23159" target="_blank">document</a> for details on how to build an Edison image.
+I started investigating on the forums and noticed this very helpful <a href="https://communities.intel.com/thread/55612?start=0&tstart=0">discussion</a> on changing the partition's size. After some trial and error, I was able to build a new Edison image with a larger partition for `/dev/root`, which I have summarized below. For reference, see this <a href="https://communities.intel.com/docs/DOC-23159">document</a> for details on how to build an Edison image.
 
-Before getting started, you also need a Linux machine. In my case, I created an <a href="https://github.com/drejkim/edison-imaging-vm" target="_blank">Ubuntu 12.04 Vagrant VM</a> on my Mac. The VM is provisioned with all the necessary packages to create an Edison image. It is also configured with 2GB of memory and with the ability to connect Edison via USB. You will also need about 30GB of disk space.
+Before getting started, you also need a Linux machine. In my case, I created an <a href="https://github.com/drejkim/edison-imaging-vm">Ubuntu 12.04 Vagrant VM</a> on my Mac. The VM is provisioned with all the necessary packages to create an Edison image. It is also configured with 2GB of memory and with the ability to connect Edison via USB. You will also need about 30GB of disk space.
 
 ## Getting the Linux source files
 
-On your Linux machine, <a href="https://communities.intel.com/docs/DOC-23242?_ga=1.214972689.701615573.1414539807" target="_blank">download</a> the Edison Linux source files (`.tgz`). Unpack the `.tgz` file. If you saved it in the shared folder (if you are using the Vagrant VM), I suggest unpacking the file with the following command:
+On your Linux machine, <a href="https://communities.intel.com/docs/DOC-23242?_ga=1.214972689.701615573.1414539807">download</a> the Edison Linux source files (`.tgz`). Unpack the `.tgz` file. If you saved it in the shared folder (if you are using the Vagrant VM), I suggest unpacking the file with the following command:
 
 ```bash
 tar xvf edison-src.tgz -C ~
@@ -65,7 +65,7 @@ Once building the image is complete, copy the necessary files to the `build/toFl
 
 As of February 2015, no modification to `flashall.sh` needs to be made and you can skip the rest of this section. If you have an older version of the Edison source files, please continue reading.
 
-To <a href="https://communities.intel.com/thread/56219" target="_blank">re-partition without using xFSTK</a> (an Intel dependency that is a bit painful to install), modify `edison-src/build/toFlash/flashall.sh`.
+To <a href="https://communities.intel.com/thread/56219">re-partition without using xFSTK</a> (an Intel dependency that is a bit painful to install), modify `edison-src/build/toFlash/flashall.sh`.
 
 To do so, change the script from:
 

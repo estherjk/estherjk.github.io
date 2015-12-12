@@ -4,11 +4,11 @@ title: Getting started with Intel Edison on OS X
 tags: edison
 ---
 
-*Note that much of the following information is available in the <a href="https://communities.intel.com/docs/DOC-23148" target="_blank">Getting Started Guide from Intel</a>. However, there is some additional information for assembling the Mini Breakout Board, SSH-ing over Wi-Fi, and package management.*
+*Note that much of the following information is available in the <a href="https://communities.intel.com/docs/DOC-23148">Getting Started Guide from Intel</a>. However, there is some additional information for assembling the Mini Breakout Board, SSH-ing over Wi-Fi, and package management.*
 
 ## Introduction to Edison
 
-Last month, Intel launched <a href="http://www.intel.com/content/www/us/en/do-it-yourself/edison.html" target="_blank">Edison</a>, a tiny computing platform that's just slightly larger than a SD card. Edison is powered by an Intel SoC that includes a dual core Atom CPU and a 32-bit Quark microcontroller, has integrated Wi-Fi and BTLE (Bluetooth Low Energy), and comes pre-packaged with Yocto Linux, Python, and Node.js. Not bad for a tiny computer!
+Last month, Intel launched <a href="http://www.intel.com/content/www/us/en/do-it-yourself/edison.html">Edison</a>, a tiny computing platform that's just slightly larger than a SD card. Edison is powered by an Intel SoC that includes a dual core Atom CPU and a 32-bit Quark microcontroller, has integrated Wi-Fi and BTLE (Bluetooth Low Energy), and comes pre-packaged with Yocto Linux, Python, and Node.js. Not bad for a tiny computer!
 
 There are two kits that are currently available:
 
@@ -54,7 +54,7 @@ Now that we have assembled the hardware, connect **two** micro USB cables to the
 
 The black cable is used to power Edison. (The port is also USB On-The-Go, where it can act as host or a peripheral.) The white cable is used for serial communication with the computer. Later on, we'll set up Wi-Fi so that we can SSH into Edison over Wi-Fi, which eliminates the need for using the white cable. Note that the above picture shows the Mini breakout board, but setup is essentially the same on the Arduino breakout board.
 
-To get Edison up-to-date, download the <a href="https://communities.intel.com/docs/DOC-23242" target="_blank">Edison Yocto complete image</a> and follow these <a href="https://communities.intel.com/docs/DOC-23193" target="_blank">instructions</a> for Mac.
+To get Edison up-to-date, download the <a href="https://communities.intel.com/docs/DOC-23242">Edison Yocto complete image</a> and follow these <a href="https://communities.intel.com/docs/DOC-23193">instructions</a> for Mac.
 
 ## Connecting to Edison from Mac OS X
 
@@ -181,10 +181,10 @@ Congratulations, you can now SSH into Edison over Wi-Fi!
 
 ## Managing packages on Edison
 
-Edison's operating system is based off Yocto Linux, and it uses <a href="http://en.wikipedia.org/wiki/Opkg" target="_blank">opkg</a> as its package manager. There are two very helpful repositories to fetch packages from, and I definitely recommend using them as you lay out the foundations of your project:
+Edison's operating system is based off Yocto Linux, and it uses <a href="http://en.wikipedia.org/wiki/Opkg">opkg</a> as its package manager. There are two very helpful repositories to fetch packages from, and I definitely recommend using them as you lay out the foundations of your project:
 
-* <a href="https://software.intel.com/en-us/articles/managing-devkit-libraries-intel-edison-or-intel-galileo-board" target="_blank">Intel IoT dev kit libraries</a>
-* <a href="http://alextgalileo.altervista.org/edison-package-repo-configuration-instructions.html" target="_blank">AlexT's unofficial repository</a>&mdash;AlexT has done an awesome job of making popular packages available, such as git
+* <a href="https://software.intel.com/en-us/articles/managing-devkit-libraries-intel-edison-or-intel-galileo-board">Intel IoT dev kit libraries</a>
+* <a href="http://alextgalileo.altervista.org/edison-package-repo-configuration-instructions.html">AlexT's unofficial repository</a>&mdash;AlexT has done an awesome job of making popular packages available, such as git
 
 ## Wrapping up
 

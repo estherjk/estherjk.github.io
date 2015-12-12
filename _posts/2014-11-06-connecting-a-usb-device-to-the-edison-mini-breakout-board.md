@@ -12,16 +12,16 @@ In this post, we will connect a USB device to the Edison mini breakout board. If
 
 These are the supplies you will need:
 
-* Micro USB OTG to USB Adapter (like this <a href="http://www.frys.com/product/7582626?site=sr:SEARCH:MAIN_RSLT_PG" target="_blank">one</a>)
-* 9V battery snap connector (like this <a href="https://www.sparkfun.com/products/91" target="_blank">one</a>; in my case, I soldered a 2-pin connector to a snap connector with open leads)
+* Micro USB OTG to USB Adapter (like this <a href="http://www.frys.com/product/7582626?site=sr:SEARCH:MAIN_RSLT_PG">one</a>)
+* 9V battery snap connector (like this <a href="https://www.sparkfun.com/products/91">one</a>; in my case, I soldered a 2-pin connector to a snap connector with open leads)
 * 9V battery
-* A USB device (I'm using the <a href="http://www.amazon.com/Creative-Live-Sync-720P-Webcam/dp/B0092QJRPC/ref=sr_1_4?s=pc&ie=UTF8&qid=1415288513&sr=1-4" target="_blank">Creative Live! Cam Sync HD 720P Webcam</a>)
+* A USB device (I'm using the <a href="http://www.amazon.com/Creative-Live-Sync-720P-Webcam/dp/B0092QJRPC/ref=sr_1_4?s=pc&ie=UTF8&qid=1415288513&sr=1-4">Creative Live! Cam Sync HD 720P Webcam</a>)
 
 ## Supplying power to the Mini breakout board
 
 <img src="/assets/img/edison/edison-mini-board-on-table.jpg" class="img-responsive" alt="Edison on Mini breakout board">
 
-There are four primary ways to supply power to Edison using the Mini breakout board (more info can be found <a href="https://communities.intel.com/docs/DOC-23252" target="_blank">here</a>):
+There are four primary ways to supply power to Edison using the Mini breakout board (more info can be found <a href="https://communities.intel.com/docs/DOC-23252">here</a>):
 
 * J2 (upper left)&mdash;a battery connector to supply power, such as a rechargeable Lithium Ion battery
 * Micro USB port labeled J16 (2nd port from the top)&mdash;this is how the board was powered when we first set up Edison, but it can also act as a USB host
@@ -57,9 +57,9 @@ Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 
 The first line shows that my Creative Cam is detected.
 
-You should be good to go with a lot of USB devices after following these steps. However, you may need to install drivers, as well. For example, if you want to use a webcam, I highly recommend using a <a href="http://www.ideasonboard.org/uvc/" target="_blank">UVC-compatible webcam</a>, so that you can use the UVC Linux driver.
+You should be good to go with a lot of USB devices after following these steps. However, you may need to install drivers, as well. For example, if you want to use a webcam, I highly recommend using a <a href="http://www.ideasonboard.org/uvc/">UVC-compatible webcam</a>, so that you can use the UVC Linux driver.
 
-If you set up <a href="http://alextgalileo.altervista.org/edison-package-repo-configuration-instructions.html" target="_blank">AlexT's unofficial repository</a> when <a href="/blog/2014/10/29/getting-started-with-intel-edison-on-os-x/">getting started with Edison</a>, continue reading on; if not, please set it up, then continue.
+If you set up <a href="http://alextgalileo.altervista.org/edison-package-repo-configuration-instructions.html">AlexT's unofficial repository</a> when <a href="/blog/2014/10/29/getting-started-with-intel-edison-on-os-x/">getting started with Edison</a>, continue reading on; if not, please set it up, then continue.
 
 To install the UVC driver, type:
 
