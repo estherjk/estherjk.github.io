@@ -29,5 +29,8 @@ projects:
   url: http://drejkim.com/reading-quantified/
   img: /assets/img/projects/reading-quantified.png
   showcase: true
+- title: rte-angular
+  url: http://drejkim.com/rte-angular/
+  img: /assets/img/projects/rte-angular.png
 markdown: redcarpet
 highlighter: pygments
