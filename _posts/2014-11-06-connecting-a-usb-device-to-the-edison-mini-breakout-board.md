@@ -91,4 +91,4 @@ root@eejun-edison02:~# ls -l /dev/video0
 crw-rw----    1 root     video      81,   0 Nov 10 15:57 /dev/video0
 ```
 
-Congratulations! You have now successfuly connected a USB device!
+Congratulations! You have now successfully connected a USB device!
