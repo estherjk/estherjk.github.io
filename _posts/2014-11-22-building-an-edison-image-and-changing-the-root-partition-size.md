@@ -16,7 +16,7 @@ Before getting started, you also need a Linux machine. In my case, I created an 
 
 ## Getting the Linux source files
 
-On your Linux machine, <a href="https://communities.intel.com/docs/DOC-23242?_ga=1.214972689.701615573.1414539807">download</a> the Edison Linux source files (`.tgz`). Unpack the `.tgz` file. If you saved it in the shared folder (if you are using the Vagrant VM), I suggest unpacking the file with the following command:
+On your Linux machine, <a href="https://communities.intel.com/docs/DOC-23242">download</a> the Edison Linux source files (`.tgz`). Unpack the `.tgz` file. If you saved it in the shared folder (if you are using the Vagrant VM), I suggest unpacking the file with the following command:
 
 ```bash
 tar xvf edison-src.tgz -C ~
