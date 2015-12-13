@@ -30,7 +30,7 @@ projects:
   img: /assets/img/projects/reading-quantified.jpg
   showcase: true
 - title: rte-angular
-  url: http://drejkim.com/rte-angular/
-  img: /assets/img/projects/rte-angular.png
+  url: /projects/rte-angular/
+  img: /assets/img/projects/rte-angular.jpg
 markdown: redcarpet
 highlighter: pygments
