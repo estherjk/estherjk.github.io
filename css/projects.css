@@ -3,17 +3,17 @@
   padding-top: 20px;
 }
 
-.btn-link + .btn-link {
+.btn-project-link+ .btn-project-link{
   margin-left: 20px;
 }
 
 @media (max-width: 767px) {
-  .btn-link {
+  .btn-project-link{
     display: block;
     width: 100%;
   }
 
-  .btn-link + .btn-link {
+  .btn-project-link+ .btn-project-link{
     margin-top: 20px;
     margin-left: 0;
   }
