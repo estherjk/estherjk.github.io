@@ -76,12 +76,7 @@ title: Esther Jun Kim
       {% for project in site.projects %}
         {% if project.showcase == true %}
         <div class="col-sm-4">
-          <a href="{{ project.url }}" class="thumbnail">
-            <img src="{{ project.img }}" alt="{{ project.title }}">
-            <div class="caption text-center">
-              <p>{{ project.title }}</p>
-            </div>
-          </a>
+          {% include project-thumbnail.html %}
         </div>
         {% endif %}
       {% endfor %}

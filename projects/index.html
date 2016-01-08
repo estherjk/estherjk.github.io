@@ -14,12 +14,7 @@ title: Projects
   <div class="row">
     {% for project in site.projects %}
     <div class="col-sm-4 col-md-3">
-      <a href="{{ project.url }}" class="thumbnail">
-        <img src="{{ project.img }}" alt="{{ project.title }}">
-        <div class="caption text-center">
-          <p>{{ project.title }}</p>
-        </div>
-      </a>
+      {% include project-thumbnail.html %}
     </div>
     {% endfor %}
   </div>
