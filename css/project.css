@@ -3,7 +3,7 @@
   padding-top: 20px;
 }
 
-.btn-project-link+ .btn-project-link{
+.btn-project-link+ .btn-project-link {
   margin-left: 20px;
 }
 
@@ -13,7 +13,7 @@
     width: 100%;
   }
 
-  .btn-project-link+ .btn-project-link{
+  .btn-project-link+ .btn-project-link {
     margin-top: 20px;
     margin-left: 0;
   }
