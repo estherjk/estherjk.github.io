@@ -173,7 +173,7 @@ code {
   height: 100%;
 }
 
-.img-responsive {
+.img-responsive-extra-margin {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
