@@ -10,7 +10,7 @@ excerpt: A few years ago, Barnes & Noble gave out free ebooks to promote their C
 A few years ago, Barnes & Noble gave out free ebooks to promote their Classics Editions, and I ended up downloading way more ebooks than I knew what to do with. The vast majority of them stayed unread in my ereader for a long time. I also had many other books on my list that I wanted to read. I then found this [Lifehacker article](http://lifehacker.com/my-secret-to-reading-a-lot-of-books-514189426) in 2014, which shows you how to structure your reading with [Trello](https://trello.com/b/mgqBN7ZV).
 
 <div class="thumbnail">
-  <img src="/assets/img/reading-quantified/trello-books-board.png" alt="Trello Books board" class="img-responsive-extra-margin">
+  <img src="/assets/img/reading-quantified/trello-books-board.png" alt="Trello Books board" class="img-responsive">
   <div class="caption text-center">
     <h3 class="h3-caption">Screenshot of my <a href="https://trello.com/b/mgqBN7ZV">Trello Books</a> board</h3>
   </div>
@@ -23,7 +23,7 @@ So far, Trello has been great. It has given me a visual way to organize my books
 The first step involves getting key information about my books using the [Trello API](https://developers.trello.com/). As you can see in the screenshot of my Trello board, it consists of 4 lists and each book is given its own card. Certain activities, like moving cards from one list to another are logged. All this information is available from the Trello API. So, I used [Python](https://github.com/drejkim/reading-quantified-py) to fetch and parse the relevant information for each book, then save this information to [Parse](http://www.parse.com), a cloud database.
 
 <div class="thumbnail">
-  <img src="/assets/img/reading-quantified/trello-card.png" alt="Trello card" class="img-responsive-extra-margin">
+  <img src="/assets/img/reading-quantified/trello-card.png" alt="Trello card" class="img-responsive">
   <div class="caption text-center">
     <h3 class="h3-caption">Screenshot of one of my Trello cards</h3>
   </div>
@@ -32,7 +32,7 @@ The first step involves getting key information about my books using the [Trello
 The second step grabs the data from Parse and visualizes key metrics on a web-based dashboard (see [GitHub](https://github.com/drejkim/reading-quantified) for the code). Right now, the dashboard is very simple. It consists of two key performance indicators (KPIs): "total number of books finished" and "average days to finish", as well as a table listing the books I have finished so far.
 
 <div class="thumbnail">
-  <img src="/assets/img/reading-quantified/dashboard.png" alt="Reading Quantified dashboard" class="img-responsive-extra-margin">
+  <img src="/assets/img/reading-quantified/dashboard.png" alt="Reading Quantified dashboard" class="img-responsive">
   <div class="caption text-center">
     <h3 class="h3-caption">Screenshot of <a href="http://www.drejkim.com/reading-quantified">Reading Quantified</a> (v0.1)</h3>
   </div>

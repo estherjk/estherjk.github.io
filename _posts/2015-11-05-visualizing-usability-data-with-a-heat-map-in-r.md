@@ -21,7 +21,7 @@ When analyzing and reporting the results, a table similar to this one is often u
 
 This is a great start. But, visualizing the information can provide clearer insights. A heat map is a great way to enhance the table by adding color to the table of values:
 
-<img src="/assets/img/uxr-heatmap/heatmap.png" alt="Heat map" class="img-responsive-extra-margin img-thumbnail">
+<img src="/assets/img/uxr-heatmap/heatmap.png" alt="Heat map" class="img-responsive img-thumbnail">
 
 The color scale used in this example goes from dark orange to light gray. If none of the users successfully complete a task, the color is dark orange; if all of the users successfully complete a task, the color is light gray. By color coding the data in this manner, we can immediately see potential problems... the darker the orange, the more we ought to pay attention to it. So, Tasks A and E are on our radar.
 
@@ -76,7 +76,7 @@ The following pictures show what's happening at each step:
 <div class="row">
   <div class="col-md-12">
     <div class="thumbnail">
-      <img src="/assets/img/uxr-heatmap/heatmap-step1.png" alt="Heat map step 1" class="img-responsive-extra-margin">
+      <img src="/assets/img/uxr-heatmap/heatmap-step1.png" alt="Heat map step 1" class="img-responsive">
       <div class="caption text-center">
         <h4 class="h4-caption">1. Create heat map</h4>
         <p>
@@ -87,7 +87,7 @@ The following pictures show what's happening at each step:
   </div>
   <div class="col-md-12">
     <div class="thumbnail">
-      <img src="/assets/img/uxr-heatmap/heatmap-step2.png" alt="Heat map step 2" class="img-responsive-extra-margin">
+      <img src="/assets/img/uxr-heatmap/heatmap-step2.png" alt="Heat map step 2" class="img-responsive">
       <div class="caption text-center">
         <h4 class="h4-caption">2. Add text</h4>
         <p>
@@ -98,7 +98,7 @@ The following pictures show what's happening at each step:
   </div>
   <div class="col-md-12">
     <div class="thumbnail">
-      <img src="/assets/img/uxr-heatmap/heatmap-step3.png" alt="Heat map step 3" class="img-responsive-extra-margin">
+      <img src="/assets/img/uxr-heatmap/heatmap-step3.png" alt="Heat map step 3" class="img-responsive">
       <div class="caption text-center">
         <h4 class="h4-caption">3. Re-size the plot</h4>
         <p>
@@ -109,7 +109,7 @@ The following pictures show what's happening at each step:
   </div>
   <div class="col-md-12">
     <div class="thumbnail">
-      <img src="/assets/img/uxr-heatmap/heatmap.png" alt="Heat map step 4" class="img-responsive-extra-margin">
+      <img src="/assets/img/uxr-heatmap/heatmap.png" alt="Heat map step 4" class="img-responsive">
       <div class="caption text-center">
         <h4 class="h4-caption">4. Give finishing touches</h4>
         <p>
