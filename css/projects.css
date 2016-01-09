@@ -30,6 +30,10 @@
 
 .thumbnail-project .caption {
   border-radius: 0 0 4px 4px;
+  color: #D33939;
+  -webkit-transition: color .2s ease-in-out;
+       -o-transition: color .2s ease-in-out;
+          transition: color .2s ease-in-out;
 }
 
 .thumbnail-project .content {
@@ -66,4 +70,8 @@
   opacity: 0.75;
   text-align: center;
   border-radius: 3px 3px 0 0;
+}
+
+.no-touch .thumbnail-project:hover .caption {
+  color: #B31B1B;
 }
