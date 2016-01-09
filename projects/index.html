@@ -12,7 +12,11 @@ title: Projects
 
 <div class="container container-top-margin">
   <div class="row">
-    {% for project in site.projects %}
+    {% for projectDict in site.data.projects %}
+
+    {% assign projectTitle = projectDict[0] %}
+    {% assign project = projectDict[1] %}
+
     <div class="col-sm-4 col-md-3">
       {% include project-thumbnail.html %}
     </div>

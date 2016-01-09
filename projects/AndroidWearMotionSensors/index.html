@@ -1,16 +1,18 @@
 ---
-layout: project
+layout: default
 title: AndroidWearMotionSensors
-description: Using the accelerometer and gyroscope on an Android Wear device
-links:
-  -
-    name: View on GitHub
-    url: https://github.com/drejkim/AndroidWearMotionSensors
-  -
-    name: View blog post
-    url: /blog/2015/02/04/motion-sensors-on-android-wear/
+css:
+- /css/project.css
 ---
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/Yxne6YWGbE0" frameborder="0" allowfullscreen=""></iframe>
+{% assign project = site.data.projects[page.title] %}
+
+{% include project-header.html %}
+
+<div class="container">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/Yxne6YWGbE0" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+  </div>
 </div>

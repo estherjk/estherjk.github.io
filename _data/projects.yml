@@ -1,0 +1,89 @@
+AndroidWearMotionSensors:
+  url: /projects/AndroidWearMotionSensors/
+  img: /assets/img/projects/AndroidWearMotionSensors.jpg
+  description: Using the accelerometer and gyroscope on an Android Wear device
+  links:
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/AndroidWearMotionSensors
+    -
+      name: View blog post
+      url: /blog/2015/02/04/motion-sensors-on-android-wear/
+
+edi-cam:
+  url: /projects/edi-cam/
+  img: /assets/img/projects/edi-cam.jpg
+  description: Video streaming on Intel Edison
+  links:
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/edi-cam
+    -
+      name: View blog post
+      url: /blog/2014/12/08/video-streaming-on-edison/
+  showcase: true
+
+face-detection-node-opencv:
+  url: /projects/face-detection-node-opencv/
+  img: /assets/img/projects/face-detection-node-opencv.jpg
+  description: Real-time face detection using OpenCV, Node.js, and WebSockets
+  links:
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/face-detection-node-opencv
+    -
+      name: View blog post
+      url: /blog/2014/12/02/real-time-face-detection-using-opencv-nodejs-and-websockets/
+
+led-speech-edison:
+  url: /projects/led-speech-edison/
+  img: /assets/img/projects/led-speech-edison.jpg
+  description: Speech-activated LEDs using Intel Edison, SparkFun blocks, Python, and CMU Sphinx
+  links:
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/led-speech-edison
+    -
+      name: View blog post
+      url: /blog/2015/04/15/speech-activated-leds-using-intel-edison/
+
+LediMote:
+  url: /projects/LediMote/
+  img: /assets/img/projects/LediMote.jpg
+  description: Remote-controlled LEDs using Intel Edison and Node.js (for web, iOS, and Android)
+  links:
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/LediMote
+    -
+      name: View blog post
+      url: /blog/2015/06/25/ledimote-remote-controlled-leds-using-intel-edison-and-nodejs/
+  showcase: true
+
+Reading Quantified:
+  url: /projects/reading-quantified/
+  img: /assets/img/projects/reading-quantified.jpg
+  description: A dashboard for analyzing my reading habits
+  links:
+    -
+      name: View site
+      url: http://drejkim.com/reading-quantified/
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/reading-quantified
+    -
+      name: View blog post
+      url: /blog/2015/11/24/introducing-reading-quantified/
+  showcase: true
+
+rte-angular:
+  url: /projects/rte-angular/
+  img: /assets/img/projects/rte-angular.jpg
+  description: An AngularJS rich-text editor
+  links:
+    -
+      name: View site
+      url: http://drejkim.com/rte-angular/
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/rte-angular

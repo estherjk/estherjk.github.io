@@ -7,37 +7,5 @@ navigation:
   url: /blog/
 - title: Projects
   url: /projects/
-projects:
-- title: AndroidWearMotionSensors
-  url: /projects/AndroidWearMotionSensors/
-  img: /assets/img/projects/AndroidWearMotionSensors.jpg
-  description: Using the accelerometer and gyroscope on an Android Wear device
-- title: edi-cam
-  url: /projects/edi-cam/
-  img: /assets/img/projects/edi-cam.jpg
-  description: Video streaming on Intel Edison
-  showcase: true
-- title: face-detection-node-opencv
-  url: /projects/face-detection-node-opencv/
-  img: /assets/img/projects/face-detection-node-opencv.jpg
-  description: Real-time face detection using OpenCV, Node.js, and WebSockets
-- title: led-speech-edison
-  url: /projects/led-speech-edison/
-  img: /assets/img/projects/led-speech-edison.jpg
-  description: Speech-activated LEDs using Intel Edison, SparkFun blocks, Python, and CMU Sphinx
-- title: LediMote
-  url: /projects/LediMote/
-  img: /assets/img/projects/LediMote.jpg
-  description: Remote-controlled LEDs using Intel Edison and Node.js (for web, iOS, and Android)
-  showcase: true
-- title: Reading Quantified
-  url: /projects/reading-quantified/
-  img: /assets/img/projects/reading-quantified.jpg
-  description: A dashboard for analyzing my reading habits
-  showcase: true
-- title: rte-angular
-  url: /projects/rte-angular/
-  img: /assets/img/projects/rte-angular.jpg
-  description: An AngularJS rich-text editor
 markdown: redcarpet
 highlighter: pygments

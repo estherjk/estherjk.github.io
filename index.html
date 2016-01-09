@@ -73,7 +73,11 @@ title: Esther Jun Kim
     <hr class="hr-short-pink">
 
     <div class="row">
-      {% for project in site.projects %}
+      {% for projectDict in site.data.projects %}
+
+      {% assign projectTitle = projectDict[0] %}
+      {% assign project = projectDict[1] %}
+
         {% if project.showcase == true %}
         <div class="col-sm-4">
           {% include project-thumbnail.html %}

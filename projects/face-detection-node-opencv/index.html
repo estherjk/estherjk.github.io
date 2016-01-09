@@ -1,16 +1,18 @@
 ---
-layout: project
+layout: default
 title: face-detection-node-opencv
-description: Real-time face detection using OpenCV, Node.js, and WebSockets
-links:
-  -
-    name: View on GitHub
-    url: https://github.com/drejkim/face-detection-node-opencv
-  -
-    name: View blog post
-    url: /blog/2014/12/02/real-time-face-detection-using-opencv-nodejs-and-websockets/
+css:
+- /css/project.css
 ---
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/v2SY0naPBFw" frameborder="0" allowfullscreen=""></iframe>
+{% assign project = site.data.projects[page.title] %}
+
+{% include project-header.html %}
+
+<div class="container">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/v2SY0naPBFw" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+  </div>
 </div>

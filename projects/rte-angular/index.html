@@ -1,16 +1,18 @@
 ---
-layout: project
+layout: default
 title: rte-angular
-description: An AngularJS rich-text editor
-links:
-  -
-    name: View site
-    url: http://drejkim.com/rte-angular/
-  -
-    name: View on GitHub
-    url: https://github.com/drejkim/rte-angular
+css:
+- /css/project.css
 ---
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/G9czu0WwKVA" frameborder="0" allowfullscreen=""></iframe>
+{% assign project = site.data.projects[page.title] %}
+
+{% include project-header.html %}
+
+<div class="container">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/G9czu0WwKVA" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+  </div>
 </div>

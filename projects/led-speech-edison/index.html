@@ -1,16 +1,18 @@
 ---
-layout: project
+layout: default
 title: led-speech-edison
-description: Speech-activated LEDs using Intel Edison, SparkFun blocks, Python, and CMU Sphinx
-links:
-  -
-    name: View on GitHub
-    url: https://github.com/drejkim/led-speech-edison
-  -
-    name: View blog post
-    url: /blog/2015/04/15/speech-activated-leds-using-intel-edison/
+css:
+- /css/project.css
 ---
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/kVTV_qZtwlY" frameborder="0" allowfullscreen=""></iframe>
+{% assign project = site.data.projects[page.title] %}
+
+{% include project-header.html %}
+
+<div class="container">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/kVTV_qZtwlY" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+  </div>
 </div>
