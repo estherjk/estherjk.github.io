@@ -29,7 +29,7 @@
 }
 
 .thumbnail-project .caption {
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 3px 3px;
   color: #D33939;
   -webkit-transition: color .2s ease-in-out;
        -o-transition: color .2s ease-in-out;
