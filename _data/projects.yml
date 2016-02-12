@@ -63,7 +63,7 @@ LediMote:
 multi-screen-demo:
   url: /projects/multi-screen-demo/
   img: /assets/img/projects/multi-screen-demo.jpg
-  description: A multi-screen demo using socket.io (WebSockets)
+  description: Controlling your PC web browser from your mobile phone
   links:
     -
       name: View site
