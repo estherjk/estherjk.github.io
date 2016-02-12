@@ -6,7 +6,7 @@ tags: edison
 
 ## Introduction
 
-In this post, we will connect a USB device to the Edison mini breakout board. If you haven't set up Edison yet, please go <a href="/blog/2014/10/29/getting-started-with-intel-edison-on-os-x/">here</a>, then come back to this post.
+In this post, we will connect a USB device to the Edison mini breakout board. If you haven't set up Edison yet, please go <a href="/blog/2014/10/29/getting-started-with-intel-edison-on-os-x">here</a>, then come back to this post.
 
 ## Supplies
 
@@ -59,7 +59,7 @@ The first line shows that my Creative Cam is detected.
 
 You should be good to go with a lot of USB devices after following these steps. However, you may need to install drivers, as well. For example, if you want to use a webcam, I highly recommend using a <a href="http://www.ideasonboard.org/uvc/">UVC-compatible webcam</a>, so that you can use the UVC Linux driver.
 
-If you set up <a href="http://alextgalileo.altervista.org/edison-package-repo-configuration-instructions.html">AlexT's unofficial repository</a> when <a href="/blog/2014/10/29/getting-started-with-intel-edison-on-os-x/">getting started with Edison</a>, continue reading on; if not, please set it up, then continue.
+If you set up <a href="http://alextgalileo.altervista.org/edison-package-repo-configuration-instructions.html">AlexT's unofficial repository</a> when <a href="/blog/2014/10/29/getting-started-with-intel-edison-on-os-x">getting started with Edison</a>, continue reading on; if not, please set it up, then continue.
 
 To install the UVC driver, type:
 

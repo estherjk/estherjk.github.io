@@ -8,7 +8,7 @@ AndroidWearMotionSensors:
       url: https://github.com/drejkim/AndroidWearMotionSensors
     -
       name: View blog post
-      url: /blog/2015/02/04/motion-sensors-on-android-wear/
+      url: /blog/2015/02/04/motion-sensors-on-android-wear
 
 edi-cam:
   url: /projects/edi-cam/
@@ -20,7 +20,7 @@ edi-cam:
       url: https://github.com/drejkim/edi-cam
     -
       name: View blog post
-      url: /blog/2014/12/08/video-streaming-on-edison/
+      url: /blog/2014/12/08/video-streaming-on-edison
   showcase: true
 
 face-detection-node-opencv:
@@ -33,7 +33,7 @@ face-detection-node-opencv:
       url: https://github.com/drejkim/face-detection-node-opencv
     -
       name: View blog post
-      url: /blog/2014/12/02/real-time-face-detection-using-opencv-nodejs-and-websockets/
+      url: /blog/2014/12/02/real-time-face-detection-using-opencv-nodejs-and-websockets
 
 led-speech-edison:
   url: /projects/led-speech-edison/
@@ -45,7 +45,7 @@ led-speech-edison:
       url: https://github.com/drejkim/led-speech-edison
     -
       name: View blog post
-      url: /blog/2015/04/15/speech-activated-leds-using-intel-edison/
+      url: /blog/2015/04/15/speech-activated-leds-using-intel-edison
 
 LediMote:
   url: /projects/LediMote/
@@ -57,7 +57,7 @@ LediMote:
       url: https://github.com/drejkim/LediMote
     -
       name: View blog post
-      url: /blog/2015/06/25/ledimote-remote-controlled-leds-using-intel-edison-and-nodejs/
+      url: /blog/2015/06/25/ledimote-remote-controlled-leds-using-intel-edison-and-nodejs
   showcase: true
 
 multi-screen-demo:
@@ -73,7 +73,7 @@ multi-screen-demo:
       url: https://github.com/drejkim/multi-screen-demo
     -
       name: View blog post
-      url: /blog/2014/02/24/using-websockets-for-developing-multi-screen-user-experiences/
+      url: /blog/2014/02/24/using-websockets-for-developing-multi-screen-user-experiences
 
 Reading Quantified:
   url: /projects/reading-quantified/
@@ -88,7 +88,7 @@ Reading Quantified:
       url: https://github.com/drejkim/reading-quantified
     -
       name: View blog post
-      url: /blog/2015/11/24/introducing-reading-quantified/
+      url: /blog/2015/11/24/introducing-reading-quantified
   showcase: true
 
 rte-angular:
