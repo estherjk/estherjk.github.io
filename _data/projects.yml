@@ -60,6 +60,21 @@ LediMote:
       url: /blog/2015/06/25/ledimote-remote-controlled-leds-using-intel-edison-and-nodejs/
   showcase: true
 
+multi-screen-demo:
+  url: /projects/multi-screen-demo/
+  img: /assets/img/projects/multi-screen-demo.jpg
+  description: A multi-screen demo using socket.io (WebSockets)
+  links:
+    -
+      name: View site
+      url: http://multi-screen-demo.herokuapp.com/
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/multi-screen-demo
+    -
+      name: View blog post
+      url: /blog/2014/02/24/using-websockets-for-developing-multi-screen-user-experiences/
+
 Reading Quantified:
   url: /projects/reading-quantified/
   img: /assets/img/projects/reading-quantified.jpg
