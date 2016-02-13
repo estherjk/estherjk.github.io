@@ -7,5 +7,3 @@ navigation:
   url: /blog/
 - title: Projects
   url: /projects/
-markdown: redcarpet
-highlighter: pygments
