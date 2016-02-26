@@ -15,20 +15,28 @@
 .blog-tags-list li {
   display: inline-block;
   margin-bottom: 5px;
-  padding: 5px;
   background-color: #FFEFEF;
   border-radius: 2px;
+}
+
+.blog-tags-list li>a {
+  display: block;
+  padding: 5px;
+}
+
+.blog-tags-list li>a:hover {
+  text-decoration: none;
 }
 
 .blog-tags-list li.active {
   display: inline-block;
   margin-bottom: 5px;
-  padding: 5px;
   background-color: #D33939;
   border-radius: 2px;
 }
 
 .blog-tags-list li.active>a {
+  display: block;
   color: white;
   text-decoration: none;
 }
