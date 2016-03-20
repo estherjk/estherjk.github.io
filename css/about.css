@@ -1,4 +1,10 @@
-.headshot {
-  height: auto;
-  width: 293px;
+.about-box {
+  margin-bottom: 20px;
+  padding: 24px;
+  border: 1px solid #FFD9D9;
+  border-radius: 6px;
+}
+
+.about-box>p {
+  margin: 0;
 }
