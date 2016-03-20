@@ -73,6 +73,10 @@ a:focus {
   text-decoration: underline;
 }
 
+a.thumbnail {
+  border-color: #FFD9D9;
+}
+
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
