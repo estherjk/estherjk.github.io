@@ -2,6 +2,16 @@
   margin: 20px 0;
 }
 
+.highlighter-rouge pre {
+  overflow-x: scroll;
+}
+
+.highlighter-rouge pre code {
+  overflow-x: auto;
+  white-space: pre;
+  word-wrap: normal;
+}
+
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight .cm {
