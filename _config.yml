@@ -7,3 +7,8 @@ navigation:
   url: /blog/
 - title: Projects
   url: /projects/
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
