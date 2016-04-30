@@ -47,6 +47,19 @@ face-detection-node-opencv:
       name: View blog post
       url: /blog/2014/12/02/real-time-face-detection-using-opencv-nodejs-and-websockets
 
+frogger:
+  url: /projects/frogger/
+  img: /assets/img/projects/frogger.jpg
+  description: My final project for Udacity's Object-Oriented JavaScript class
+  links:
+    -
+      name: View site
+      url: http://drejkim.com/frogger/
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/frogger
+  showcase: true
+
 led-speech-edison:
   url: /projects/led-speech-edison/
   img: /assets/img/projects/led-speech-edison.jpg
@@ -70,7 +83,6 @@ LediMote:
     -
       name: View blog post
       url: /blog/2015/06/25/ledimote-remote-controlled-leds-using-intel-edison-and-nodejs
-  showcase: true
 
 multi-screen-demo:
   url: /projects/multi-screen-demo/
