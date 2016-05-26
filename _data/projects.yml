@@ -58,7 +58,6 @@ frogger:
     -
       name: View on GitHub
       url: https://github.com/drejkim/frogger
-  showcase: true
 
 led-speech-edison:
   url: /projects/led-speech-edison/
@@ -98,6 +97,19 @@ multi-screen-demo:
     -
       name: View blog post
       url: /blog/2014/02/24/using-websockets-for-developing-multi-screen-user-experiences
+
+particle-weather-station:
+  url: /projects/particle-weather-station/
+  img: /assets/img/projects/particle-weather-station.jpg
+  description: Monitoring temperature and humidity using the Particle Photon
+  links:
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/particle-weather-station
+    -
+      name: View blog post
+      url: /blog/2016/05/25/monitoring-temperature-and-humidity-using-the-particle-photon
+  showcase: true
 
 Reading Quantified:
   url: /projects/reading-quantified/
