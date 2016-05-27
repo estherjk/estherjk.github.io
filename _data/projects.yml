@@ -2,6 +2,7 @@ AndroidWearMotionSensors:
   url: /projects/AndroidWearMotionSensors/
   img: /assets/img/projects/AndroidWearMotionSensors.jpg
   description: Using the accelerometer and gyroscope on an Android Wear device
+  excerpt: This project displays the raw accelerometer and gyroscope on an Android Wear device. It also performs simple motion detection&mdash;when a shake or rotation is detected, the background color turns green.
   youtube: https://www.youtube.com/embed/Yxne6YWGbE0
   links:
     -
@@ -15,6 +16,7 @@ edi-cam:
   url: /projects/edi-cam/
   img: /assets/img/projects/edi-cam.jpg
   description: Video streaming on Intel Edison
+  excerpt: This project shows how to stream video to a web browser from a webcam connected to Intel Edison, all while powered by a 9V battery. A Node.js server on Edison listens for the incoming video stream and broadcasts it to all connected browsers via WebSockets. On the client-side, the video is then decoded using jsmpeg and rendered onto an HTML canvas element.
   youtube: http://www.youtube.com/embed/nVDL2-bFT3Y
   links:
     -
@@ -28,6 +30,7 @@ edison-arduino101-iot:
   url: /projects/edison-arduino101-iot/
   img: /assets/img/projects/edison-arduino101-iot.jpg
   description: Edison + Arduino 101 IoT demo
+  excerpt: This demo illustrates a simple IoT example by displaying an Arduino 101's IMU (accelerometer / gyroscope) data on a web page. In order to do this, an Intel Edison module is used to receive the data from the Arduino 101 via BLE (Bluetooth Low Energy), then sends it to a web server via WebSockets.
   youtube: https://www.youtube.com/embed/NRZZRsqJQWY
   links:
     -
@@ -42,6 +45,7 @@ face-detection-node-opencv:
   url: /projects/face-detection-node-opencv/
   img: /assets/img/projects/face-detection-node-opencv.jpg
   description: Real-time face detection using OpenCV, Node.js, and WebSockets
+  excerpt: This project performs real-time face detection by using the Node.js bindings for OpenCV. The processed frames are then streamed to a web browser using WebSockets.
   youtube: https://www.youtube.com/embed/v2SY0naPBFw
   links:
     -
@@ -55,6 +59,7 @@ frogger:
   url: /projects/frogger/
   img: /assets/img/projects/frogger.jpg
   description: My final project for Udacity's Object-Oriented JavaScript class
+  excerpt: The purpose of this class is to learn the best practices of object-oriented JavaScript by building an implementation of the classic arcade game, Frogger.
   youtube: https://www.youtube.com/embed/dIu40myH9CY
   links:
     -
@@ -68,6 +73,7 @@ led-speech-edison:
   url: /projects/led-speech-edison/
   img: /assets/img/projects/led-speech-edison.jpg
   description: Speech-activated LEDs using Intel Edison, SparkFun blocks, Python, and CMU Sphinx
+  excerpt: This project combines basic circuit design and Python programming to control 4 LEDs by speech. It also uses CMU Sphinx, a speech recognition engine from Carnegie Mellon University.
   youtube: https://www.youtube.com/embed/kVTV_qZtwlY
   links:
     -
@@ -81,6 +87,7 @@ LediMote:
   url: /projects/LediMote/
   img: /assets/img/projects/LediMote.jpg
   description: Remote-controlled LEDs using Intel Edison and Node.js (for web, iOS, and Android)
+  excerpt: This project illustrates how to turn on and off LEDs from a web page, an iOS app, or an Android app using Intel Edison.
   youtube: https://www.youtube.com/embed/i61g4aYkrI0
   links:
     -
@@ -94,6 +101,7 @@ multi-screen-demo:
   url: /projects/multi-screen-demo/
   img: /assets/img/projects/multi-screen-demo.jpg
   description: Controlling your PC web browser from your mobile phone
+  excerpt: multi-screen-demo is a Node.js / AngularJS app that uses socket.io (WebSockets) to pair a mobile and a PC. The app contains two demos. The first uses gestures on a mobile and shows the detected events on a paired PC. The sceond uses a simple D-pad controller on a mobile to move a target around on a paired PC.
   youtube: https://www.youtube.com/embed/7O-rgDwTI9I
   links:
     -
@@ -110,6 +118,7 @@ particle-weather-station:
   url: /projects/particle-weather-station/
   img: /assets/img/projects/particle-weather-station.jpg
   description: Monitoring temperature and humidity using the Particle Photon
+  excerpt: Create your own weather station with the Particle Photon board. A DHT11 sensor is used to measure temperature and humidity. Ubidots, a cloud service, is then used to visualize the data in real time.
   youtube: https://www.youtube.com/embed/XKxeXtfn4MM
   links:
     -
@@ -124,6 +133,7 @@ Reading Quantified:
   url: /projects/reading-quantified/
   img: /assets/img/projects/reading-quantified.jpg
   description: A dashboard for analyzing my reading habits
+  excerpt: This project analyzes and visualizes my reading habits. The book information is stored on Trello, and Python is used to parse, analyze, and store the data in a database. The web app uses AngularJS and d3.js to visualize the data on a dashboard. The backend is powered by Parse Server and is hosted on Heroku.
   youtube: https://www.youtube.com/embed/vjZubKzlCnI
   links:
     -
@@ -141,6 +151,7 @@ rte-angular:
   url: /projects/rte-angular/
   img: /assets/img/projects/rte-angular.jpg
   description: An AngularJS rich-text editor
+  excerpt: This is a custom AngularJS directive for adding a rich-text editor to your web page. It includes all the basic text formatting options, as well as the ability to include image and video links.
   youtube: https://www.youtube.com/embed/G9czu0WwKVA
   links:
     -
