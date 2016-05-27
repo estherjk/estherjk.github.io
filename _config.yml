@@ -1,5 +1,5 @@
 github: [Repository metadata]
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title/
 navigation:
 - title: About
   url: /about/
