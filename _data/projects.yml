@@ -2,6 +2,7 @@ AndroidWearMotionSensors:
   url: /projects/AndroidWearMotionSensors/
   img: /assets/img/projects/AndroidWearMotionSensors.jpg
   description: Using the accelerometer and gyroscope on an Android Wear device
+  youtube: https://www.youtube.com/embed/Yxne6YWGbE0
   links:
     -
       name: View on GitHub
@@ -14,6 +15,7 @@ edi-cam:
   url: /projects/edi-cam/
   img: /assets/img/projects/edi-cam.jpg
   description: Video streaming on Intel Edison
+  youtube: http://www.youtube.com/embed/nVDL2-bFT3Y
   links:
     -
       name: View on GitHub
@@ -26,6 +28,7 @@ edison-arduino101-iot:
   url: /projects/edison-arduino101-iot/
   img: /assets/img/projects/edison-arduino101-iot.jpg
   description: Edison + Arduino 101 IoT demo
+  youtube: https://www.youtube.com/embed/NRZZRsqJQWY
   links:
     -
       name: View on GitHub
@@ -39,6 +42,7 @@ face-detection-node-opencv:
   url: /projects/face-detection-node-opencv/
   img: /assets/img/projects/face-detection-node-opencv.jpg
   description: Real-time face detection using OpenCV, Node.js, and WebSockets
+  youtube: https://www.youtube.com/embed/v2SY0naPBFw
   links:
     -
       name: View on GitHub
@@ -51,6 +55,7 @@ frogger:
   url: /projects/frogger/
   img: /assets/img/projects/frogger.jpg
   description: My final project for Udacity's Object-Oriented JavaScript class
+  youtube: https://www.youtube.com/embed/dIu40myH9CY
   links:
     -
       name: View site
@@ -63,6 +68,7 @@ led-speech-edison:
   url: /projects/led-speech-edison/
   img: /assets/img/projects/led-speech-edison.jpg
   description: Speech-activated LEDs using Intel Edison, SparkFun blocks, Python, and CMU Sphinx
+  youtube: https://www.youtube.com/embed/kVTV_qZtwlY
   links:
     -
       name: View on GitHub
@@ -75,6 +81,7 @@ LediMote:
   url: /projects/LediMote/
   img: /assets/img/projects/LediMote.jpg
   description: Remote-controlled LEDs using Intel Edison and Node.js (for web, iOS, and Android)
+  youtube: https://www.youtube.com/embed/i61g4aYkrI0
   links:
     -
       name: View on GitHub
@@ -87,6 +94,7 @@ multi-screen-demo:
   url: /projects/multi-screen-demo/
   img: /assets/img/projects/multi-screen-demo.jpg
   description: Controlling your PC web browser from your mobile phone
+  youtube: https://www.youtube.com/embed/7O-rgDwTI9I
   links:
     -
       name: View site
@@ -102,6 +110,7 @@ particle-weather-station:
   url: /projects/particle-weather-station/
   img: /assets/img/projects/particle-weather-station.jpg
   description: Monitoring temperature and humidity using the Particle Photon
+  youtube: https://www.youtube.com/embed/XKxeXtfn4MM
   links:
     -
       name: View on GitHub
@@ -115,6 +124,7 @@ Reading Quantified:
   url: /projects/reading-quantified/
   img: /assets/img/projects/reading-quantified.jpg
   description: A dashboard for analyzing my reading habits
+  youtube: https://www.youtube.com/embed/vjZubKzlCnI
   links:
     -
       name: View site
@@ -131,6 +141,7 @@ rte-angular:
   url: /projects/rte-angular/
   img: /assets/img/projects/rte-angular.jpg
   description: An AngularJS rich-text editor
+  youtube: https://www.youtube.com/embed/G9czu0WwKVA
   links:
     -
       name: View site

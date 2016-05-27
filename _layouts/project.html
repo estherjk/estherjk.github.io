@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+{% assign project = site.data.projects[page.title] %}
+
 <div class="site-project-header">
   <div class="container">
     <h1>{{ page.title }}</h1>
@@ -7,6 +13,14 @@
       {% for link in project.links %}
         <a href="{{ link.url }}" class="btn btn-lg btn-red-inverse btn-project-link">{{ link.name }}</a>
       {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="video-container">
+      <iframe src="{{ project.youtube }}" frameborder="0" allowfullscreen=""></iframe>
     </div>
   </div>
 </div>
