@@ -1,5 +1,7 @@
 ---
 layout: post
+css:
+- /css/post.css
 title: Motion sensors on Android Wear
 tags: android
 ---

@@ -1,5 +1,7 @@
 ---
 layout: post
+css:
+- /css/post.css
 title: Real-time face detection using OpenCV, Node.js, and WebSockets
 tags: web nodejs opencv
 ---

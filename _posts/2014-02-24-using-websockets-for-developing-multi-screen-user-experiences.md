@@ -1,5 +1,7 @@
 ---
 layout: post
+css:
+- /css/post.css
 title: Using WebSockets for developing multi-screen user experiences
 tags: nodejs ux web angularjs
 ---

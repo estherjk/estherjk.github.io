@@ -1,5 +1,8 @@
 ---
 layout: post
+css:
+- /css/post.css
+- /css/syntax.css
 title: Getting started with Intel Edison on OS X
 tags: edison
 ---

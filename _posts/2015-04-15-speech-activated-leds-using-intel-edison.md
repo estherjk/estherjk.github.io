@@ -1,5 +1,7 @@
 ---
 layout: post
+css:
+- /css/post.css
 title: Speech-activated LEDs using Intel Edison
 tags: edison python
 excerpt: This has been a really fun project for me to learn and build. I am a bit rusty with my circuit basics, so this was a nice re-introduction....

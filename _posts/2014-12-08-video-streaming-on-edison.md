@@ -1,5 +1,7 @@
 ---
 layout: post
+css:
+- /css/post.css
 title: Video streaming on Edison
 tags: edison web nodejs
 ---

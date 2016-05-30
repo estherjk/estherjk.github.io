@@ -1,5 +1,7 @@
 ---
 layout: post
+css:
+- /css/post.css
 title: Monitoring Temperature and Humidity Using the Particle Photon
 tags: iot particle
 excerpt: I originally bought the Particle Photon for a Hackster Hardware Meetup, but I ended up not being able to attend at the last minute. However, I managed to play around with it last weekend and wow, I am impressed! What an awesome little board! For $19, you're not only up and running cheaply, but also literally in minutes....

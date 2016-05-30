@@ -1,5 +1,7 @@
 ---
 layout: post
+css:
+- /css/post.css
 title: The MEAN stack
 tags: nodejs web angularjs
 ---

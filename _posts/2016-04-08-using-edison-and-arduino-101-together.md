@@ -1,5 +1,7 @@
 ---
 layout: post
+css:
+- /css/post.css
 title: Using Edison and Arduino 101 together
 tags: edison curie arduino web iot
 excerpt: I recently got my hands on Arduino 101, which combines Intel's compute capabilities with Arduino's ease-of-use. The board contains the Intel® Curie™ module, a button-sized computer that has a 6-axis IMU (interial measurement unit, i.e. accelerometer and gyroscope) and Bluetooth Low Energy (BLE)....

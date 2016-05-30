@@ -1,5 +1,7 @@
 ---
 layout: post
+css:
+- /css/post.css
 title: Introducing Reading Quantified
 tags: web angularjs parse books visualization
 excerpt: A few years ago, Barnes & Noble gave out free ebooks to promote their Classics Editions, and I ended up downloading way more ebooks than I knew what to do with. The vast majority of them stayed unread in my ereader for a long time. I also had many other books on my list that I wanted to read. I then found this Lifehacker article in 2014, which shows you how to structure your reading with Trello....
