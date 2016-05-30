@@ -200,11 +200,8 @@ code {
 }
 
 .site-jumbotron .logo {
-  margin-bottom: 40px;
-  border: 1px solid white;
-  border-radius: 8px;
-  width: 140px;
-  height: 140px;
+  margin-bottom: 20px;
+  width: 200px;
 }
 
 .site-jumbotron .lead {
