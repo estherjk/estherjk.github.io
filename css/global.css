@@ -121,6 +121,11 @@ code {
   color: #D33939;
 }
 
+.h1-display {
+  font-size: 6rem;
+  font-weight: 300;
+}
+
 .h2-sm-caps {
   margin-top: 0;
   font-size: 18px;
