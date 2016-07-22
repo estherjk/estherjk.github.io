@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
 
 /*** Sticky footer styles ***/
 
@@ -157,6 +158,12 @@ code {
   width: 200px;
   margin: 40px auto;
   border-color: #FFD9D9;
+}
+
+.hr-short-white {
+  width: 200px;
+  margin: 40px auto;
+  border-color: #fff;
 }
 
 .video-container {

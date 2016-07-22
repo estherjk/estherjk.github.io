@@ -1,0 +1,26 @@
+.logo-container {
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 40px;
+  cursor: default;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.no-touch .logo-container:hover>#logo-drejkim {
+  display: none;
+}
+
+.no-touch .logo-container:hover>#logo-drejkim-easter-egg {
+  display: inline-block;
+}
+
+#logo-drejkim-easter-egg {
+  display: none;
+}
+
+.logo-text {
+  font-family: 'Shadows Into Light Two', cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+}
