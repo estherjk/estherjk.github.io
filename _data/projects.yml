@@ -2,7 +2,7 @@ AndroidWearMotionSensors:
   url: /projects/AndroidWearMotionSensors/
   img: /assets/img/projects/AndroidWearMotionSensors.jpg
   description: Using the accelerometer and gyroscope on an Android Wear device
-  excerpt: This project displays the raw accelerometer and gyroscope on an Android Wear device. It also performs simple motion detection&mdash;when a shake or rotation is detected, the background color turns green.
+  excerpt: This project displays the raw accelerometer and gyroscope data on an Android Wear device. It also performs simple motion detection&mdash;when a shake or rotation is detected, the background color turns green.
   youtube: https://www.youtube.com/embed/Yxne6YWGbE0
   links:
     -
