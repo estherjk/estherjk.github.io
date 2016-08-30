@@ -54,6 +54,7 @@ face-detection-node-opencv:
     -
       name: View blog post
       url: /blog/2014/12/02/real-time-face-detection-using-opencv-nodejs-and-websockets
+  showcase: true
 
 frogger:
   url: /projects/frogger/
@@ -159,7 +160,6 @@ Reading Quantified:
     -
       name: View blog post
       url: /blog/2015/11/24/introducing-reading-quantified
-  showcase: true
 
 rte-angular:
   url: /projects/rte-angular/
