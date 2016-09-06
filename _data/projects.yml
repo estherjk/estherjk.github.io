@@ -132,8 +132,8 @@ particle-weather-station:
 particle-weather-station-alexa:
   url: /projects/particle-weather-station-alexa/
   img: /assets/img/projects/particle-weather-station-alexa.jpg
-  description: Asking Alexa for the temperature and humidity from a Particle Photon
-  excerpt: This project integrates Alexa to the original <a href="/projects/particle-weather-station/">particle-weather-station</a> project. Instead of visualizing the data on a dashboard, you can ask Alexa for the current temperature or humidity. The Alexa skill also uses the <a href="https://docs.particle.io/reference/javascript/">JavaScript Particle API</a> to get the data from Particle.
+  description: Asking Amazon Alexa for the temperature and humidity from a Particle Photon
+  excerpt: This project integrates Amazon Alexa to the original <a href="/projects/particle-weather-station/">particle-weather-station</a> project. Instead of visualizing the data on a dashboard, you can ask Alexa for the current temperature or humidity. To communicate the data between Particle and Alexa, the variables are exposed through the <a href="https://docs.particle.io/reference/firmware/photon/#particle-variable-">Particle Cloud</a>, then the Alexa skill gets the data using the <a href="https://docs.particle.io/reference/javascript/">JavaScript Particle API</a>.
   youtube: https://www.youtube.com/embed/j5CpMcM5yRI
   links:
     -
