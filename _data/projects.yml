@@ -115,6 +115,21 @@ multi-screen-demo:
       name: View blog post
       url: /blog/2014/02/24/using-websockets-for-developing-multi-screen-user-experiences
 
+particle-light-alexa:
+  url: /projects/particle-light-alexa/
+  img: /assets/img/projects/particle-light-alexa.jpg
+  description: Asking Amazon Alexa to control a light ft. NeoPixels and Particle Photon
+  excerpt: Ask Amazon Alexa to control a light. In this case, the "light" is a NeoPixel ring connected to a Particle Photon. The functions to control the light are exposed through the <a href="https://docs.particle.io/reference/firmware/photon/#particle-function-">Particle Cloud</a>. The Alexa skill then calls the functions using the <a href="https://docs.particle.io/reference/javascript/#callfunction">JavaScript Particle API</a>.
+  youtube: https://www.youtube.com/embed/y9VvusYF1sg
+  links:
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/particle-light-alexa
+    -
+      name: View blog post
+      url: /blog/2016/09/10/alexa-turn-on-the-light/
+  showcase: true
+
 particle-weather-station:
   url: /projects/particle-weather-station/
   img: /assets/img/projects/particle-weather-station.jpg
@@ -142,7 +157,6 @@ particle-weather-station-alexa:
     -
       name: View blog post
       url: /blog/2016/08/30/asking-alexa-for-the-temperature-and-humidity-from-a-particle-photon
-  showcase: true
 
 Reading Quantified:
   url: /projects/reading-quantified/
