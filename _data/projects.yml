@@ -119,7 +119,7 @@ particle-light-alexa:
   url: /projects/particle-light-alexa/
   img: /assets/img/projects/particle-light-alexa.jpg
   description: Asking Amazon Alexa to control a light ft. NeoPixels and Particle Photon
-  excerpt: Ask Amazon Alexa to control a light. In this case, the "light" is a NeoPixel ring connected to a Particle Photon. The functions to control the light are exposed through the <a href="https://docs.particle.io/reference/firmware/photon/#particle-function-">Particle Cloud</a>. The Alexa skill then calls the functions using the <a href="https://docs.particle.io/reference/javascript/#callfunction">JavaScript Particle API</a>.
+  excerpt: Ask Amazon Alexa to control a light. In this case, the "light" is a NeoPixel ring connected to a Particle Photon. The functions to control the light are exposed through the <a href="https://docs.particle.io/reference/firmware/photon/#particle-function-">Particle Cloud</a>. The Alexa skill then calls the functions using the <a href="https://docs.particle.io/reference/javascript/#callfunction">JavaScript Particle API</a>. This project has also been featured on <a href="https://blog.hackster.io/hacksters-handpicked-projects-of-the-week-c8045ee5cfe5">Hackster's Handpicked Projects of the Week</a>.
   youtube: https://www.youtube.com/embed/y9VvusYF1sg
   links:
     -
