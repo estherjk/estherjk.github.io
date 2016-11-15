@@ -62,8 +62,8 @@ The web server&mdash;which also uses Node.js and [socket.io](http://socket.io/)&
 
 To see how it all works, check out the [source code](https://github.com/drejkim/edison-arduino101-iot) and video:
 
-<div class="video-container">
-    <iframe src="https://www.youtube.com/embed/NRZZRsqJQWY" frameborder="0" allowfullscreen=""></iframe>
+<div class="embed-responsive embed-responsive-16by9 extra-margin-20">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NRZZRsqJQWY" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
 ## Conclusion

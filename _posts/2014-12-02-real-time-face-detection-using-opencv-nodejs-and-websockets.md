@@ -10,8 +10,8 @@ I've been meaning to play with <a href="http://opencv.org/">OpenCV</a> for quite
 
 Here's a video of it in action:
 
-<div class="video-container">
-    <iframe src="//www.youtube.com/embed/v2SY0naPBFw" frameborder="0" allowfullscreen=""></iframe>
+<div class="embed-responsive embed-responsive-16by9 extra-margin-20">
+  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/v2SY0naPBFw" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
 The source code is also available on <a href="https://github.com/drejkim/face-detection-node-opencv">GitHub</a>.
