@@ -15,9 +15,6 @@
 
 @media (min-width: 1440px) {
   .background-headshot {
-    height: 0;
-    padding-bottom: 31%; /* matches image's aspect ratio */
-    background-position: center center;
-    background-size: 100%;
+    height: 450px;
   }
 }
