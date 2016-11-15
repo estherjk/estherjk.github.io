@@ -10,7 +10,7 @@ Last month, I had the privilege of speaking to the girls who participate in GAIN
 
 The last thing I hoped to do was bore the girls, so I tried to make my talk as interactive as possible. To give them a feel for what user experience is, I discussed a common pain point that we can all relate to... owning a lot of chargers and the resulting tangled mess of wires.
 
-<img class="img-responsive-extra-margin" src="https://www.callpod.com/en_US/static/images4/gallery/chargepod/chargepod_1.jpg">
+<img class="img-responsive extra-margin-20" src="https://www.callpod.com/en_US/static/images4/gallery/chargepod/chargepod_1.jpg">
 
 I asked them a few questions:
 
@@ -20,7 +20,7 @@ I asked them a few questions:
 
 I then showed the product, <a href="http://www.callpod.com/products/chargepod">Chargepod</a>, which was designed to address some of these problems:
 
-<img class="img-responsive-extra-margin" src="http://www.callpod.com/en_US/static/images4/gallery/chargepod/chargepod_3.jpg">
+<img class="img-responsive extra-margin-20" src="http://www.callpod.com/en_US/static/images4/gallery/chargepod/chargepod_3.jpg">
 
 
 And then I asked more questions:

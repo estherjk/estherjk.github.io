@@ -171,14 +171,6 @@ code {
   border-color: #fff;
 }
 
-.img-responsive-extra-margin {
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  max-width: 100%;
-}
-
 .site-jumbotron {
   padding: 80px 0;
   color: white;
