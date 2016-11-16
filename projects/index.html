@@ -14,16 +14,26 @@ js:
   </div>
 </div>
 
+{% for item in site.data.project-categories %}
 <div class="container container-top-margin">
+  <h2 class="h2-sm-caps text-center-sm">{{item.title}}</h2>
+
   <div class="row">
     {% for projectDict in site.data.projects %}
-
     {% assign projectTitle = projectDict[0] %}
     {% assign project = projectDict[1] %}
 
+    {% if project.category == item.category %}
     <div class="col-sm-4 col-md-3">
       {% include project-thumbnail.html %}
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 </div>
+
+{% if forloop.last == false %}
+<hr class="hr-extra-margin">
+{% endif %}
+
+{% endfor %}

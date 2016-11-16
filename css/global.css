@@ -101,6 +101,12 @@ code {
   margin-top: 20px;
 }
 
+@media (max-width: 767px) {
+  .text-center-sm {
+    text-align: center;
+  }
+}
+
 .btn-red {
   border: 1px solid #D33939;
   color: #D33939;

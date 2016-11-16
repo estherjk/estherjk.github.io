@@ -1,4 +1,5 @@
 AndroidWearMotionSensors:
+  category: android
   url: /projects/AndroidWearMotionSensors/
   img: /assets/img/projects/AndroidWearMotionSensors.jpg
   description: Using the accelerometer and gyroscope on an Android Wear device
@@ -13,6 +14,7 @@ AndroidWearMotionSensors:
       url: /blog/2015/02/04/motion-sensors-on-android-wear
 
 edi-cam:
+  category: intel
   url: /projects/edi-cam/
   img: /assets/img/projects/edi-cam.jpg
   description: Video streaming on Intel Edison
@@ -27,6 +29,7 @@ edi-cam:
       url: /blog/2014/12/08/video-streaming-on-edison
 
 edison-arduino101-iot:
+  category: intel
   url: /projects/edison-arduino101-iot/
   img: /assets/img/projects/edison-arduino101-iot.jpg
   description: Edison + Arduino 101 IoT demo
@@ -42,6 +45,7 @@ edison-arduino101-iot:
   showcase: true
 
 face-detection-node-opencv:
+  category: web
   url: /projects/face-detection-node-opencv/
   img: /assets/img/projects/face-detection-node-opencv.jpg
   description: Real-time face detection using OpenCV, Node.js, and WebSockets
@@ -57,6 +61,7 @@ face-detection-node-opencv:
   showcase: true
 
 frogger:
+  category: web
   url: /projects/frogger/
   img: /assets/img/projects/frogger.jpg
   description: My final project for Udacity's Object-Oriented JavaScript class
@@ -71,6 +76,7 @@ frogger:
       url: https://github.com/drejkim/frogger
 
 led-speech-edison:
+  category: intel
   url: /projects/led-speech-edison/
   img: /assets/img/projects/led-speech-edison.jpg
   description: Speech-activated LEDs using Intel Edison, SparkFun blocks, Python, and CMU Sphinx
@@ -85,6 +91,7 @@ led-speech-edison:
       url: /blog/2015/04/15/speech-activated-leds-using-intel-edison
 
 LediMote:
+  category: intel
   url: /projects/LediMote/
   img: /assets/img/projects/LediMote.jpg
   description: Remote-controlled LEDs using Intel Edison and Node.js (for web, iOS, and Android)
@@ -99,6 +106,7 @@ LediMote:
       url: /blog/2015/06/25/ledimote-remote-controlled-leds-using-intel-edison-and-nodejs
 
 multi-screen-demo:
+  category: web
   url: /projects/multi-screen-demo/
   img: /assets/img/projects/multi-screen-demo.jpg
   description: Controlling your PC web browser from your mobile phone
@@ -116,6 +124,7 @@ multi-screen-demo:
       url: /blog/2014/02/24/using-websockets-for-developing-multi-screen-user-experiences
 
 particle-light-alexa:
+  category: particle
   url: /projects/particle-light-alexa/
   img: /assets/img/projects/particle-light-alexa.jpg
   description: Asking Amazon Alexa to control a light ft. NeoPixels and Particle Photon
@@ -131,6 +140,7 @@ particle-light-alexa:
   showcase: true
 
 particle-weather-station:
+  category: particle
   url: /projects/particle-weather-station/
   img: /assets/img/projects/particle-weather-station.jpg
   description: Monitoring temperature and humidity using the Particle Photon
@@ -145,6 +155,7 @@ particle-weather-station:
       url: /blog/2016/05/25/monitoring-temperature-and-humidity-using-the-particle-photon
 
 particle-weather-station-alexa:
+  category: particle
   url: /projects/particle-weather-station-alexa/
   img: /assets/img/projects/particle-weather-station-alexa.jpg
   description: Asking Amazon Alexa for the temperature and humidity from a Particle Photon
@@ -159,6 +170,7 @@ particle-weather-station-alexa:
       url: /blog/2016/08/30/asking-alexa-for-the-temperature-and-humidity-from-a-particle-photon
 
 Reading Quantified:
+  category: web
   url: /projects/reading-quantified/
   img: /assets/img/projects/reading-quantified.jpg
   description: A dashboard for analyzing my reading habits
@@ -176,6 +188,7 @@ Reading Quantified:
       url: /blog/2015/11/24/introducing-reading-quantified
 
 rte-angular:
+  category: web
   url: /projects/rte-angular/
   img: /assets/img/projects/rte-angular.jpg
   description: An AngularJS rich-text editor
