@@ -58,7 +58,6 @@ face-detection-node-opencv:
     -
       name: View blog post
       url: /blog/2014/12/02/real-time-face-detection-using-opencv-nodejs-and-websockets
-  showcase: true
 
 frogger:
   category: web
@@ -122,6 +121,19 @@ multi-screen-demo:
     -
       name: View blog post
       url: /blog/2014/02/24/using-websockets-for-developing-multi-screen-user-experiences
+
+O Holy Night:
+  category: particle
+  url: /projects/o-holy-night/
+  img: /assets/img/projects/o-holy-night.jpg
+  description: Recreating the Nativity Scene using the Particle Photon and NeoPixels
+  excerpt: This project uses familiar ingredients, namely the Particle Photon and NeoPixels, and some paper cutouts to recreate the Nativity Scene. The lights are controlled with a custom iOS app.
+  youtube: https://www.youtube.com/embed/TUcphhJK0uM
+  links:
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/o-holy-night
+  showcase: true
 
 particle-light-alexa:
   category: particle
