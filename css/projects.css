@@ -44,6 +44,8 @@
 .thumbnail-project .overlay {
   opacity: 0;
   height: 0;
+  color: #fff;
+  text-align: center;
   overflow: hidden;
   -webkit-transition: opacity .2s ease-in-out;
        -o-transition: opacity .2s ease-in-out;
