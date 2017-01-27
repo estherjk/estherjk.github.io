@@ -3,7 +3,7 @@ layout: post
 css:
 - /css/post.css
 title: 5 UX book recommendations
-tags: ux
+tags: ux books
 excerpt: Books are a great way to learn about a subject, and if you've been itching to learn more about UX, here's a list of 5 books that I highly recommend.
 ---
 
