@@ -136,7 +136,6 @@ O Holy Night:
     -
       name: View blog post
       url: /blog/2016/12/23/o-holy-night/
-  showcase: true
 
 particle-light-alexa:
   category: particle
@@ -201,6 +200,7 @@ Reading Quantified:
     -
       name: View blog post
       url: /blog/2015/11/24/introducing-reading-quantified
+  showcase: true
 
 rte-angular:
   category: web
