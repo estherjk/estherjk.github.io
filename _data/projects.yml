@@ -190,7 +190,7 @@ Reading Quantified:
   img: /assets/img/projects/reading-quantified.jpg
   description: A dashboard for analyzing my reading habits
   excerpt: This project analyzes and visualizes my reading habits. The book information is stored on Trello, and Python is used to parse, analyze, and store the data in a database. The web app uses AngularJS and d3.js to visualize the data on a dashboard. The backend is powered by Parse Server and is hosted on Heroku.
-  youtube: https://www.youtube.com/embed/vjZubKzlCnI
+  youtube: https://www.youtube.com/embed/NoB-0xQAeqY
   links:
     -
       name: View site
