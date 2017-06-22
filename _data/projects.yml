@@ -109,7 +109,7 @@ multi-screen-demo:
   url: /projects/multi-screen-demo/
   img: /assets/img/projects/multi-screen-demo.jpg
   description: Controlling your PC web browser from your mobile phone
-  excerpt: multi-screen-demo is a Node.js / AngularJS app that uses socket.io (WebSockets) to pair a mobile and a PC. The app contains two demos. The first uses gestures on a mobile and shows the detected events on a paired PC. The sceond uses a simple D-pad controller on a mobile to move a target around on a paired PC.
+  excerpt: multi-screen-demo is a Node.js / AngularJS app that uses socket.io (WebSockets) to pair a mobile and a PC. The app contains two demos. The first uses gestures on a mobile and shows the detected events on a paired PC. The second uses a simple D-pad controller on a mobile to move a target around on a paired PC.
   youtube: https://www.youtube.com/embed/7O-rgDwTI9I
   links:
     -
