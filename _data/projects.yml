@@ -14,7 +14,7 @@ AndroidWearMotionSensors:
       url: /blog/2015/02/04/motion-sensors-on-android-wear
 
 edi-cam:
-  category: intel
+  category: hardware
   url: /projects/edi-cam/
   img: /assets/img/projects/edi-cam.jpg
   description: Video streaming on Intel Edison
@@ -29,7 +29,7 @@ edi-cam:
       url: /blog/2014/12/08/video-streaming-on-edison
 
 edison-arduino101-iot:
-  category: intel
+  category: hardware
   url: /projects/edison-arduino101-iot/
   img: /assets/img/projects/edison-arduino101-iot.jpg
   description: Edison + Arduino 101 IoT demo
@@ -75,7 +75,7 @@ frogger:
       url: https://github.com/drejkim/frogger
 
 led-speech-edison:
-  category: intel
+  category: hardware
   url: /projects/led-speech-edison/
   img: /assets/img/projects/led-speech-edison.jpg
   description: Speech-activated LEDs using Intel Edison, SparkFun blocks, Python, and CMU Sphinx
@@ -90,7 +90,7 @@ led-speech-edison:
       url: /blog/2015/04/15/speech-activated-leds-using-intel-edison
 
 LediMote:
-  category: intel
+  category: hardware
   url: /projects/LediMote/
   img: /assets/img/projects/LediMote.jpg
   description: Remote-controlled LEDs using Intel Edison and Node.js (for web, iOS, and Android)
@@ -123,7 +123,7 @@ multi-screen-demo:
       url: /blog/2014/02/24/using-websockets-for-developing-multi-screen-user-experiences
 
 O Holy Night:
-  category: particle
+  category: hardware
   url: /projects/o-holy-night/
   img: /assets/img/projects/o-holy-night.jpg
   description: Recreating the Nativity Scene using the Particle Photon and NeoPixels
@@ -138,7 +138,7 @@ O Holy Night:
       url: /blog/2016/12/23/o-holy-night/
 
 particle-light-alexa:
-  category: particle
+  category: hardware
   url: /projects/particle-light-alexa/
   img: /assets/img/projects/particle-light-alexa.jpg
   description: Asking Amazon Alexa to control a light ft. NeoPixels and Particle Photon
@@ -154,7 +154,7 @@ particle-light-alexa:
   showcase: true
 
 particle-weather-station:
-  category: particle
+  category: hardware
   url: /projects/particle-weather-station/
   img: /assets/img/projects/particle-weather-station.jpg
   description: Monitoring temperature and humidity using the Particle Photon
@@ -169,7 +169,7 @@ particle-weather-station:
       url: /blog/2016/05/25/monitoring-temperature-and-humidity-using-the-particle-photon
 
 particle-weather-station-alexa:
-  category: particle
+  category: hardware
   url: /projects/particle-weather-station-alexa/
   img: /assets/img/projects/particle-weather-station-alexa.jpg
   description: Asking Amazon Alexa for the temperature and humidity from a Particle Photon
