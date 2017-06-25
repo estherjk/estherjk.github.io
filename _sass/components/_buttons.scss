@@ -1,0 +1,24 @@
+$btn-primary-border: darken($primary-color, 5%);
+
+.btn-primary {
+  color: #fff;
+  background-color: $link-color;
+  border-color: $btn-primary-border;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: $link-hover-color;
+  border-color: $btn-primary-border;
+}
+
+.btn-primary-inverse {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-primary-inverse:hover {
+  background-color: #fff;
+  color: $link-hover-color;
+}

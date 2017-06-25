@@ -7,7 +7,7 @@ js:
 - /js/projects.js
 ---
 
-<div class="site-header">
+<div class="page-header-primary">
   <div class="container">
     <h1>Projects</h1>
     <p class="lead">Demos, hacks, apps, etc.</p>
@@ -15,8 +15,8 @@ js:
 </div>
 
 {% for item in site.data.project-categories %}
-<div class="container container-top-margin">
-  <h2 class="h2-sm-caps text-center-sm">{{item.title}}</h2>
+<div class="container">
+  <div class="container-header">{{item.title}}</div>
 
   <div class="row">
     {% for projectDict in site.data.projects %}

@@ -1,0 +1,9 @@
+.featurette {
+  padding: 80px 0;
+}
+
+@media (max-width: 767px) {
+  .featurette .lead {
+    font-size: 21px;
+  }
+}

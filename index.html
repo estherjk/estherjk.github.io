@@ -2,18 +2,17 @@
 layout: default
 title: Esther Jun Kim
 css:
-- /css/logo.css
-- /css/projects.css
+- css/index.css
 js:
 - /js/projects.js
 ---
 
-<div class="site-jumbotron">
+<div class="jumbotron">
   <div class="container">
     <a href="/blog/2016/07/22/the-origin-of-drejkim-unveiling-its-meaning-using-css/" class="logo-anchor">
       <div class="logo-container">
-        <h1 class="h1-display logo-text" id="logo-drejkim">drejkim</h1>
-        <h1 class="h1-display logo-text" id="logo-drejkim-easter-egg">Dr EJ Kim</h1>
+        <h1 class="logo-text" id="logo-drejkim">drejkim</h1>
+        <h1 class="logo-text" id="logo-drejkim-easter-egg">Dr EJ Kim</h1>
       </div>
     </a>
 
@@ -25,28 +24,28 @@ js:
   </div>
 </div>
 
-<div class="site-feature text-center">
+<div class="featurette text-center">
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
-        <i class="fa fa-users fa-8"></i>
-        <h2 class="normal text-uppercase">UX Researcher</h2>
+        <i class="fa fa-users fa-8x"></i>
+        <h2 class="text-uppercase">UX Researcher</h2>
         <p class="lead">
           I discover user needs, test with users early and often, and make informed design decisions from user data.
         </p>
       </div>
 
       <div class="col-sm-4">
-        <i class="fa fa-code fa-8"></i>
-        <h2 class="normal text-uppercase">Coder</h2>
+        <i class="fa fa-code fa-8x"></i>
+        <h2 class="text-uppercase">Coder</h2>
         <p class="lead">
           I write code for a variety of applications, e.g. web, mobile, data science, and more.
         </p>
       </div>
 
       <div class="col-sm-4">
-        <i class="fa fa-cogs fa-8"></i>
-        <h2 class="normal text-uppercase">Maker</h2>
+        <i class="fa fa-cogs fa-8x"></i>
+        <h2 class="text-uppercase">Maker</h2>
         <p class="lead">
           I make things&mdash;including open source demos and hacks&mdash;which you can find on this website.
         </p>
@@ -54,19 +53,19 @@ js:
 
     </div>
 
-    <hr class="hr-short-pink">
+    <hr class="hr-short hr-extra-margin">
 
-    <a href="/about" class="btn btn-lg btn-red">Learn more about me</a>
+    <a href="/about" class="btn btn-lg btn-primary">Learn more about me</a>
   </div>
 </div>
 
-<hr>
+<hr class="hr-extra-margin">
 
-<div class="site-feature">
+<div class="featurette">
   <div class="container">
-    <h2 class="normal text-uppercase text-center">Latest post</h2>
+    <h2 class="text-uppercase text-center">Latest post</h2>
 
-    <hr class="hr-short-pink">
+    <hr class="hr-short hr-extra-margin">
 
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
@@ -76,21 +75,21 @@ js:
       </div>
     </div>
 
-    <hr class="hr-short-pink">
+    <hr class="hr-short hr-extra-margin">
 
     <div class="text-center">
-      <a href="/blog" class="btn btn-lg btn-red">See more posts</a>
+      <a href="/blog" class="btn btn-lg btn-primary">See more posts</a>
     </div>
   </div>
 </div>
 
-<hr>
+<hr class="hr-extra-margin">
 
-<div class="site-feature">
+<div class="featurette">
   <div class="container">
-    <h2 class="normal text-uppercase text-center">Selected Projects</h2>
+    <h2 class="text-uppercase text-center">Selected Projects</h2>
 
-    <hr class="hr-short-pink">
+    <hr class="hr-short hr-extra-margin">
 
     <div class="row">
       {% for projectDict in site.data.projects %}
@@ -106,10 +105,10 @@ js:
       {% endfor %}
     </div>
 
-    <hr class="hr-short-pink">
+    <hr class="hr-short hr-extra-margin">
 
     <div class="text-center">
-      <a href="/projects" class="btn btn-lg btn-red">See more projects</a>
+      <a href="/projects" class="btn btn-lg btn-primary">See more projects</a>
     </div>
   </div>
 </div>

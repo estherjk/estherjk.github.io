@@ -1,4 +1,4 @@
-.background-headshot {
+.headshot {
   background-image: url("/assets/img/headshot/esther-bw.jpg");
   height: 450px;
   width: 100%;
@@ -8,13 +8,13 @@
 }
 
 @media (max-width: 767px) {
-  .background-headshot {
+  .headshot {
     height: 300px;
   }
 }
 
 @media (min-width: 1440px) {
-  .background-headshot {
+  .headshot {
     height: 450px;
   }
 }

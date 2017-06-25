@@ -2,7 +2,7 @@
 layout: post
 css:
 - /css/post.css
-- /css/syntax.css
+- /css/code.css
 title: Remote text-editing on Edison with Atom
 tags: edison
 excerpt: Recently, I've started using Atom, the open-source text editor from GitHub. Since it's billed as a "hackable text editor," many 3rd party packages have cropped up that provide additional features. An extremely useful one that I've discovered is remote-atom, which allows remote editing via SSH port-forwarding....

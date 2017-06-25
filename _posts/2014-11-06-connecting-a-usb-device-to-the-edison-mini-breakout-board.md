@@ -2,7 +2,7 @@
 layout: post
 css:
 - /css/post.css
-- /css/syntax.css
+- /css/code.css
 title: Connecting a USB device to the Edison Mini breakout board
 tags: edison
 ---

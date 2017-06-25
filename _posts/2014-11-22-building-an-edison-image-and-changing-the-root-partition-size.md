@@ -2,7 +2,7 @@
 layout: post
 css:
 - /css/post.css
-- /css/syntax.css
+- /css/code.css
 title: Building an Edison image and changing the root partition size
 tags: edison
 ---

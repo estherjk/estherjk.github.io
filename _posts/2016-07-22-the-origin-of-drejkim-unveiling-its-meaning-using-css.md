@@ -2,7 +2,7 @@
 layout: post
 css:
 - /css/post.css
-- /css/syntax.css
+- /css/code.css
 title: The origin of "drejkim"&#58; Unveiling its meaning using CSS
 tags: web css
 excerpt: I often get asked about my handle, drejkim. What does it stand for? To address this question, I thought it would be fun to embed it as an easter egg on my home page. Were you able to find it? If not, here's a closer look....

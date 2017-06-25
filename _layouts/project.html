@@ -4,14 +4,14 @@ layout: default
 
 {% assign project = site.data.projects[page.title] %}
 
-<div class="site-project-header">
+<div class="page-header-primary page-header-lg text-center">
   <div class="container">
     <h1>{{ page.title }}</h1>
     <p class="lead">{{ project.description }}</p>
 
     <div class="project-links-container">
       {% for link in project.links %}
-        <a href="{{ link.url }}" class="btn btn-lg btn-red-inverse btn-project-link">{{ link.name }}</a>
+        <a href="{{ link.url }}" class="btn btn-lg btn-primary-inverse">{{ link.name }}</a>
       {% endfor %}
     </div>
   </div>
@@ -23,8 +23,8 @@ layout: default
       <iframe class="embed-responsive-item" src="{{ project.youtube }}" frameborder="0" allowfullscreen=""></iframe>
     </div>
 
-    <div class="project-excerpt-container">
-      {{ project.excerpt }}
-    </div>
+    <hr>
+
+    <p>{{ project.excerpt }}</p>
   </div>
 </div>
