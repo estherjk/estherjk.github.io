@@ -14,7 +14,7 @@ A few years ago, Barnes & Noble gave out free ebooks to promote their Classics E
 <div class="thumbnail">
   <img src="/assets/img/reading-quantified/trello-books-board.png" alt="Trello Books board" class="img-responsive">
   <div class="caption text-center">
-    <h3 class="h3-caption">Screenshot of my <a href="https://trello.com/b/mgqBN7ZV">Trello Books</a> board</h3>
+    <p>Screenshot of my <a href="https://trello.com/b/mgqBN7ZV">Trello Books</a> board</p>
   </div>
 </div>
 
@@ -27,7 +27,7 @@ The first step involves getting key information about my books using the [Trello
 <div class="thumbnail">
   <img src="/assets/img/reading-quantified/trello-card.png" alt="Trello card" class="img-responsive">
   <div class="caption text-center">
-    <h3 class="h3-caption">Screenshot of one of my Trello cards</h3>
+    <p>Screenshot of one of my Trello cards</p>
   </div>
 </div>
 
@@ -36,7 +36,7 @@ The second step grabs the data from Parse and visualizes key metrics on a web-ba
 <div class="thumbnail">
   <img src="/assets/img/reading-quantified/dashboard.png" alt="Reading Quantified dashboard" class="img-responsive">
   <div class="caption text-center">
-    <h3 class="h3-caption">Screenshot of <a href="http://www.drejkim.com/reading-quantified">Reading Quantified</a> (v0.1)</h3>
+    <p>Screenshot of <a href="http://www.drejkim.com/reading-quantified">Reading Quantified</a> (v0.1)</p>
   </div>
 </div>
 

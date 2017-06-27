@@ -21,7 +21,7 @@ The end result is a realtime dashboard that measures the temperature and humidit
 <div class="thumbnail">
   <img src="https://raw.githubusercontent.com/drejkim/particle-weather-station/master/img/ubidots.png" alt="Screenshot of the Ubidots dashboard" class="img-responsive">
   <div class="caption text-center">
-    <h3 class="h3-caption">Screenshot of the Ubidots dashboard</h3>
+    <p>Screenshot of the Ubidots dashboard</p>
   </div>
 </div>
 

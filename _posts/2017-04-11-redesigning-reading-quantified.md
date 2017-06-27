@@ -14,7 +14,7 @@ Here's a snapshot of what it looked like before:
 <div class="thumbnail">
   <img src="/assets/img/reading-quantified/reading-quantified-1.png" alt="Reading Quantified v1.0.0" class="img-responsive">
   <div class="caption text-center">
-    <h3 class="h3-caption">Reading Quantified v.1.0.0</h3>
+    <p>Reading Quantified v.1.0.0</p>
   </div>
 </div>
 
@@ -23,7 +23,7 @@ And here's a snapshot of what it looks like now:
 <div class="thumbnail">
   <img src="/assets/img/reading-quantified/reading-quantified-2.png" alt="Reading Quantified v2.1.0" class="img-responsive">
   <div class="caption text-center">
-    <h3 class="h3-caption">Reading Quantified v2.1.0</h3>
+    <p>Reading Quantified v2.1.0</p>
   </div>
 </div>
 

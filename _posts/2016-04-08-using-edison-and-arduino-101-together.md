@@ -18,7 +18,7 @@ Hopefully, this sounds vaguely familiar&mdash;what I've described is the Interne
 <div class="thumbnail">
   <img src="/assets/img/edison/edison-arduino101-iot-conceptual.png" alt="Conceptual IoT diagram with Edison and Arduino 101" class="img-responsive">
   <div class="caption text-center">
-    <h3 class="h3-caption">Conceptual IoT diagram with Edison and Arduino 101</h3>
+    <p>Conceptual IoT diagram with Edison and Arduino 101</p>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ Here's a picture that illustrates the demo's archiecture:
 <div class="thumbnail">
   <img src="https://raw.githubusercontent.com/drejkim/edison-arduino101-iot/master/images/edison-arduino101-iot.png" alt="Demo archiecture diagram" class="img-responsive">
   <div class="caption text-center">
-    <h3 class="h3-caption">Demo archiecture diagram; see <a href="https://github.com/drejkim/edison-arduino101-iot">GitHub</a> for the source code</h3>
+    <p>Demo archiecture diagram; see <a href="https://github.com/drejkim/edison-arduino101-iot">GitHub</a> for the source code</p>
   </div>
 </div>
 
@@ -52,7 +52,7 @@ The web server&mdash;which also uses Node.js and [socket.io](http://socket.io/)&
     <div class="thumbnail">
       <img src="/assets/img/edison/edison-arduino101-iot-web-client.png" alt="Demo archiecture diagram" class="img-responsive">
       <div class="caption text-center">
-        <h3 class="h3-caption">Screenshot of the web client</h3>
+        <p>Screenshot of the web client</p>
       </div>
     </div>
   </div>

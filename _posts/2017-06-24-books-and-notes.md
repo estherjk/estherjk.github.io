@@ -18,7 +18,7 @@ When it comes to reading non-fiction books, especially technology, design, or bu
 <div class="thumbnail">
   <img src="/assets/img/books-and-notes/books-and-notes-non-fiction.PNG" alt="Taking notes when reading non-fiction" class="img-responsive">
   <div class="caption text-center">
-    <h3 class="h3-caption">Taking notes when reading non-fiction</h3>
+    <p>Taking notes when reading non-fiction</p>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ When it comes to reading fiction, I normally like to stay in the moment and just
 <div class="thumbnail">
   <img src="/assets/img/books-and-notes/books-and-notes-fiction.PNG" alt="Taking notes when reading fiction" class="img-responsive">
   <div class="caption text-center">
-    <h3 class="h3-caption">Taking notes when reading fiction</h3>
+    <p>Taking notes when reading fiction</p>
   </div>
 </div>
 
