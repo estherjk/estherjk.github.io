@@ -19,6 +19,8 @@ The project still uses the [Particle](https://www.particle.io/) Photon and a [DH
 
 To see how it works, check out the [source code](https://github.com/drejkim/particle-weather-station-alexa) and video:
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/j5CpMcM5yRI" frameborder="0" allowfullscreen=""></iframe>
+<div class="thumbnail">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/j5CpMcM5yRI" frameborder="0" allowfullscreen=""></iframe>
+  </div>
 </div>

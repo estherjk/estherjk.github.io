@@ -10,6 +10,8 @@ Recently, I was able to get my hands on a Moto 360 and decided to play with the 
 
 See it in action here:
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Yxne6YWGbE0" frameborder="0" allowfullscreen=""></iframe>
+<div class="thumbnail">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Yxne6YWGbE0" frameborder="0" allowfullscreen=""></iframe>
+  </div>
 </div>

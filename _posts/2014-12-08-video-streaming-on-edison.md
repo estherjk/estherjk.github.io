@@ -14,8 +14,10 @@ The setup instructions and source code are available on <a href="https://github.
 
 Here's a video of it in action:
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/nVDL2-bFT3Y" frameborder="0" allowfullscreen=""></iframe>
+<div class="thumbnail">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/nVDL2-bFT3Y" frameborder="0" allowfullscreen=""></iframe>
+  </div>
 </div>
 
 One last thing... for those who have read my post on <a href="/blog/2014/12/02/real-time-face-detection-using-opencv-nodejs-and-websockets">real-time face detection using OpenCV and Node.js</a>, it might be a fun follow-up project to get this to run on Edison. You may need to lower the frame rate to 1fps (in <a href="https://github.com/drejkim/face-detection-node-opencv/blob/master/server/lib/routes/socket.js">socket.js</a>) to get it to run successfully. An even more fun follow-up would then be to figure out ways to increase the frame rate.

@@ -8,8 +8,10 @@ tags: nodejs ux web angularjs
 
 Although I can't give too much detail about my work while I was at Samsung, there are a few tidbits that I can share now that some aspects have been made public. One key area that Samsung has focused on is multi-screen user experiences, where devices like your smartphone and TV can connect and communicate with each other. The <a href="http://multiscreen.samsung.com">Samsung MultiScreen SDK</a> was released to help developers create such experiences. Check out this video to learn more about the SDK's capabilities:
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/4JsE5nrAzoQ" frameborder="0" allowfullscreen=""></iframe>
+<div class="thumbnail">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/4JsE5nrAzoQ" frameborder="0" allowfullscreen=""></iframe>
+  </div>
 </div>
 
 While our team didn't work on the MultiScreen SDK, we certainly built multi-screen prototypes. And what's common between the SDK and one of the prototypes that I built was the use of <a href="http://en.wikipedia.org/wiki/WebSocket">WebSockets</a>, which is a persistent, two-way channel between a client and server for exchanging data at any time. Since multi-screen experiences require quick data exchanges, especially when two clients need to interact with one another in realtime, using HTTP requests / responses or XHR polling can cause unwanted latency.

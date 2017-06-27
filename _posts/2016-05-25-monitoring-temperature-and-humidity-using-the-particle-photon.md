@@ -29,6 +29,8 @@ The end result is a realtime dashboard that measures the temperature and humidit
 
 To see how it all works, check out the [source code](https://github.com/drejkim/particle-weather-station) and video:
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XKxeXtfn4MM" frameborder="0" allowfullscreen=""></iframe>
+<div class="thumbnail">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XKxeXtfn4MM" frameborder="0" allowfullscreen=""></iframe>
+  </div>
 </div>
