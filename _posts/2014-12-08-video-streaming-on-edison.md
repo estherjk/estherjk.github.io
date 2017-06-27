@@ -14,7 +14,7 @@ The setup instructions and source code are available on <a href="https://github.
 
 Here's a video of it in action:
 
-<div class="embed-responsive embed-responsive-16by9 extra-margin-20">
+<div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="//www.youtube.com/embed/nVDL2-bFT3Y" frameborder="0" allowfullscreen=""></iframe>
 </div>
 

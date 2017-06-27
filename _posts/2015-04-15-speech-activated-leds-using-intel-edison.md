@@ -11,7 +11,7 @@ This has been a really fun project for me to learn and build. I am a bit rusty w
 
 In this demo, the circuit basically consists of 4 LEDs, and as the title suggests, they are controlled by speech. Check out the video:
 
-<div class="embed-responsive embed-responsive-16by9 extra-margin-20">
+<div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kVTV_qZtwlY" frameborder="0" allowfullscreen=""></iframe>
 </div>
 

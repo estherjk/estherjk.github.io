@@ -8,7 +8,7 @@ tags: nodejs ux web angularjs
 
 Although I can't give too much detail about my work while I was at Samsung, there are a few tidbits that I can share now that some aspects have been made public. One key area that Samsung has focused on is multi-screen user experiences, where devices like your smartphone and TV can connect and communicate with each other. The <a href="http://multiscreen.samsung.com">Samsung MultiScreen SDK</a> was released to help developers create such experiences. Check out this video to learn more about the SDK's capabilities:
 
-<div class="embed-responsive embed-responsive-16by9 extra-margin-20">
+<div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="//www.youtube.com/embed/4JsE5nrAzoQ" frameborder="0" allowfullscreen=""></iframe>
 </div>
 

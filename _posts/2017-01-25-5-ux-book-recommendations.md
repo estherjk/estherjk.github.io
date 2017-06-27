@@ -9,7 +9,7 @@ excerpt: Books are a great way to learn about a subject, and if you've been itch
 
 Books are a great way to learn about a subject, and if you've been itching to learn more about UX, here's a list of 5 books that I highly recommend.
 
-<div class="panel panel-default extra-margin-20">
+<div class="panel panel-default">
   <div class="panel-heading">
     <h2 class="panel-title">
       <a href="https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654">
@@ -23,7 +23,7 @@ Books are a great way to learn about a subject, and if you've been itching to le
   </div>
 </div>
 
-<div class="panel panel-default extra-margin-20">
+<div class="panel panel-default">
   <div class="panel-heading">
     <h2 class="panel-title">
       <a href="https://www.amazon.com/Lean-UX-Applying-Principles-Experience/dp/1449311652">
@@ -37,7 +37,7 @@ Books are a great way to learn about a subject, and if you've been itching to le
   </div>
 </div>
 
-<div class="panel panel-default extra-margin-20">
+<div class="panel panel-default">
   <div class="panel-heading">
     <h2 class="panel-title">
       <a href="https://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0812993012">
@@ -51,7 +51,7 @@ Books are a great way to learn about a subject, and if you've been itching to le
   </div>
 </div>
 
-<div class="panel panel-default extra-margin-20">
+<div class="panel panel-default">
   <div class="panel-heading">
     <h2 class="panel-title">
       <a href="https://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535">
@@ -65,7 +65,7 @@ Books are a great way to learn about a subject, and if you've been itching to le
   </div>
 </div>
 
-<div class="panel panel-default extra-margin-20">
+<div class="panel panel-default">
   <div class="panel-heading">
     <h2 class="panel-title">
       <a href="https://www.amazon.com/Interviewing-Users-Uncover-Compelling-Insights/dp/193382011X">

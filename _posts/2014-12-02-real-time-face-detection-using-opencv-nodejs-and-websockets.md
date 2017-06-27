@@ -10,7 +10,7 @@ I've been meaning to play with <a href="http://opencv.org/">OpenCV</a> for quite
 
 Here's a video of it in action:
 
-<div class="embed-responsive embed-responsive-16by9 extra-margin-20">
+<div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="//www.youtube.com/embed/v2SY0naPBFw" frameborder="0" allowfullscreen=""></iframe>
 </div>
 

@@ -12,7 +12,7 @@ excerpt: I often get asked about my handle, drejkim. What does it stand for? To 
 
 I often get asked about my handle, **drejkim**. What does it stand for? To address this question, I thought it would be fun to embed it as an easter egg on my home page. Were you able to find it? If not, here's a closer look:
 
-<img src="/assets/img/easter-egg/drejkim-easter-egg.gif" alt="Site easter egg" class="img-responsive extra-margin-20 center-block">
+<img src="/assets/img/easter-egg/drejkim-easter-egg.gif" alt="Site easter egg" class="img-responsive center-block">
 
 ## Using CSS to show / hide the easter egg
 

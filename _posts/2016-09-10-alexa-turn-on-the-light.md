@@ -13,6 +13,6 @@ My first two Alexa-Particle projects utilize two different types of [Particle Cl
 
 To see how it works, check out the [source code](https://github.com/drejkim/particle-light-alexa) and video:
 
-<div class="embed-responsive embed-responsive-16by9 extra-margin-20">
+<div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y9VvusYF1sg" frameborder="0" allowfullscreen=""></iframe>
 </div>
