@@ -69,8 +69,11 @@ js:
 
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        <h3 class="normal"><a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></h3>
-        <p class="lead post-date">{{ site.posts[0].date | date: "%d %B %Y" }}</p>
+        <h3>
+          <a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a>
+          <br>
+          <small class="text-mono text-muted">{{ site.posts[0].date | date: "%d %B %Y" }}</small>
+        </h3>
         <p class="lead">{{ site.posts[0].excerpt }}</p>
       </div>
     </div>
