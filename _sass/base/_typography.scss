@@ -5,6 +5,12 @@
   font-family: 'Inconsolata';
 }
 
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .fa-8x {
   font-size: 8em;
 }
