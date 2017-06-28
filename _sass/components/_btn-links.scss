@@ -1,19 +1,19 @@
-.project-links-container {
+.btn-links-container {
   display: inline-block;
   padding-top: 20px;
 }
 
-.project-links-container a+a {
+.btn-links-container a+a {
   margin-left: 20px;
 }
 
 @media (max-width: 767px) {
-  .project-links-container>a {
+  .btn-links-container>a {
     display: block;
     width: 100%;
   }
 
-  .project-links-container a+a {
+  .btn-links-container a+a {
     margin-top: 20px;
     margin-left: 0;
   }
