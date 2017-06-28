@@ -1,9 +1,9 @@
-<a href="{{ project.url }}" class="thumbnail thumbnail-project center-block">
-  <div class="content">
+<a href="{{ project.url }}" class="thumbnail">
+  <div class="thumbnail-overlay">
     <img src="{{ project.img }}" alt="{{ projectTitle }}" class="img-responsive center-block">
 
-    <div class="overlay">
-      <p>{{ project.description }}</p>
+    <div class="caption text-center">
+      {{ project.description }}
     </div>
   </div>
 
