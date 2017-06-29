@@ -3,3 +3,6 @@ $primary-color-lighter: #FFD9D9;
 
 $link-color: $primary-color;
 $link-hover-color: darken($link-color, 15%);
+
+$link-color-inverse: #fff;
+$link-hover-color-inverse: darken($link-color-inverse, 15%);
