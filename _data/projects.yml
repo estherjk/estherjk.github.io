@@ -42,7 +42,6 @@ edison-arduino101-iot:
     -
       name: View blog post
       url: /blog/2016/04/08/using-edison-and-arduino-101-together
-  showcase: true
 
 face-detection-node-opencv:
   category: web
@@ -73,6 +72,19 @@ frogger:
     -
       name: View on GitHub
       url: https://github.com/drejkim/frogger
+
+HackerBoxCar:
+  category: hardware
+  url: /projects/HackerBoxCar/
+  img: /assets/img/projects/HackerBoxCar.jpg
+  description: My implementation of the Autosport HackerBox
+  excerpt: The project uses the Autosport HackerBox kit and is capable of three modes... remote control, line-following, and autonomous. In remote-control mode, the car uses a companion mobile app to control its movements. In line-following mode, a pair of IR sensors detect a black line to control its path. In autonomous mode, an ultrasonic range sensor detects objects and attempts to avoid them.
+  youtube: https://www.youtube.com/embed/K7Yosm08pu0
+  links:
+    -
+      name: View on GitHub
+      url: https://github.com/drejkim/HackerBoxCar
+  showcase: true
 
 led-speech-edison:
   category: hardware
