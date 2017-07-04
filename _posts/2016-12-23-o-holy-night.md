@@ -4,7 +4,7 @@ css:
 - /css/post.css
 title: O Holy Night
 tags: particle ios
-excerpt: Heading into Christmas, I wanted to work on a project that commemorates what the day is all about... the birth of Jesus Christ. This project uses the Particle Photon, NeoPixels, a custom iOS app, and some paper cutouts to recreate the Nativity Scene.
+excerpt: Heading into Christmas, I wanted to work on a project that commemorates what the day is all about... the birth of Jesus Christ. This project uses the Particle Photon, NeoPixels, a custom iOS app, and some paper cutouts to recreate the Nativity Scene....
 ---
 
 Heading into Christmas, I wanted to work on a project that commemorates what the day is all about... the birth of Jesus Christ. This project uses the [Particle Photon](https://store.particle.io/), [NeoPixels](https://www.adafruit.com/product/1138), a custom iOS app, and some paper cutouts to recreate the Nativity Scene.

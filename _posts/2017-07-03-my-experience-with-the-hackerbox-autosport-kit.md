@@ -4,7 +4,7 @@ css:
 - /css/post.css
 title: My experience with the HackerBox Autosport kit
 tags: hackerbox arduino nodemcu iot blynk
-excerpt: HackerBoxes is a DIY electronics monthly subscription service ($44 per month), where the contents of each monthly box are a surprise. It's also possible to purchase past boxes for a slightly higher fee ($59 per box), which is great if you want to try out a kit where its contents are already known. That's what I opted to do when I purchased the Autosport kit. And overall, I thought it was really great
+excerpt: HackerBoxes is a DIY electronics monthly subscription service ($44 per month), where the contents of each monthly box are a surprise. It's also possible to purchase past boxes for a slightly higher fee ($59 per box), which is great if you want to try out a kit where its contents are already known. That's what I opted to do when I purchased the Autosport kit. And overall, I thought it was really great...
 ---
 
 ## Introduction
