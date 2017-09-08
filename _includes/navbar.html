@@ -1,54 +1,50 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Esther Jun Kim</a>
-    </div>
+<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">Esther Jun Kim</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      {% assign url = page.url|remove:'index.html' %}
+      {% for link in site.navigation %}
+        {% if url == link.url %}
+          <li {% if url == link.url %}class="nav-item active"{% endif %}>
+              <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
+          </li>
+        {% else %}
+          <li {% if url == link.url %}class="nav-item"{% endif %}>
+              <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        {% assign url = page.url|remove:'index.html' %}
-        {% for link in site.navigation %}
-        <li {% if url == link.url %}class="active"{% endif %}>
-            <a href="{{ link.url }}">{{ link.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
+    <ul class="nav navbar-nav ml-auto">
         <li>
-          <a href="http://www.linkedin.com/in/estherjunkim">
-            <i class="fa fa-linkedin-square fa-18px"></i>
+          <a class="nav-link" href="http://www.linkedin.com/in/estherjunkim">
+            <i class="fa fa-linkedin-square"></i>
           </a>
         </li>
         <li>
-          <a href="https://scholar.google.com/citations?hl=en&user=QfQuFmgAAAAJ">
-            <i class="ai ai-google-scholar-square fa-18px"></i>
+          <a class="nav-link" href="https://scholar.google.com/citations?hl=en&user=QfQuFmgAAAAJ">
+            <i class="ai ai-google-scholar-square"></i>
           </a>
         </li>
         <li>
-          <a href="https://github.com/drejkim">
-            <i class="fa fa-github-square fa-18px"></i>
+          <a class="nav-link" href="https://github.com/drejkim">
+            <i class="fa fa-github-square"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.youtube.com/c/estherkimdr">
-            <i class="fa fa-youtube-square fa-18px"></i>
+          <a class="nav-link" href="https://www.youtube.com/c/estherkimdr">
+            <i class="fa fa-youtube-square"></i>
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/drejkim">
-            <i class="fa fa-twitter-square fa-18px"></i>
+          <a class="nav-link" href="https://twitter.com/drejkim">
+            <i class="fa fa-twitter-square"></i>
           </a>
         </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
   </div>
 </nav>
