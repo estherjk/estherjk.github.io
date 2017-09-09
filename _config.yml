@@ -3,14 +3,10 @@ permalink: /blog/:year/:month/:day/:title/
 navigation:
 - title: Home
   url: /
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
 - title: Projects
   url: /projects/
-- title: Mentions
-  url: /mentions/
+- title: Blog
+  url: /blog/
 markdown: kramdown
 highlighter: rouge
 kramdown:
