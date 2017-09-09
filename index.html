@@ -1,119 +1,29 @@
 ---
 layout: default
 title: Esther Jun Kim
-css:
-- css/index.css
 ---
 
-<div class="jumbotron">
-  <div class="container">
-    <a href="/blog/2016/07/22/the-origin-of-drejkim-unveiling-its-meaning-using-css/" class="logo-anchor">
-      <div class="logo-container">
-        <h1 class="logo-text" id="logo-drejkim">drejkim</h1>
-        <h1 class="logo-text" id="logo-drejkim-easter-egg">Dr EJ Kim</h1>
-      </div>
-    </a>
-
-    <p class="lead">
-      Hi, I'm Esther Jun Kim.
-      <br>
-      I enjoy building products for people.
-    </p>
-  </div>
+<div class="mt-5">
+  <img src="/assets/img/headshot/esther-bw.jpg" alt="Photo of Esther Jun Kim" class="rounded-circle mx-auto d-block">
 </div>
 
-<div class="featurette text-center">
-  <div class="container">
-    <h2 class="text-uppercase">Build. Test. Learn. Repeat.</h2>
-
-    <hr class="hr-short hr-extra-margin">
-
-    <div class="row">
-      <div class="col-sm-4">
-        <i class="fa fa-users fa-8x"></i>
-        <h3 class="text-uppercase">UX Researcher</h3>
-        <p class="lead">
-          I discover user needs, test with users early and often, and make informed design decisions from user data.
-        </p>
-      </div>
-
-      <div class="col-sm-4">
-        <i class="fa fa-code fa-8x"></i>
-        <h3 class="text-uppercase">Coder</h3>
-        <p class="lead">
-          I write code for a variety of applications, e.g. web, mobile, data science, and more.
-        </p>
-      </div>
-
-      <div class="col-sm-4">
-        <i class="fa fa-cogs fa-8x"></i>
-        <h3 class="text-uppercase">Maker</h3>
-        <p class="lead">
-          I make things&mdash;including open source demos and hacks&mdash;which you can find on this website.
-        </p>
-      </div>
-
-    </div>
-
-    <hr class="hr-short hr-extra-margin">
-
-    <a href="/about" class="btn btn-lg btn-outline">Learn more about me</a>
-  </div>
+<div class="mt-3 mb-3 text-center">
+  <h1>Hi, I'm Esther Jun Kim.</h1>
 </div>
 
-<hr class="hr-extra-margin">
-
-<div class="featurette">
-  <div class="container">
-    <h2 class="text-uppercase text-center">Latest post</h2>
-
-    <hr class="hr-short hr-extra-margin">
-
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <h3>
-          <a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a>
-          <br>
-          <small class="text-mono text-muted">{{ site.posts[0].date | date: "%d %B %Y" }}</small>
-        </h3>
-        <p class="lead">{{ site.posts[0].excerpt }}</p>
-      </div>
+<div class="container pb-5 text-center">
+  <div class="row">
+    <div class="col-sm">
+      <i class="fa fa-cogs fa-5x mt-3 mb-3" aria-hidden="true"></i>
+      <h2>Maker</h2>
+      <p class="lead">I make open source demos and hacks.</p>
+      <a class="btn btn-primary btn-lg" href="/projects">See projects</a>
     </div>
-
-    <hr class="hr-short hr-extra-margin">
-
-    <div class="text-center">
-      <a href="/blog" class="btn btn-lg btn-outline">See more posts</a>
-    </div>
-  </div>
-</div>
-
-<hr class="hr-extra-margin">
-
-<div class="featurette">
-  <div class="container">
-    <h2 class="text-uppercase text-center">Selected Projects</h2>
-
-    <hr class="hr-short hr-extra-margin">
-
-    <div class="row">
-      {% for projectDict in site.data.projects %}
-
-      {% assign projectTitle = projectDict[0] %}
-      {% assign project = projectDict[1] %}
-
-        {% if project.showcase == true %}
-        <div class="col-sm-4">
-          {% include project-thumbnail.html %}
-        </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <hr class="hr-short hr-extra-margin">
-
-    <div class="text-center">
-      <a href="/projects" class="btn btn-lg btn-outline">See more projects</a>
+    <div class="col-sm">
+        <i class="fa fa-pencil-square-o fa-5x mt-3 mb-3" aria-hidden="true"></i>
+      <h2>Writer</h2>
+      <p class="lead">I write about code, UX, and more.</p>
+      <a class="btn btn-primary btn-lg" href="/blog">See blog</a>
     </div>
   </div>
 </div>
