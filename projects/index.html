@@ -5,16 +5,9 @@ css:
 - /css/projects.css
 ---
 
-<div class="page-header-primary">
-  <div class="container">
-    <h1>Projects</h1>
-    <p class="lead">Demos, hacks, apps, etc.</p>
-  </div>
-</div>
-
 {% for item in site.data.project-categories %}
-<div class="container">
-  <div class="container-header">{{item.title}}</div>
+<div class="container mt-5">
+  <p class="text-uppercase text-muted font-weight-bold">{{item.title}}</p>
 
   <div class="row">
     {% for projectDict in site.data.projects %}
@@ -22,8 +15,8 @@ css:
     {% assign project = projectDict[1] %}
 
     {% if project.category == item.category %}
-    <div class="col-sm-4 col-md-3">
-      {% include project-thumbnail.html %}
+    <div class="col-sm-3 mb-5">
+      {% include project-card.html %}
     </div>
     {% endif %}
     {% endfor %}
@@ -31,7 +24,10 @@ css:
 </div>
 
 {% if forloop.last == false %}
-<hr class="hr-extra-margin">
+<hr>
 {% endif %}
 
 {% endfor %}
+
+<!-- Empty div with some extra bottom padding -->
+<div class="pb-5"></div>

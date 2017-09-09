@@ -1,0 +1,29 @@
+// Extension of the Bootstrap card component
+
+//
+// Overlay styles
+//
+
+$overlay-transition: all .2s ease-in-out !default;
+
+a.card {
+  @include transition($overlay-transition);
+}
+
+a.card.active,
+a.card:focus,
+a.card:hover {
+  border-color: $link-color;
+}
+
+a.card .card-img-overlay {
+  opacity: 0;
+  @include border-radius($card-inner-border-radius);
+  @include transition($overlay-transition);
+}
+
+a.card.active .card-img-overlay,
+a.card:focus .card-img-overlay,
+a.card:hover .card-img-overlay {
+  opacity: 0.75;
+}

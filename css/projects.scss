@@ -3,11 +3,5 @@
 # Only main files contain this front matter, not partials.
 ---
 
-@import "base/colors";
-@import "base/scaffolding";
-@import "base/typography";
-@import "components/sticky-footer-navbar";
-@import "components/headers";
-@import "components/buttons";
-@import "components/button-links";
-@import "components/thumbnail";
+@import "bootstrap/bootstrap";
+@import "extensions/card";
