@@ -3,9 +3,16 @@
 # Only main files contain this front matter, not partials.
 ---
 
+/* Bootstrap and extensions */
 @import "bootstrap/bootstrap";
 @import "extensions/card";
+@import "extensions/code";
 @import "extensions/text";
+
+/* Dracula theme for code syntax higlighting */
+@import "dracula/dracula";
+
+/* Custom components */
 @import "components/button-links";
 @import "components/logo";
 @import "components/sticky-footer-navbar";

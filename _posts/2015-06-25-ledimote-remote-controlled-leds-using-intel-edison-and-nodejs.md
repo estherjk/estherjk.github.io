@@ -1,7 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
 title: LediMote - Remote-controlled LEDs using Intel Edison and Node.js
 tags: edison nodejs ios android
 excerpt: I had some more fun with LEDs and Edison, but this time, I created a JavaScript (Node.js) example....
@@ -15,7 +13,7 @@ I also created [iOS](https://github.com/drejkim/LediMoteiOS) and [Android](https
 
 To see the web and iOS clients in action, check out the video. Unfortunately, the video was made before I finished the Android app, but it behaves similarly to the others.
 
-<div class="thumbnail">
+<div class="mb-3">
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i61g4aYkrI0" frameborder="0" allowfullscreen=""></iframe>
   </div>

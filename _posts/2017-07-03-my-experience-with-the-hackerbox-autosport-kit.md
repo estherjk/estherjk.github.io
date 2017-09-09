@@ -1,7 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
 title: My experience with the HackerBox Autosport kit
 tags: hackerbox arduino nodemcu iot blynk
 excerpt: HackerBoxes is a DIY electronics monthly subscription service ($44 per month), where the contents of each monthly box are a surprise. It's also possible to purchase past boxes for a slightly higher fee ($59 per box), which is great if you want to try out a kit where its contents are already known. That's what I opted to do when I purchased the Autosport kit. And overall, I thought it was really great...
@@ -13,10 +11,10 @@ excerpt: HackerBoxes is a DIY electronics monthly subscription service ($44 per 
 
 ## What comes in the box
 
-<div class="thumbnail">
-  <img src="https://pbs.twimg.com/media/DDhtiQ6WAAA5fOb.jpg:large" alt="Contents of the HackerBox Autosport kit" class="img-responsive">
-  <div class="caption text-center">
-    <p>Contents of the HackerBox Autosport kit</p>
+<div class="card mb-3">
+  <img class="card-img-top" src="https://pbs.twimg.com/media/DDhtiQ6WAAA5fOb.jpg:large" alt="Contents of the HackerBox Autosport kit">
+  <div class="card-body text-center">
+    <p class="card-text">Contents of the HackerBox Autosport kit</p>
   </div>
 </div>
 
@@ -51,7 +49,7 @@ For those who are interested in seeing my code, check out my [GitHub](https://gi
 
 And, here's the video of my car in action:
 
-<div class="thumbnail">
+<div class="mb-3">
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K7Yosm08pu0" frameborder="0" allowfullscreen=""></iframe>
   </div>

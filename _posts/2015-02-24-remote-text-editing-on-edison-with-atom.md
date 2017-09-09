@@ -1,8 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
-- /css/code.css
 title: Remote text-editing on Edison with Atom
 tags: edison
 excerpt: Recently, I've started using Atom, the open-source text editor from GitHub. Since it's billed as a "hackable text editor," many 3rd party packages have cropped up that provide additional features. An extremely useful one that I've discovered is remote-atom, which allows remote editing via SSH port-forwarding....
@@ -56,8 +53,8 @@ You should now see the same file `test.txt` open on the Atom client on your PC.
 
 Here's a snapshot with the Edison SSH window on the left and my Mac Atom client on the right:
 
-<div class="thumbnail">
-  <img src="/assets/img/edison/edison-atom-remote-text-editing.png" class="img-responsive" alt="Remote text-editing on Edison with Atom">
+<div class="mb-3">
+  <img src="/assets/img/edison/edison-atom-remote-text-editing.png" class="img-fluid" alt="Remote text-editing on Edison with Atom">
 </div>
 
 To save time when connecting via SSH in the future, add the following to `~/.ssh/config` on your PC:

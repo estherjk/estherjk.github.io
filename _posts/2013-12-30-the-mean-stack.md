@@ -1,7 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
 title: The MEAN stack
 tags: nodejs web angularjs
 ---
@@ -16,7 +14,7 @@ To help others get started with MEAN, I have created a Vagrant environment that 
 
 Also, if you are interested in learning more, here's a video that provides a nice introduction:
 
-<div class="thumbnail">
+<div class="mb-3">
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="//www.youtube.com/embed/1Sy3vWJ1N2U" frameborder="0" allowfullscreen=""></iframe>
   </div>

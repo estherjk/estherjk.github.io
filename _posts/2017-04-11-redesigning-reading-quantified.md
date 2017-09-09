@@ -1,7 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
 title: Redesigning Reading Quantified
 tags: web angularjs parse books visualization ux
 excerpt: A couple weeks ago, I released the latest version of Reading Quantified. The biggest difference is how my reading habits are visualized&#58; before, it was primarily focused on monthly trends and now, it's focused on annual trends....
@@ -11,19 +9,19 @@ A couple weeks ago, I released the latest version of [Reading Quantified](http:/
 
 Here's a snapshot of what it looked like before:
 
-<div class="thumbnail">
-  <img src="/assets/img/reading-quantified/reading-quantified-1.png" alt="Reading Quantified v1.0.0" class="img-responsive">
-  <div class="caption text-center">
-    <p>Reading Quantified v.1.0.0</p>
+<div class="card mb-3">
+  <img class="card-img-top" src="/assets/img/reading-quantified/reading-quantified-1.png" alt="Reading Quantified v1.0.0">
+  <div class="card-body text-center">
+    <p class="card-text">Reading Quantified v.1.0.0</p>
   </div>
 </div>
 
 And here's a snapshot of what it looks like now:
 
-<div class="thumbnail">
-  <img src="/assets/img/reading-quantified/reading-quantified-2.png" alt="Reading Quantified v2.1.0" class="img-responsive">
-  <div class="caption text-center">
-    <p>Reading Quantified v2.1.0</p>
+<div class="card mb-3">
+  <img class="card-img-top" src="/assets/img/reading-quantified/reading-quantified-2.png" alt="Reading Quantified v2.1.0">
+  <div class="card-body text-center">
+    <p class="card-text">Reading Quantified v2.1.0</p>
   </div>
 </div>
 

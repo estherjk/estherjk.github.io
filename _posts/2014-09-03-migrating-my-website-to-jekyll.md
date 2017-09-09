@@ -1,7 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
 title: Migrating my website to Jekyll
 tags: jekyll web nodejs angularjs
 ---

@@ -2,27 +2,16 @@
 layout: default
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="page-header">
-        <h1>
-          {{ page.title }}
-          <br>
-          <small class="text-mono text-muted">{{ page.date | date: "%-d %B %Y" }}</small>
-        </h1>
-      </div>
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <h1>
+        {{ page.title }}
+        <br>
+        <small class="text-monospace text-muted">{{ page.date | date: "%-d %B %Y" }}</small>
+      </h1>
 
-      <div>{{ content }}</div>
-
-      <hr>
-      
-      <div class="list-group list-group-condensed list-group-inline">
-        {% assign sorted_tags = page.tags | sort %}
-        {% for tag in sorted_tags %}
-          <a href="/blog/#{{ tag }}" class="list-group-item">{{ tag }}</a>
-        {% endfor %}
-      </div>
+      <div class="mt-5 mb-5">{{ content }}</div>
 
       <div id="disqus_thread"></div>
       <script type="text/javascript">

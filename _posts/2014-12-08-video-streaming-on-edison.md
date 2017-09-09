@@ -1,7 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
 title: Video streaming on Edison
 tags: edison web nodejs
 ---
@@ -14,7 +12,7 @@ The setup instructions and source code are available on <a href="https://github.
 
 Here's a video of it in action:
 
-<div class="thumbnail">
+<div class="mb-3">
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="//www.youtube.com/embed/nVDL2-bFT3Y" frameborder="0" allowfullscreen=""></iframe>
   </div>

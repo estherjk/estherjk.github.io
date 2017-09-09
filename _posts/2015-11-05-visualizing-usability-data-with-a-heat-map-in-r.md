@@ -1,8 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
-- /css/code.css
 title: Visualizing usability data with a heat map in R
 tags: r ux visualization
 excerpt: Usability testing is a great way to identify potential problems with an interface. Quantifying the results can help illustrate what's not working and to what extent. One common usability metric is the number of users who successfully (or unsuccessfully) complete a task....
@@ -24,7 +21,9 @@ When analyzing and reporting the results, a table similar to this one is often u
 
 This is a great start. But, visualizing the information can provide clearer insights. A heat map is a great way to enhance the table by adding color to the table of values:
 
-<img src="/assets/img/uxr-heatmap/heatmap.png" alt="Heat map" class="img-responsive img-thumbnail">
+<div class="card mb-3">
+  <img class="card-img" src="/assets/img/uxr-heatmap/heatmap.png" alt="Heat map">
+</div>
 
 The color scale used in this example goes from dark orange to light gray. If none of the users successfully complete a task, the color is dark orange; if all of the users successfully complete a task, the color is light gray. By color coding the data in this manner, we can immediately see potential problems... the darker the orange, the more we ought to pay attention to it. So, Tasks A and E are on our radar.
 
@@ -76,50 +75,35 @@ ggplot2 is a great graphics tool, but it can be a bit overwhelming to use when f
 
 The following pictures show what's happening at each step:
 
-<div class="row">
-  <div class="col-md-12">
-    <div class="thumbnail">
-      <img src="/assets/img/uxr-heatmap/heatmap-step1.png" alt="Heat map step 1" class="img-responsive">
-      <div class="caption text-center">
-        <p>1. Create heat map</p>
-        <p>
-          This creates color cells using the scale specified. The limits of the scale should go from 0 to the total number of users.
-        </p>
-      </div>
-    </div>
+<div class="card mb-3">
+  <img class="card-img-top" src="/assets/img/uxr-heatmap/heatmap-step1.png" alt="Heat map step 1">
+  <div class="card-body text-center">
+    <h4 class="card-title">1. Create heat map</h4>
+    <p class="card-text">This creates color cells using the scale specified. The limits of the scale should go from 0 to the total number of users.</p>
   </div>
-  <div class="col-md-12">
-    <div class="thumbnail">
-      <img src="/assets/img/uxr-heatmap/heatmap-step2.png" alt="Heat map step 2" class="img-responsive">
-      <div class="caption text-center">
-        <p>2. Add text</p>
-        <p>
-          The values themselves are still meaningful, so let's include them.
-        </p>
-      </div>
-    </div>
+</div>
+
+<div class="card mb-3">
+  <img class="card-img-top" src="/assets/img/uxr-heatmap/heatmap-step2.png" alt="Heat map step 2">
+  <div class="card-body text-center">
+    <h4 class="card-title">2. Add text</h4>
+    <p class="card-text">The values themselves are still meaningful, so let's include them.</p>
   </div>
-  <div class="col-md-12">
-    <div class="thumbnail">
-      <img src="/assets/img/uxr-heatmap/heatmap-step3.png" alt="Heat map step 3" class="img-responsive">
-      <div class="caption text-center">
-        <p>3. Re-size the plot</p>
-        <p>
-          The size of the plot can use an update. ggplot2 defaults to creating plots where one unit is the same length on each axis. However, it's possible to change this. In our case, we want the y-axis to be just tall enough to fit our data.
-        </p>
-      </div>
-    </div>
+</div>
+
+<div class="card mb-3">
+  <img class="card-img-top" src="/assets/img/uxr-heatmap/heatmap-step3.png" alt="Heat map step 3">
+  <div class="card-body text-center">
+    <h4 class="card-title">3. Re-size the plot</h4>
+    <p class="card-text">The size of the plot can use an update. ggplot2 defaults to creating plots where one unit is the same length on each axis. However, it's possible to change this. In our case, we want the y-axis to be just tall enough to fit our data.</p>
   </div>
-  <div class="col-md-12">
-    <div class="thumbnail">
-      <img src="/assets/img/uxr-heatmap/heatmap.png" alt="Heat map step 4" class="img-responsive">
-      <div class="caption text-center">
-        <p>4. Give finishing touches</p>
-        <p>
-          By default, ggplot2 creates axis titles, tick marks, and uses a gray background. Let's remove all that and add a title to create the final plot.
-        </p>
-      </div>
-    </div>
+</div>
+
+<div class="card mb-3">
+  <img class="card-img-top" src="/assets/img/uxr-heatmap/heatmap.png" alt="Heat map step 4">
+  <div class="card-body text-center">
+    <h4 class="card-title">4. Give finishing touches</h4>
+    <p class="card-text">By default, ggplot2 creates axis titles, tick marks, and uses a gray background. Let's remove all that and add a title to create the final plot.</p>
   </div>
 </div>
 

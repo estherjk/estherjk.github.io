@@ -1,7 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
 title: Alexa, turn on the light
 tags: iot particle alexa
 excerpt: I'm having too much fun playing with my Amazon Tap and Particle Photon. My first two Alexa-Particle projects utilize two different types of Particle Cloud Functions. In my first project, I used Particle variables to ask Alexa for data using GET requests. In this project, I use Particle functions that can be called with POST requests. The Alexa skill then makes these requests to control a light&mdash;a NeoPixel ring to be more precise....
@@ -13,7 +11,7 @@ My first two Alexa-Particle projects utilize two different types of [Particle Cl
 
 To see how it works, check out the [source code](https://github.com/drejkim/particle-light-alexa) and video:
 
-<div class="thumbnail">
+<div class="mb-3">
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y9VvusYF1sg" frameborder="0" allowfullscreen=""></iframe>
   </div>

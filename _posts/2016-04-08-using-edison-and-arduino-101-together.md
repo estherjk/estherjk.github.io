@@ -1,7 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
 title: Using Edison and Arduino 101 together
 tags: edison curie arduino web iot
 excerpt: I recently got my hands on Arduino 101, which combines Intel's compute capabilities with Arduino's ease-of-use. The board contains the Intel® Curie™ module, a button-sized computer that has a 6-axis IMU (interial measurement unit, i.e. accelerometer and gyroscope) and Bluetooth Low Energy (BLE)....
@@ -15,10 +13,10 @@ For my first project with Arduino 101, I wanted to combine it with Edison. The t
 
 Hopefully, this sounds vaguely familiar&mdash;what I've described is the Internet of Things (IoT).
 
-<div class="thumbnail">
-  <img src="/assets/img/edison/edison-arduino101-iot-conceptual.png" alt="Conceptual IoT diagram with Edison and Arduino 101" class="img-responsive">
-  <div class="caption text-center">
-    <p>Conceptual IoT diagram with Edison and Arduino 101</p>
+<div class="card mb-3">
+  <img class="card-img-top" src="/assets/img/edison/edison-arduino101-iot-conceptual.png" alt="Conceptual IoT diagram with Edison and Arduino 101">
+  <div class="card-body text-center">
+    <p class="card-text">Conceptual IoT diagram with Edison and Arduino 101</p>
   </div>
 </div>
 
@@ -28,10 +26,10 @@ My demo illustrates a simple IoT example by displaying an Arduino 101's IMU (acc
 
 Here's a picture that illustrates the demo's archiecture:
 
-<div class="thumbnail">
-  <img src="https://raw.githubusercontent.com/drejkim/edison-arduino101-iot/master/images/edison-arduino101-iot.png" alt="Demo archiecture diagram" class="img-responsive">
-  <div class="caption text-center">
-    <p>Demo archiecture diagram; see <a href="https://github.com/drejkim/edison-arduino101-iot">GitHub</a> for the source code</p>
+<div class="card mb-3">
+  <img class="card-img-top" src="https://raw.githubusercontent.com/drejkim/edison-arduino101-iot/master/images/edison-arduino101-iot.png" alt="Demo archiecture diagram">
+  <div class="card-body text-center">
+    <p class="card-text">Demo archiecture diagram; see <a href="https://github.com/drejkim/edison-arduino101-iot">GitHub</a> for the source code</p>
   </div>
 </div>
 
@@ -47,12 +45,12 @@ To read the data on Edison from Arduino 101, I used [noble](https://github.com/s
 
 The web server&mdash;which also uses Node.js and [socket.io](http://socket.io/)&mdash;is responsible for receiving data from Edison. From here, the web server can do advanced processing and analytics... but for this demo, it hosts a web page that displays the IMU data. Note that the web page is also a socket.io client&mdash;like Edison&mdash;but instead of sending data to the web server, its receiving and displaying the data.
 
-<div class="row">
-  <div class="col-sm-6 col-sm-offset-3">
-    <div class="thumbnail">
-      <img src="/assets/img/edison/edison-arduino101-iot-web-client.png" alt="Demo archiecture diagram" class="img-responsive">
-      <div class="caption text-center">
-        <p>Screenshot of the web client</p>
+<div class="row justify-content-center mb-3">
+  <div class="col-sm-6">
+    <div class="card mb-3">
+      <img class="card-img-top" src="/assets/img/edison/edison-arduino101-iot-web-client.png" alt="Demo archiecture diagram">
+      <div class="card-body text-center">
+        <p class="card-text">Screenshot of the web client</p>
       </div>
     </div>
   </div>
@@ -62,7 +60,7 @@ The web server&mdash;which also uses Node.js and [socket.io](http://socket.io/)&
 
 To see how it all works, check out the [source code](https://github.com/drejkim/edison-arduino101-iot) and video:
 
-<div class="thumbnail">
+<div class="mb-3">
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NRZZRsqJQWY" frameborder="0" allowfullscreen=""></iframe>
   </div>

@@ -1,7 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
 title: Real-time face detection using OpenCV, Node.js, and WebSockets
 tags: web nodejs opencv
 ---
@@ -10,7 +8,7 @@ I've been meaning to play with <a href="http://opencv.org/">OpenCV</a> for quite
 
 Here's a video of it in action:
 
-<div class="thumbnail">
+<div class="mb-3">
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="//www.youtube.com/embed/v2SY0naPBFw" frameborder="0" allowfullscreen=""></iframe>
   </div>

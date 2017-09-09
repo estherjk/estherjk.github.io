@@ -1,8 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
-- /css/code.css
 title: The origin of "drejkim"&#58; Unveiling its meaning using CSS
 tags: web css
 excerpt: I often get asked about my handle, drejkim. What does it stand for? To address this question, I thought it would be fun to embed it as an easter egg on my home page. Were you able to find it? If not, here's a closer look....
@@ -12,8 +9,8 @@ excerpt: I often get asked about my handle, drejkim. What does it stand for? To 
 
 I often get asked about my handle, **drejkim**. What does it stand for? To address this question, I thought it would be fun to embed it as an easter egg on my home page. Were you able to find it? If not, here's a closer look:
 
-<div class="thumbnail">
-  <img src="/assets/img/easter-egg/drejkim-easter-egg.gif" alt="Site easter egg" class="img-responsive center-block">
+<div class="mb-3">
+  <img class="img-fluid mx-auto d-block" src="/assets/img/easter-egg/drejkim-easter-egg.gif" alt="Site easter egg">
 </div>
 
 ## Using CSS to show / hide the easter egg
@@ -24,8 +21,10 @@ To get a better understanding of how this works, let's create a simple "Hello Wo
 
 See it in action here:
 
-<p data-height="265" data-theme-id="0" data-slug-hash="oLdgkp" data-default-tab="html,result" data-user="drejkim" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/drejkim/pen/oLdgkp/">Show / hide on hover</a> by Esther Kim (<a href="http://codepen.io/drejkim">@drejkim</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<div class="mb-3">
+  <p data-height="265" data-theme-id="0" data-slug-hash="oLdgkp" data-default-tab="html,result" data-user="drejkim" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/drejkim/pen/oLdgkp/">Show / hide on hover</a> by Esther Kim (<a href="http://codepen.io/drejkim">@drejkim</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+</div>
 
 ### HTML
 

@@ -1,8 +1,5 @@
 ---
 layout: post
-css:
-- /css/post.css
-- /css/code.css
 title: Getting started with Intel Edison on OS X
 tags: edison
 ---
@@ -15,8 +12,8 @@ Last month, Intel launched <a href="http://www.intel.com/content/www/us/en/do-it
 
 There are two kits that are currently available:
 
-<div class="thumbnail">
-  <img src="/assets/img/edison/edison-mini-arduino.jpg" class="img-responsive" alt="Edison kits for Mini and Arduino breakout boards">
+<div class="mb-3">
+  <img src="/assets/img/edison/edison-mini-arduino.jpg" class="img-fluid" alt="Edison kits for Mini and Arduino breakout boards">
 </div>
 
 The kit on the left comes with a Mini breakout board, while the kit on the right comes with an Arduino breakout board. While the latter is great if you want to build things that are Arduino-compatible, the size of the board is quite large. The Mini breakout board is better if you want a board that has a much smaller footprint.
@@ -25,8 +22,8 @@ The kit on the left comes with a Mini breakout board, while the kit on the right
 
 What’s in the smaller box?
 
-<div class="thumbnail">
-  <img src="/assets/img/edison/edison-mini-unboxed.jpg" class="img-responsive" alt="Edison with Mini breakout board unboxed">
+<div class="mb-3">
+  <img src="/assets/img/edison/edison-mini-unboxed.jpg" class="img-fluid" alt="Edison with Mini breakout board unboxed">
 </div>
 
 The Mini breakout board kit comes with the following: the breakout board (bottom-right), Edison (bottom-center), and a ziplock bag with two hex nuts (bottom-left).
@@ -35,16 +32,16 @@ To get Edison onto the board, align the two holes on Edison over the two screws 
 
 Here's what the assembled Mini breakout board with Edison should look like:
 
-<div class="thumbnail">
-  <img src="/assets/img/edison/edison-mini-board.jpg" class="img-responsive" alt="Closeup of Edison on Mini breakout board">
+<div class="mb-3">
+  <img src="/assets/img/edison/edison-mini-board.jpg" class="img-fluid" alt="Closeup of Edison on Mini breakout board">
 </div>
 
 ## Setting up Edison with the Arduino breakout board
 
 What's in the bigger box?
 
-<div class="thumbnail">
-  <img src="/assets/img/edison/edison-arduino-unboxed.jpg" class="img-responsive" alt="Edison with Arduino breakout board unboxed">
+<div class="mb-3">
+  <img src="/assets/img/edison/edison-arduino-unboxed.jpg" class="img-fluid" alt="Edison with Arduino breakout board unboxed">
 </div>
 
 The Arduino breakout board kit comes with the following: the breakout board (bottom-right), Edison (bottom-center), and a ziplock bag with a variety of screws and such (bottom-left).
@@ -55,16 +52,16 @@ Note that there are additional screws and such in the ziplock bag, which are use
 
 Here's what the assembled Mini breakout board with Edison should look like:
 
-<div class="thumbnail">
-  <img src="/assets/img/edison/edison-arduino-board.jpg" class="img-responsive" alt="Closeup of Edison on Arduino breakout board">
+<div class="mb-3">
+  <img src="/assets/img/edison/edison-arduino-board.jpg" class="img-fluid" alt="Closeup of Edison on Arduino breakout board">
 </div>
 
 ## Getting Edison up-to-date on Mac OS X
 
 Now that we have assembled the hardware, connect **two** micro USB cables to the board and the other ends to the computer.
 
-<div class="thumbnail">
-  <img src="/assets/img/edison/edison-connected.jpg" class="img-responsive" alt="Edison connected">
+<div class="mb-3">
+  <img src="/assets/img/edison/edison-connected.jpg" class="img-fluid" alt="Edison connected">
 </div>
 
 The black cable is used to power Edison. (The port is also USB On-The-Go, where it can act as host or a peripheral.) The white cable is used for serial communication with the computer. Later on, we'll set up Wi-Fi so that we can SSH into Edison over Wi-Fi, which eliminates the need for using the white cable. Note that the above picture shows the Mini breakout board, but setup is essentially the same on the Arduino breakout board.
@@ -176,8 +173,8 @@ Done. Please connect your laptop or PC to the same network as this device and go
 
 Entering either URL in a browser window should give you a page that looks like this:
 
-<div class="thumbnail">
-  <img src="/assets/img/edison/edison-browser.png" class="img-responsive" alt="Edison device information in browser">
+<div class="mb-3">
+  <img src="/assets/img/edison/edison-browser.png" class="img-fluid" alt="Edison device information in browser">
 </div>
 
 Congratulations, Edison is now connected to Wi-Fi!
