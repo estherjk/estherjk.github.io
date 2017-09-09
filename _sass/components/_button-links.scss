@@ -7,7 +7,7 @@
   margin-left: 20px;
 }
 
-@media (max-width: 767px) {
+@include media-breakpoint-down(sm) {
   .btn-links-container>a {
     display: block;
     width: 100%;
