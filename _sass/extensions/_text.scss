@@ -1,5 +1,9 @@
 // Additional text classes that are named in the style of Bootstrap's classes
 
+.text-monospace {
+  font-family: $font-family-monospace;
+}
+
 .text-forcewrap {
   word-break: break-all;
 }
