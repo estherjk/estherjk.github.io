@@ -17,9 +17,17 @@ a.card:hover {
 }
 
 a.card .card-img-overlay {
+  /* To make sure the footer is visible, use a lower z-index than .card-footer */
+  z-index: 990;
+  
   opacity: 0;
   @include border-radius($card-inner-border-radius);
   @include transition($overlay-transition);
+}
+
+a.card .card-footer {
+  /* To make sure the footer visible, use a higher z-index than .card-img-overlay */
+  z-index: 1000;
 }
 
 a.card.active .card-img-overlay,
