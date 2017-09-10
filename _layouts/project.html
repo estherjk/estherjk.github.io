@@ -8,9 +8,13 @@ layout: default
   <h1 class="display-4 text-forcewrap">{{ page.title }}</h1>
   <p class="lead">{{ project.description }}</p>
 
-  <div class="btn-links-container">
+  <div class="d-flex justify-content-center flex-column flex-sm-row">
     {% for link in project.links %}
-    <a href="{{ link.url }}" class="btn btn-outline-primary btn-lg">{{ link.name }}</a>
+      {% if forloop.last == false %}
+        <a href="{{ link.url }}" class="btn btn-outline-primary btn-lg mb-3 mb-sm-0 mr-sm-3">{{ link.name }}</a>
+      {% else %}
+        <a href="{{ link.url }}" class="btn btn-outline-primary btn-lg">{{ link.name }}</a>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
