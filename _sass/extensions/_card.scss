@@ -17,7 +17,7 @@ a.card:hover {
 }
 
 a.card .card-img-overlay {
-  /* To make sure the footer is visible, use a lower z-index than .card-footer */
+  // To make sure the footer is visible, use a lower z-index than .card-footer
   z-index: 990;
   
   opacity: 0;
@@ -26,7 +26,11 @@ a.card .card-img-overlay {
 }
 
 a.card .card-footer {
-  /* To make sure the footer visible, use a higher z-index than .card-img-overlay */
+  // z-index only works on positioned elements...
+  // Note: it seems to work in Chrome w/o having to set this... */
+  position: relative;
+
+  // To make sure the footer visible, use a higher z-index than .card-img-overlay
   z-index: 1000;
 }
 
