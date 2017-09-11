@@ -4,6 +4,7 @@ title: Visualizing usability data with a heat map in R
 tags: r ux visualization
 excerpt: Usability testing is a great way to identify potential problems with an interface. Quantifying the results can help illustrate what's not working and to what extent. One common usability metric is the number of users who successfully (or unsuccessfully) complete a task....
 js:
+- https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 - https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js
 ---
 
