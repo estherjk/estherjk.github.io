@@ -13,12 +13,10 @@ For my first project with Arduino 101, I wanted to combine it with Edison. The t
 
 Hopefully, this sounds vaguely familiar&mdash;what I've described is the Internet of Things (IoT).
 
-<div class="card mb-3">
-  <img class="card-img-top" src="/assets/img/edison/edison-arduino101-iot-conceptual.png" alt="Conceptual IoT diagram with Edison and Arduino 101">
-  <div class="card-body text-center">
-    <p class="card-text">Conceptual IoT diagram with Edison and Arduino 101</p>
-  </div>
-</div>
+<figure class="figure">
+  <img class="figure-img img-fluid border rounded" src="/assets/img/edison/edison-arduino101-iot-conceptual.png" alt="Conceptual IoT diagram with Edison and Arduino 101">
+  <figcaption class="figure-caption text-center">Conceptual IoT diagram with Edison and Arduino 101</figcaption>
+</figure>
 
 ## How the demo works
 
@@ -26,12 +24,10 @@ My demo illustrates a simple IoT example by displaying an Arduino 101's IMU (acc
 
 Here's a picture that illustrates the demo's archiecture:
 
-<div class="card mb-3">
-  <img class="card-img-top" src="https://raw.githubusercontent.com/drejkim/edison-arduino101-iot/master/images/edison-arduino101-iot.png" alt="Demo archiecture diagram">
-  <div class="card-body text-center">
-    <p class="card-text">Demo archiecture diagram; see <a href="https://github.com/drejkim/edison-arduino101-iot">GitHub</a> for the source code</p>
-  </div>
-</div>
+<figure class="figure">
+  <img class="figure-img img-fluid border rounded" src="https://raw.githubusercontent.com/drejkim/edison-arduino101-iot/master/images/edison-arduino101-iot.png" alt="Demo archiecture diagram">
+  <figcaption class="figure-caption text-center">Demo archiecture diagram; see <a class="text-dark" href="https://github.com/drejkim/edison-arduino101-iot">GitHub</a> for the source code</figcaption>
+</figure>
 
 ### BLE on Arduino 101
 
@@ -47,12 +43,10 @@ The web server&mdash;which also uses Node.js and [socket.io](http://socket.io/)&
 
 <div class="row justify-content-center mb-3">
   <div class="col-sm-6">
-    <div class="card mb-3">
-      <img class="card-img-top" src="/assets/img/edison/edison-arduino101-iot-web-client.png" alt="Demo archiecture diagram">
-      <div class="card-body text-center">
-        <p class="card-text">Screenshot of the web client</p>
-      </div>
-    </div>
+    <figure class="figure">
+      <img class="figure-img img-fluid border rounded" src="/assets/img/edison/edison-arduino101-iot-web-client.png" alt="Demo archiecture diagram">
+      <figcaption class="figure-caption text-center">Screenshot of the web client</figcaption>
+    </figure>
   </div>
 </div>
 

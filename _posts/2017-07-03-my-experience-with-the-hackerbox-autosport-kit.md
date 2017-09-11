@@ -11,12 +11,10 @@ excerpt: HackerBoxes is a DIY electronics monthly subscription service ($44 per 
 
 ## What comes in the box
 
-<div class="card mb-3">
-  <img class="card-img-top" src="https://pbs.twimg.com/media/DDhtiQ6WAAA5fOb.jpg:large" alt="Contents of the HackerBox Autosport kit">
-  <div class="card-body text-center">
-    <p class="card-text">Contents of the HackerBox Autosport kit</p>
-  </div>
-</div>
+<figure class="figure">
+  <img class="figure-img img-fluid rounded" src="https://pbs.twimg.com/media/DDhtiQ6WAAA5fOb.jpg:large" alt="Contents of the HackerBox Autosport kit">
+  <figcaption class="figure-caption text-center">Contents of the HackerBox Autosport kit</figcaption>
+</figure>
 
 The box includes:
 

@@ -16,12 +16,10 @@ My first Particle project measures temperature and humidity using a [DHT11](http
 
 The end result is a realtime dashboard that measures the temperature and humidity in my house! Here's a screenshot:
 
-<div class="card mb-3">
-  <img class="card-img-top" src="https://raw.githubusercontent.com/drejkim/particle-weather-station/master/img/ubidots.png" alt="Screenshot of the Ubidots dashboard">
-  <div class="card-body text-center">
-    <p class="card-text">Screenshot of the Ubidots dashboard</p>
-  </div>
-</div>
+<figure class="figure">
+  <img class="figure-img img-fluid border rounded" src="https://raw.githubusercontent.com/drejkim/particle-weather-station/master/img/ubidots.png" alt="Screenshot of the Ubidots dashboard">
+  <figcaption class="figure-caption text-center">Screenshot of the Ubidots dashboard</figcaption>
+</figure>
 
 ## How it works
 
