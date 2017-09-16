@@ -1,5 +1,5 @@
 AndroidWearMotionSensors:
-  category: android
+  category: software
   url: /projects/AndroidWearMotionSensors/
   img: /assets/img/projects/AndroidWearMotionSensors.jpg
   description: Using the accelerometer and gyroscope on an Android Wear device
@@ -44,7 +44,7 @@ edison-arduino101-iot:
       url: /blog/2016/04/08/using-edison-and-arduino-101-together
 
 face-detection-node-opencv:
-  category: web
+  category: software
   url: /projects/face-detection-node-opencv/
   img: /assets/img/projects/face-detection-node-opencv.jpg
   description: Real-time face detection using OpenCV, Node.js, and WebSockets
@@ -59,7 +59,7 @@ face-detection-node-opencv:
       url: /blog/2014/12/02/real-time-face-detection-using-opencv-nodejs-and-websockets
 
 frogger:
-  category: web
+  category: software
   url: /projects/frogger/
   img: /assets/img/projects/frogger.jpg
   description: My final project for Udacity's Object-Oriented JavaScript class
@@ -120,7 +120,7 @@ LediMote:
       url: /blog/2015/06/25/ledimote-remote-controlled-leds-using-intel-edison-and-nodejs
 
 multi-screen-demo:
-  category: web
+  category: software
   url: /projects/multi-screen-demo/
   img: /assets/img/projects/multi-screen-demo.jpg
   description: Controlling your PC web browser from your mobile phone
@@ -199,7 +199,7 @@ particle-weather-station-alexa:
       url: /blog/2016/08/30/asking-alexa-for-the-temperature-and-humidity-from-a-particle-photon
 
 Reading Quantified:
-  category: web
+  category: software
   url: /projects/reading-quantified/
   img: /assets/img/projects/reading-quantified.jpg
   description: A dashboard for analyzing my reading habits
@@ -218,7 +218,7 @@ Reading Quantified:
   showcase: true
 
 rte-angular:
-  category: web
+  category: software
   url: /projects/rte-angular/
   img: /assets/img/projects/rte-angular.jpg
   description: An AngularJS rich-text editor

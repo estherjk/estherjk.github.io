@@ -1,6 +1,4 @@
 - category: hardware
   title: Hardware Projects
-- category: web
-  title: Web Projects
-- category: android
-  title: Android Projects
+- category: software
+  title: Software Projects
