@@ -1,0 +1,15 @@
+- url: http://www.linkedin.com/in/estherjunkim
+  icon: fa fa-linkedin-square
+  icon-lg: fa fa-3x fa-linkedin-square
+- url: https://scholar.google.com/citations?hl=en&user=QfQuFmgAAAAJ
+  icon: ai ai-google-scholar-square
+  icon-lg: ai ai-3x ai-google-scholar-square
+- url: https://github.com/drejkim
+  icon: fa fa-github-square
+  icon-lg: fa fa-3x fa-github-square
+- url: https://www.youtube.com/c/estherkimdr
+  icon: fa fa-youtube-square
+  icon-lg: fa fa-3x fa-youtube-square
+- url: https://twitter.com/drejkim
+  icon: fa fa-twitter-square
+  icon-lg: fa fa-3x fa-twitter-square

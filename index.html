@@ -10,31 +10,13 @@ title: Esther Jun Kim
     <h1 class="display-4">Hi, I'm Esther Jun Kim.</h1>
 
     <ul class="list-inline mt-3">
+      {% for item in site.data.social-media %}
       <li class="list-inline-item">
-        <a class="text-secondary" href="http://www.linkedin.com/in/estherjunkim">
-          <i class="fa fa-3x fa-linkedin-square"></i>
+        <a class="text-secondary" href="{{ item.url }}">
+          <i class="{{ item.icon-lg }}"></i>
         </a>
       </li>
-      <li class="list-inline-item">
-        <a class="text-secondary" href="https://scholar.google.com/citations?hl=en&user=QfQuFmgAAAAJ">
-          <i class="ai fa-3x ai-google-scholar-square"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="text-secondary" href="https://github.com/drejkim">
-          <i class="fa fa-3x fa-github-square"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="text-secondary" href="https://www.youtube.com/c/estherkimdr">
-          <i class="fa fa-3x fa-youtube-square"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="text-secondary" href="https://twitter.com/drejkim">
-          <i class="fa fa-3x fa-twitter-square"></i>
-        </a>
-      </li>
+      {% endfor%}
     </ul>
   </div>
 </div>

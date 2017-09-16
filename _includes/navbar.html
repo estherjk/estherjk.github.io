@@ -25,31 +25,13 @@
     </ul>
 
     <ul class="nav navbar-nav ml-auto">
-        <li>
-          <a class="nav-link" href="http://www.linkedin.com/in/estherjunkim">
-            <i class="fa fa-linkedin-square"></i>
-          </a>
-        </li>
-        <li>
-          <a class="nav-link" href="https://scholar.google.com/citations?hl=en&user=QfQuFmgAAAAJ">
-            <i class="ai ai-google-scholar-square"></i>
-          </a>
-        </li>
-        <li>
-          <a class="nav-link" href="https://github.com/drejkim">
-            <i class="fa fa-github-square"></i>
-          </a>
-        </li>
-        <li>
-          <a class="nav-link" href="https://www.youtube.com/c/estherkimdr">
-            <i class="fa fa-youtube-square"></i>
-          </a>
-        </li>
-        <li>
-          <a class="nav-link" href="https://twitter.com/drejkim">
-            <i class="fa fa-twitter-square"></i>
-          </a>
-        </li>
-      </ul>
+      {% for item in site.data.social-media %}
+      <li>
+        <a class="nav-link" href="{{ item.url }}">
+          <i class="{{ item.icon }}"></i>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 </nav>
