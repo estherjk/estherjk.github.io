@@ -3,11 +3,16 @@
 # Only main files contain this front matter, not partials.
 ---
 
-/* Bootstrap and extensions */
+/* My custom bootsrap variables... this needs to be imported before bootstrap */
+@import "bootstrap_extensions/variables";
+
+/* Bootstrap */
 @import "bootstrap/bootstrap";
-@import "extensions/card";
-@import "extensions/code";
-@import "extensions/text";
+
+/* My bootstrap extensions */
+@import "bootstrap_extensions/card";
+@import "bootstrap_extensions/code";
+@import "bootstrap_extensions/text";
 
 /* Dracula theme for code syntax higlighting */
 @import "dracula/dracula";
