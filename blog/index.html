@@ -10,7 +10,7 @@ title: Blog
         <tbody>
           {% for post in site.posts %}
           <tr>
-            <td class="align-middle"><span class="text-monospace text-muted">{{ post.date | date: "%d %b %Y" }}</span></td>
+            <td class="align-middle text-nowrap"><span class="text-monospace text-muted">{{ post.date | date: "%d %b %Y" }}</span></td>
             <td class="align-middle"><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>
           {% endfor %}
