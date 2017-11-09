@@ -3,21 +3,23 @@ layout: default
 title: Esther Jun Kim
 ---
 
-<div class="jumbotron">
-  <img class="rounded-circle mx-auto d-block mb-3" style="width: 200px;" src="/assets/img/headshot/esther.jpg" alt="Photo of Esther Jun Kim">
-
-  <div class="text-center">
-    <h1 class="display-4">Hi, I'm Esther Jun Kim.</h1>
-
-    <ul class="list-inline mt-3">
-      {% for item in site.data.social-media %}
-      <li class="list-inline-item">
-        <a class="text-secondary" href="{{ item.url }}">
-          <i class="{{ item.icon-lg }}"></i>
-        </a>
-      </li>
-      {% endfor%}
-    </ul>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <img class="rounded-circle mx-auto d-block mb-3" style="width: 200px;" src="/assets/img/headshot/esther.jpg" alt="Photo of Esther Jun Kim">
+    
+    <div class="text-center">
+      <h1 class="display-4">Hi, I'm Esther Jun Kim.</h1>
+  
+      <ul class="list-inline mt-3">
+        {% for item in site.data.social-media %}
+        <li class="list-inline-item">
+          <a class="text-secondary" href="{{ item.url }}">
+            <i class="{{ item.icon-lg }}"></i>
+          </a>
+        </li>
+        {% endfor%}
+      </ul>
+    </div>
   </div>
 </div>
 
