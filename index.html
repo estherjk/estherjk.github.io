@@ -3,39 +3,16 @@ layout: default
 title: Esther Jun Kim
 ---
 
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <img class="rounded-circle mx-auto d-block mb-3" style="width: 200px;" src="/assets/img/headshot/esther.jpg" alt="Photo of Esther Jun Kim">
-    
-    <div class="text-center">
-      <h1 class="display-4">Hi, I'm Esther Jun Kim.</h1>
+<div class="container mt-5">
+  <img class="rounded-circle mx-auto d-block mb-3" style="width: 200px;" src="/assets/img/headshot/esther.jpg" alt="Photo of Esther Jun Kim">
   
-      <ul class="list-inline mt-3">
-        {% for item in site.data.social-media %}
-        <li class="list-inline-item">
-          <a class="text-secondary" href="{{ item.url }}">
-            <i class="{{ item.icon-lg }}"></i>
-          </a>
-        </li>
-        {% endfor%}
-      </ul>
-    </div>
-  </div>
-</div>
+  <div class="text-center">
+    <h1 class="display-4">Hi, I'm Esther Jun Kim.</h1>
+    <p class="lead">I make things from time to time.</p>
 
-<div class="container text-center">
-  <div class="row">
-    <div class="col-sm mt-5 mb-5">
-      <i class="fa fa-cogs fa-5x mb-3" aria-hidden="true"></i>
-      <h2>Maker</h2>
-      <p class="lead">I make open source demos and hacks.</p>
-      <a class="btn btn-outline-primary btn-lg" href="/projects">See projects</a>
-    </div>
-    <div class="col-sm mt-5 mb-5">
-        <i class="fa fa-pencil-square-o fa-5x mb-3" aria-hidden="true"></i>
-      <h2>Writer</h2>
-      <p class="lead">I write about code, UX, and more.</p>
-      <a class="btn btn-outline-primary btn-lg" href="/blog">See blog</a>
+    <div class="d-flex justify-content-center flex-column flex-md-row">
+      <a href="/projects" class="btn btn-outline-primary btn-lg mb-3 mb-md-0 mr-md-3">Projects</a>
+      <a href="/blog" class="btn btn-outline-primary btn-lg">Blog</a>
     </div>
   </div>
 </div>
