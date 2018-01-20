@@ -7,10 +7,10 @@ AndroidWearMotionSensors:
   youtube: https://www.youtube.com/embed/Yxne6YWGbE0
   links:
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/AndroidWearMotionSensors
     -
-      name: View blog post
+      name: Blog
       url: /blog/2015/02/04/motion-sensors-on-android-wear
 
 edi-cam:
@@ -22,10 +22,10 @@ edi-cam:
   youtube: http://www.youtube.com/embed/nVDL2-bFT3Y
   links:
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/edi-cam
     -
-      name: View blog post
+      name: Blog
       url: /blog/2014/12/08/video-streaming-on-edison
 
 edison-arduino101-iot:
@@ -37,10 +37,10 @@ edison-arduino101-iot:
   youtube: https://www.youtube.com/embed/NRZZRsqJQWY
   links:
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/edison-arduino101-iot
     -
-      name: View blog post
+      name: Blog
       url: /blog/2016/04/08/using-edison-and-arduino-101-together
 
 face-detection-node-opencv:
@@ -52,10 +52,10 @@ face-detection-node-opencv:
   youtube: https://www.youtube.com/embed/v2SY0naPBFw
   links:
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/face-detection-node-opencv
     -
-      name: View blog post
+      name: Blog
       url: /blog/2014/12/02/real-time-face-detection-using-opencv-nodejs-and-websockets
 
 frogger:
@@ -67,10 +67,10 @@ frogger:
   youtube: https://www.youtube.com/embed/dIu40myH9CY
   links:
     -
-      name: View site
+      name: Site
       url: http://drejkim.com/frogger/
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/frogger
 
 HackerBoxCar:
@@ -82,10 +82,10 @@ HackerBoxCar:
   youtube: https://www.youtube.com/embed/K7Yosm08pu0
   links:
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/HackerBoxCar
     -
-      name: View blog post
+      name: Blog
       url: /blog/2017/07/03/my-experience-with-the-hackerbox-autosport-kit/
   showcase: true
 
@@ -98,10 +98,10 @@ led-speech-edison:
   youtube: https://www.youtube.com/embed/kVTV_qZtwlY
   links:
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/led-speech-edison
     -
-      name: View blog post
+      name: Blog
       url: /blog/2015/04/15/speech-activated-leds-using-intel-edison
 
 LediMote:
@@ -113,10 +113,10 @@ LediMote:
   youtube: https://www.youtube.com/embed/i61g4aYkrI0
   links:
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/LediMote
     -
-      name: View blog post
+      name: Blog
       url: /blog/2015/06/25/ledimote-remote-controlled-leds-using-intel-edison-and-nodejs
 
 multi-screen-demo:
@@ -128,13 +128,13 @@ multi-screen-demo:
   youtube: https://www.youtube.com/embed/7O-rgDwTI9I
   links:
     -
-      name: View site
+      name: Site
       url: http://multi-screen-demo.herokuapp.com/
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/multi-screen-demo
     -
-      name: View blog post
+      name: Blog
       url: /blog/2014/02/24/using-websockets-for-developing-multi-screen-user-experiences
 
 O Holy Night:
@@ -146,10 +146,10 @@ O Holy Night:
   youtube: https://www.youtube.com/embed/TUcphhJK0uM
   links:
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/o-holy-night
     -
-      name: View blog post
+      name: Blog
       url: /blog/2016/12/23/o-holy-night/
 
 particle-light-alexa:
@@ -161,10 +161,10 @@ particle-light-alexa:
   youtube: https://www.youtube.com/embed/y9VvusYF1sg
   links:
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/particle-light-alexa
     -
-      name: View blog post
+      name: Blog
       url: /blog/2016/09/10/alexa-turn-on-the-light/
   showcase: true
 
@@ -177,10 +177,10 @@ particle-weather-station:
   youtube: https://www.youtube.com/embed/XKxeXtfn4MM
   links:
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/particle-weather-station
     -
-      name: View blog post
+      name: Blog
       url: /blog/2016/05/25/monitoring-temperature-and-humidity-using-the-particle-photon
 
 particle-weather-station-alexa:
@@ -192,10 +192,10 @@ particle-weather-station-alexa:
   youtube: https://www.youtube.com/embed/j5CpMcM5yRI
   links:
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/particle-weather-station-alexa
     -
-      name: View blog post
+      name: Blog
       url: /blog/2016/08/30/asking-alexa-for-the-temperature-and-humidity-from-a-particle-photon
 
 Reading Quantified:
@@ -207,13 +207,13 @@ Reading Quantified:
   youtube: https://www.youtube.com/embed/NoB-0xQAeqY
   links:
     -
-      name: View site
+      name: Site
       url: http://drejkim.com/reading-quantified/
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/reading-quantified
     -
-      name: View blog post
+      name: Blog
       url: /blog/2017/04/11/redesigning-reading-quantified
   showcase: true
 
@@ -226,8 +226,8 @@ rte-angular:
   youtube: https://www.youtube.com/embed/G9czu0WwKVA
   links:
     -
-      name: View site
+      name: Site
       url: http://drejkim.com/rte-angular/
     -
-      name: View on GitHub
+      name: GitHub
       url: https://github.com/drejkim/rte-angular
