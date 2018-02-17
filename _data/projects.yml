@@ -152,6 +152,18 @@ O Holy Night:
       name: Blog
       url: /blog/2016/12/23/o-holy-night/
 
+ok-google-pi-zero:
+  category: hardware
+  url: /projects/ok-google-pi-zero/
+  img: /assets/img/projects/ok-google-pi-zero.jpg
+  description: Using the Google Assistant SDK on a Raspberry Pi Zero W
+  excerpt: In other words, I'm making my own Google Home Mini. This project is still a work in progress, but the plan is to flesh it out and extend its capabilities.
+  youtube: https://www.youtube.com/embed/ciiGTOzrDcc
+  links:
+    -
+      name: GitHub
+      url: https://github.com/drejkim/ok-google-pi-zero
+
 particle-light-alexa:
   category: hardware
   url: /projects/particle-light-alexa/
