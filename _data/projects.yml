@@ -73,6 +73,18 @@ frogger:
       name: GitHub
       url: https://github.com/drejkim/frogger
 
+google-assistant-show:
+  category: hardware
+  url: /projects/google-assistant-show/
+  img: /assets/img/projects/google-assistant-show.jpg
+  description: Using the Android Things Kit to create a touch screen interface for Google Assistant
+  excerpt: Google Assistant Show is a touch interface for Google Assistant. The NXP i.MX7D Starter Kit was used for this project. It comes with a touch display, 3.5 mm analog output (for audio), and a USB port (for this project, a USB mic was connected to it). How it works... a user taps the button on the touch display to start the request, the user says something, and Google responds! The display also updates with the request and response.
+  youtube: https://www.youtube.com/embed/Igml_TgM1L8
+  links:
+    -
+      name: GitHub
+      url: https://github.com/drejkim/google-assistant-show
+
 HackerBoxCar:
   category: hardware
   url: /projects/HackerBoxCar/
