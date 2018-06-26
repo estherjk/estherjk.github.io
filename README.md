@@ -1,6 +1,6 @@
 # About
 
-This is the source code for Esther Jun Kim's personal website, [drejkim.com](http://drejkim.com).
+This is the source code for Esther Jun Kim's personal website.
 
 ## Setting up GitHub Pages locally with Jekyll
 
