@@ -14,7 +14,7 @@ A few years ago, Barnes & Noble gave out free ebooks to promote their Classics E
   <figcaption class="figure-caption text-center">Screenshot of my <a class="text-dark" href="https://trello.com/b/mgqBN7ZV">Trello Books</a> board</figcaption>
 </figure>
 
-So far, Trello has been great. It has given me a visual way to organize my books. But not long after I started using it, I wanted to track my progress in more detail. I wanted to know how many books I've read so far, how long it takes me to read a book, etc. This information isn't readily available by looking at my board. As a result, I decided to create a dashboard that accomplishes just that: [Reading Quantified](http://www.drejkim.com/reading-quantified).
+So far, Trello has been great. It has given me a visual way to organize my books. But not long after I started using it, I wanted to track my progress in more detail. I wanted to know how many books I've read so far, how long it takes me to read a book, etc. This information isn't readily available by looking at my board. As a result, I decided to create a dashboard that accomplishes just that: [Reading Quantified](http://www.esthermakes.tech/reading-quantified).
 
 ## How it works
 
@@ -29,7 +29,7 @@ The second step grabs the data from Parse and visualizes key metrics on a web-ba
 
 <figure class="figure">
   <img class="figure-img img-fluid border rounded" src="/assets/img/reading-quantified/dashboard.png" alt="Reading Quantified dashboard">
-  <figcaption class="figure-caption text-center">Screenshot of <a class="text-dark" href="http://www.drejkim.com/reading-quantified">Reading Quantified</a> (v0.1)</figcaption>
+  <figcaption class="figure-caption text-center">Screenshot of <a class="text-dark" href="http://www.esthermakes.tech/reading-quantified">Reading Quantified</a> (v0.1)</figcaption>
 </figure>
 
 At the moment, the dashboard indicates I have finished one book. If you look at my board, you can see there are a number of finished books. Long story short, when I started this project, there was a mishap, and I lost all the activities of my old cards when I copied and moved them into my public Books board. It's okay though! I may be starting over at one, but it gives me extra motivation to continue going through my list of books.

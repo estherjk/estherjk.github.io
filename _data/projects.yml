@@ -68,7 +68,7 @@ frogger:
   links:
     -
       name: Site
-      url: http://drejkim.com/frogger/
+      url: http://esthermakes.tech/frogger/
     -
       name: GitHub
       url: https://github.com/drejkim/frogger
@@ -232,7 +232,7 @@ Reading Quantified:
   links:
     -
       name: Site
-      url: http://drejkim.com/reading-quantified/
+      url: http://esthermakes.tech/reading-quantified/
     -
       name: GitHub
       url: https://github.com/drejkim/reading-quantified
@@ -251,7 +251,7 @@ rte-angular:
   links:
     -
       name: Site
-      url: http://drejkim.com/rte-angular/
+      url: http://esthermakes.tech/rte-angular/
     -
       name: GitHub
       url: https://github.com/drejkim/rte-angular
