@@ -1,0 +1,14 @@
+.background-tech {
+    background:
+        linear-gradient(
+            rgba(248, 249, 250, 0.5), 
+            rgba(248, 249, 250, 0.5), 
+        ), 
+        url('/assets/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Height of viewport minus the navbar and footer heights */
+    min-height: calc(100vh - 116px);
+}
