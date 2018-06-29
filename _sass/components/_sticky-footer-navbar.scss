@@ -6,12 +6,8 @@ html {
 body {
   /* Height of fixed navbar */
   padding-top: 56px;
-
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-
-  /* Additional padding to give some breathing room at the bottom */
-  // padding-bottom: 40px;
 }
 
 .footer {
@@ -20,5 +16,6 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  line-height: 60px; /* Vertically center the text there */
+  /* Vertically center the text there */
+  line-height: 60px;
 }
