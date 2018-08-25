@@ -17,7 +17,7 @@ On a number of occasions, I've been asked what tools I use while I code. Here's 
 My goto editor is [Visual Studio Code](https://code.visualstudio.com/) (Code for short). I rarely have to leave it thanks to the integrated Terminal support, which also picks up my shell of choice: [Zsh (Z shell)](https://en.wikipedia.org/wiki/Z_shell). It also has extensions for the major languages and frameworks.
 
 <figure class="figure">
-  <img class="figure-img img-fluid border rounded" src="/assets/img/tools/visual-studio-code.png" alt="Visual Studio Code">
+  <img class="figure-img img-fluid border rounded" src="https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/tools/visual-studio-code.png" alt="Visual Studio Code">
   <figcaption class="figure-caption text-center">Visual Studio Code</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ My goto editor is [Visual Studio Code](https://code.visualstudio.com/) (Code for
 While Code does have basic Git integration, I prefer using a separate Git GUI. I also like having a visual representation of what's happening with Git, which can be obscured when using the command line. I used [Sourcetree](https://www.sourcetreeapp.com/) for many years, but recently made the switch to [GitKraken](https://www.gitkraken.com/). For all my open source coding projects, I use the free version, which has been more than sufficient for my needs.
 
 <figure class="figure">
-  <img class="figure-img img-fluid border rounded" src="/assets/img/tools/gitkraken.png" alt="GitKraken">
+  <img class="figure-img img-fluid border rounded" src="https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/tools/gitkraken.png" alt="GitKraken">
   <figcaption class="figure-caption text-center">GitKraken</figcaption>
 </figure>
 

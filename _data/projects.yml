@@ -1,7 +1,7 @@
 AndroidWearMotionSensors:
   category: software
   url: /projects/AndroidWearMotionSensors/
-  img: /assets/img/projects/AndroidWearMotionSensors.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/AndroidWearMotionSensors.jpg
   description: Using the accelerometer and gyroscope on an Android Wear device
   excerpt: This project displays the raw accelerometer and gyroscope data on an Android Wear device. It also performs simple motion detection&mdash;when a shake or rotation is detected, the background color turns green.
   youtube: https://www.youtube.com/embed/Yxne6YWGbE0
@@ -16,7 +16,7 @@ AndroidWearMotionSensors:
 edi-cam:
   category: hardware
   url: /projects/edi-cam/
-  img: /assets/img/projects/edi-cam.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/edi-cam.jpg
   description: Video streaming on Intel Edison
   excerpt: This project shows how to stream video to a web browser from a webcam connected to Intel Edison, all while powered by a 9V battery. A Node.js server on Edison listens for the incoming video stream and broadcasts it to all connected browsers via WebSockets. On the client-side, the video is then decoded using jsmpeg and rendered onto an HTML canvas element.
   youtube: http://www.youtube.com/embed/nVDL2-bFT3Y
@@ -31,7 +31,7 @@ edi-cam:
 edison-arduino101-iot:
   category: hardware
   url: /projects/edison-arduino101-iot/
-  img: /assets/img/projects/edison-arduino101-iot.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/edison-arduino101-iot.jpg
   description: Edison + Arduino 101 IoT demo
   excerpt: This demo illustrates a simple IoT example by displaying an Arduino 101's IMU (accelerometer / gyroscope) data on a web page. In order to do this, an Intel Edison module is used to receive the data from the Arduino 101 via BLE (Bluetooth Low Energy), then sends it to a web server via WebSockets.
   youtube: https://www.youtube.com/embed/NRZZRsqJQWY
@@ -46,7 +46,7 @@ edison-arduino101-iot:
 face-detection-node-opencv:
   category: software
   url: /projects/face-detection-node-opencv/
-  img: /assets/img/projects/face-detection-node-opencv.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/face-detection-node-opencv.jpg
   description: Real-time face detection using OpenCV, Node.js, and WebSockets
   excerpt: This project performs real-time face detection by using the Node.js bindings for OpenCV. The processed frames are then streamed to a web browser using WebSockets.
   youtube: https://www.youtube.com/embed/v2SY0naPBFw
@@ -61,7 +61,7 @@ face-detection-node-opencv:
 frogger:
   category: software
   url: /projects/frogger/
-  img: /assets/img/projects/frogger.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/frogger.jpg
   description: My final project for Udacity's Object-Oriented JavaScript class
   excerpt: The purpose of this class is to learn the best practices of object-oriented JavaScript by building an implementation of the classic arcade game, Frogger.
   youtube: https://www.youtube.com/embed/dIu40myH9CY
@@ -76,7 +76,7 @@ frogger:
 google-assistant-show:
   category: hardware
   url: /projects/google-assistant-show/
-  img: /assets/img/projects/google-assistant-show.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/google-assistant-show.jpg
   description: Using the Android Things Kit to create a touch screen interface for Google Assistant
   excerpt: Google Assistant Show is a touch interface for Google Assistant. The NXP i.MX7D Starter Kit was used for this project. It comes with a touch display, 3.5 mm analog output (for audio), and a USB port (for this project, a USB mic was connected to it). How it works... a user taps the button on the touch display to start the request, the user says something, and Google responds! The display also updates with the request and response.
   youtube: https://www.youtube.com/embed/Igml_TgM1L8
@@ -88,7 +88,7 @@ google-assistant-show:
 HackerBoxCar:
   category: hardware
   url: /projects/HackerBoxCar/
-  img: /assets/img/projects/HackerBoxCar.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/HackerBoxCar.jpg
   description: My implementation of the Autosport HackerBox
   excerpt: The project uses the Autosport HackerBox kit and is capable of three modes... remote control, line-following, and autonomous. In remote-control mode, the car uses a companion mobile app to control its movements. In line-following mode, a pair of IR sensors detect a black line to control its path. In autonomous mode, an ultrasonic range sensor detects objects and attempts to avoid them.
   youtube: https://www.youtube.com/embed/K7Yosm08pu0
@@ -104,7 +104,7 @@ HackerBoxCar:
 led-speech-edison:
   category: hardware
   url: /projects/led-speech-edison/
-  img: /assets/img/projects/led-speech-edison.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/led-speech-edison.jpg
   description: Speech-activated LEDs using Intel Edison, SparkFun blocks, Python, and CMU Sphinx
   excerpt: This project combines basic circuit design and Python programming to control 4 LEDs by speech. It also uses CMU Sphinx, a speech recognition engine from Carnegie Mellon University.
   youtube: https://www.youtube.com/embed/kVTV_qZtwlY
@@ -119,7 +119,7 @@ led-speech-edison:
 LediMote:
   category: hardware
   url: /projects/LediMote/
-  img: /assets/img/projects/LediMote.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/LediMote.jpg
   description: Remote-controlled LEDs using Intel Edison and Node.js (for web, iOS, and Android)
   excerpt: This project illustrates how to turn on and off LEDs from a web page, an iOS app, or an Android app using Intel Edison.
   youtube: https://www.youtube.com/embed/i61g4aYkrI0
@@ -134,7 +134,7 @@ LediMote:
 multi-screen-demo:
   category: software
   url: /projects/multi-screen-demo/
-  img: /assets/img/projects/multi-screen-demo.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/multi-screen-demo.jpg
   description: Controlling your PC web browser from your mobile phone
   excerpt: multi-screen-demo is a Node.js / AngularJS app that uses socket.io (WebSockets) to pair a mobile and a PC. The app contains two demos. The first uses gestures on a mobile and shows the detected events on a paired PC. The second uses a simple D-pad controller on a mobile to move a target around on a paired PC.
   youtube: https://www.youtube.com/embed/7O-rgDwTI9I
@@ -152,7 +152,7 @@ multi-screen-demo:
 O Holy Night:
   category: hardware
   url: /projects/o-holy-night/
-  img: /assets/img/projects/o-holy-night.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/o-holy-night.jpg
   description: Recreating the Nativity Scene using the Particle Photon and NeoPixels
   excerpt: This project uses familiar ingredients, namely the Particle Photon and NeoPixels, and some paper cutouts to recreate the Nativity Scene. The lights are controlled with a custom iOS app.
   youtube: https://www.youtube.com/embed/TUcphhJK0uM
@@ -167,7 +167,7 @@ O Holy Night:
 ok-google-pi-zero:
   category: hardware
   url: /projects/ok-google-pi-zero/
-  img: /assets/img/projects/ok-google-pi-zero.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/ok-google-pi-zero.jpg
   description: Using the Google Assistant SDK on a Raspberry Pi Zero W
   excerpt: In other words, I'm making my own Google Home Mini. This project is still a work in progress, but the plan is to flesh it out and extend its capabilities.
   youtube: https://www.youtube.com/embed/ciiGTOzrDcc
@@ -179,7 +179,7 @@ ok-google-pi-zero:
 particle-light-alexa:
   category: hardware
   url: /projects/particle-light-alexa/
-  img: /assets/img/projects/particle-light-alexa.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/particle-light-alexa.jpg
   description: Asking Amazon Alexa to control a light ft. NeoPixels and Particle Photon
   excerpt: Ask Amazon Alexa to control a light. In this case, the "light" is a NeoPixel ring connected to a Particle Photon. The functions to control the light are exposed through the <a href="https://docs.particle.io/reference/firmware/photon/#particle-function-">Particle Cloud</a>. The Alexa skill then calls the functions using the <a href="https://docs.particle.io/reference/javascript/#callfunction">JavaScript Particle API</a>. This project has also been featured on <a href="https://blog.hackster.io/hacksters-handpicked-projects-of-the-week-c8045ee5cfe5">Hackster's Handpicked Projects of the Week</a>.
   youtube: https://www.youtube.com/embed/y9VvusYF1sg
@@ -195,7 +195,7 @@ particle-light-alexa:
 particle-weather-station:
   category: hardware
   url: /projects/particle-weather-station/
-  img: /assets/img/projects/particle-weather-station.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/particle-weather-station.jpg
   description: Monitoring temperature and humidity using the Particle Photon
   excerpt: Create your own weather station with the Particle Photon board. A DHT11 sensor is used to measure temperature and humidity. Ubidots, a cloud service, is then used to visualize the data in real time.
   youtube: https://www.youtube.com/embed/XKxeXtfn4MM
@@ -210,7 +210,7 @@ particle-weather-station:
 particle-weather-station-alexa:
   category: hardware
   url: /projects/particle-weather-station-alexa/
-  img: /assets/img/projects/particle-weather-station-alexa.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/particle-weather-station-alexa.jpg
   description: Asking Amazon Alexa for the temperature and humidity from a Particle Photon
   excerpt: This project integrates Amazon Alexa to the original <a href="/projects/particle-weather-station/">particle-weather-station</a> project. Instead of visualizing the data on a dashboard, you can ask Alexa for the current temperature or humidity. To communicate the data between Particle and Alexa, the variables are exposed through the <a href="https://docs.particle.io/reference/firmware/photon/#particle-variable-">Particle Cloud</a>, then the Alexa skill gets the data using the <a href="https://docs.particle.io/reference/javascript/">JavaScript Particle API</a>.
   youtube: https://www.youtube.com/embed/j5CpMcM5yRI
@@ -225,7 +225,7 @@ particle-weather-station-alexa:
 Reading Quantified:
   category: software
   url: /projects/reading-quantified/
-  img: /assets/img/projects/reading-quantified.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/reading-quantified.jpg
   description: A dashboard for analyzing my reading habits
   excerpt: This project analyzes and visualizes my reading habits. The book information is stored on Trello, and Python is used to parse, analyze, and store the data in a database. The web app uses AngularJS and d3.js to visualize the data on a dashboard. The backend is powered by Parse Server and is hosted on Heroku.
   youtube: https://www.youtube.com/embed/NoB-0xQAeqY
@@ -244,7 +244,7 @@ Reading Quantified:
 rte-angular:
   category: software
   url: /projects/rte-angular/
-  img: /assets/img/projects/rte-angular.jpg
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/rte-angular.jpg
   description: An AngularJS rich-text editor
   excerpt: This is a custom AngularJS directive for adding a rich-text editor to your web page. It includes all the basic text formatting options, as well as the ability to include image and video links.
   youtube: https://www.youtube.com/embed/G9czu0WwKVA

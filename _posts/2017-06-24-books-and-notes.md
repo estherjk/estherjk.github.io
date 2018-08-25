@@ -14,7 +14,7 @@ Reading is one of the best ways to learn. But, if you're like me and don't have 
 When it comes to reading non-fiction books, especially technology, design, or business books, I like to take notes while I read. Since I switched to digital books a few years ago, I've relied heavily on using the split-screen feature of my iPad: the left side contains my e-book and the right side contains my notes:
 
 <figure class="figure">
-  <img class="figure-img img-fluid border rounded" src="/assets/img/books-and-notes/books-and-notes-non-fiction.PNG" alt="Taking notes when reading non-fiction">
+  <img class="figure-img img-fluid border rounded" src="https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/books-and-notes/books-and-notes-non-fiction.PNG" alt="Taking notes when reading non-fiction">
   <figcaption class="figure-caption text-center">Taking notes when reading non-fiction</figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ When something piques my interest, I'll jot it down. It might be a direct quote,
 When it comes to reading fiction, I normally like to stay in the moment and just read. I'll occasionally highlight something if it's of interest to me, but primarily, I just want to enjoy the novel. Once I'm finished, I'll then write a summary of what I've read... similar to your grade school book reports... only this time, I'm not doing it begrudgingly or for earning a grade. :)
 
 <figure class="figure">
-  <img class="figure-img img-fluid border rounded" src="/assets/img/books-and-notes/books-and-notes-fiction.PNG" alt="Taking notes when reading fiction">
+  <img class="figure-img img-fluid border rounded" src="https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/books-and-notes/books-and-notes-fiction.PNG" alt="Taking notes when reading fiction">
   <figcaption class="figure-caption text-center">Taking notes when reading fiction</figcaption>
 </figure>
 

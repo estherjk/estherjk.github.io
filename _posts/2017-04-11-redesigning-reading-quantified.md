@@ -10,14 +10,14 @@ A couple weeks ago, I released the latest version of [Reading Quantified](http:/
 Here's a snapshot of what it looked like before:
 
 <figure class="figure">
-  <img class="figure-img img-fluid border rounded" src="/assets/img/reading-quantified/reading-quantified-1.png" alt="Reading Quantified v1.0.0">
+  <img class="figure-img img-fluid border rounded" src="https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/reading-quantified/reading-quantified-1.png" alt="Reading Quantified v1.0.0">
   <figcaption class="figure-caption text-center">Reading Quantified v.1.0.0</figcaption>
 </figure>
 
 And here's a snapshot of what it looks like now:
 
 <figure class="figure">
-  <img class="figure-img img-fluid border rounded" src="/assets/img/reading-quantified/reading-quantified-2.png" alt="Reading Quantified v2.1.0">
+  <img class="figure-img img-fluid border rounded" src="https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/reading-quantified/reading-quantified-2.png" alt="Reading Quantified v2.1.0">
   <figcaption class="figure-caption text-center">Reading Quantified v2.1.0</figcaption>
 </figure>
 
