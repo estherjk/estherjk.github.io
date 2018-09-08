@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Trials and Tribulations of Git LFS
+title: The trials and tribulations of Git LFS
 tags: tools
 excerpt: TBD
 ---
