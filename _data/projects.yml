@@ -227,7 +227,7 @@ Reading Quantified:
   url: /projects/reading-quantified/
   img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/reading-quantified.jpg
   description: A dashboard for analyzing my reading habits
-  excerpt: This project analyzes and visualizes my reading habits. The book information is stored on Trello, and Python is used to parse, analyze, and store the data in a database. The web app uses AngularJS and d3.js to visualize the data on a dashboard. The backend is powered by Parse Server and is hosted on Heroku.
+  excerpt: This project analyzes and visualizes my reading habits. The YouTube video shows an earlier version of the project when it was powered by Node.js, Parse, Angular, & d3. The latest version uses Django, PostgreSQL, & Metabase.
   youtube: https://www.youtube.com/embed/NoB-0xQAeqY
   links:
     -
@@ -238,7 +238,7 @@ Reading Quantified:
       url: https://github.com/drejkim/reading-quantified
     -
       name: Blog
-      url: /blog/2017/04/11/redesigning-reading-quantified
+      url: /blog/2018/12/19/refactoring-reading-quantified/
   showcase: true
 
 rte-angular:
