@@ -19,7 +19,7 @@ edi-cam:
   img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/edi-cam.jpg
   description: Video streaming on Intel Edison
   excerpt: This project shows how to stream video to a web browser from a webcam connected to Intel Edison, all while powered by a 9V battery. A Node.js server on Edison listens for the incoming video stream and broadcasts it to all connected browsers via WebSockets. On the client-side, the video is then decoded using jsmpeg and rendered onto an HTML canvas element.
-  youtube: http://www.youtube.com/embed/nVDL2-bFT3Y
+  youtube: https://www.youtube.com/embed/nVDL2-bFT3Y
   links:
     -
       name: GitHub
@@ -68,7 +68,7 @@ frogger:
   links:
     -
       name: Site
-      url: http://esthermakes.tech/frogger/
+      url: https://esthermakes.tech/frogger/
     -
       name: GitHub
       url: https://github.com/drejkim/frogger
@@ -141,7 +141,7 @@ multi-screen-demo:
   links:
     -
       name: Site
-      url: http://esthermakes.tech/multi-screen-demo/
+      url: https://esthermakes.tech/multi-screen-demo/
     -
       name: GitHub
       url: https://github.com/drejkim/multi-screen-demo
@@ -232,7 +232,7 @@ Reading Quantified:
   links:
     -
       name: Site
-      url: http://esthermakes.tech/reading-quantified/
+      url: https://esthermakes.tech/reading-quantified/
     -
       name: GitHub
       url: https://github.com/drejkim/reading-quantified
@@ -251,7 +251,7 @@ rte-angular:
   links:
     -
       name: Site
-      url: http://esthermakes.tech/rte-angular/
+      url: https://esthermakes.tech/rte-angular/
     -
       name: GitHub
       url: https://github.com/drejkim/rte-angular
