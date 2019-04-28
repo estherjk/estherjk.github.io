@@ -1,10 +1,10 @@
-- url: https://www.linkedin.com/in/estherjunkim
-  icon: fab fa-linkedin
-- url: https://github.com/drejkim
-  icon: fab fa-github-square
-- url: https://www.youtube.com/channel/UC9nMf2aIi0u1PudrFK90BWQ
-  icon: fab fa-youtube-square
 - url: https://twitter.com/esthermakestech
   icon: fab fa-twitter-square
+- url: https://www.youtube.com/channel/UC9nMf2aIi0u1PudrFK90BWQ
+  icon: fab fa-youtube-square
+- url: https://github.com/drejkim
+  icon: fab fa-github-square
+- url: https://www.linkedin.com/in/estherjunkim
+  icon: fab fa-linkedin
 - url: https://scholar.google.com/citations?hl=en&user=QfQuFmgAAAAJ
   icon: ai ai-google-scholar-square
