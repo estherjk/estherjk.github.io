@@ -225,10 +225,10 @@ particle-weather-station-alexa:
 Reading Quantified:
   category: software
   url: /projects/reading-quantified/
-  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/reading-quantified.jpg
-  description: A dashboard for analyzing my reading habits
-  excerpt: This project analyzes and visualizes my reading habits. The YouTube video shows an earlier version of the project when it was powered by Node.js, Parse, Angular, & d3. The latest version uses Django, PostgreSQL, & Metabase.
-  youtube: https://www.youtube.com/embed/NoB-0xQAeqY
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/reading-quantified-ios.jpg
+  description: Analyzing my reading habits
+  excerpt: This project analyzes and visualizes my reading habits. The YouTube playlist is a collection of the various iterations of this project over the years. The web version originally used Node.js, Parse, Angular, & d3; it was completely overhauled to use Django, PostgreSQL, & Metabase. The most recent edition is an iOS app written in Swift.
+  youtube: https://www.youtube.com/embed/qKtm_yY7kgA
   links:
     -
       name: Site
