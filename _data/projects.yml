@@ -228,7 +228,7 @@ Reading Quantified:
   img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/reading-quantified-ios.jpg
   description: Analyzing my reading habits
   excerpt: This project analyzes and visualizes my reading habits. The YouTube playlist is a collection of the various iterations of this project over the years. The web version originally used Node.js, Parse, Angular, & d3; it was completely overhauled to use Django, PostgreSQL, & Metabase. The most recent edition is an iOS app written in Swift.
-  youtube: https://www.youtube.com/embed/qKtm_yY7kgA
+  youtube: https://www.youtube.com/embed/y5PhF_Pu6CA
   links:
     -
       name: Site
