@@ -1,5 +1,8 @@
 github: [Repository metadata]
 permalink: /blog/:year/:month/:day/:title/
+title: Esther Makes Tech
+url: http://esthermakes.tech
+logo: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/brand-512.png
 navigation:
 - title: Home
   url: /
@@ -14,3 +17,5 @@ highlighter: rouge
 kramdown:
   input: GFM
   hard_wrap: false
+plugins:
+  - jekyll-seo-tag
