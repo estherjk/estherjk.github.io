@@ -1,6 +1,7 @@
 github: [Repository metadata]
 permalink: /blog/:year/:month/:day/:title/
 title: Esther Makes Tech
+description: A collection of projects and writings by Esther Jun Kim
 url: http://esthermakes.tech
 logo: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/brand-512.png
 navigation:
