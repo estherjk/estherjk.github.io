@@ -2,7 +2,7 @@
 layout: post
 title: The trials and tribulations of Git LFS
 tags: tools
-excerpt: TBD
+excerpt: At work, we recently started using Git LFS to track large files like images. It reduces the size of your repository by storing the files on an external server and only tracking the pointers to those files inside Git.
 ---
 
 At work, we recently started using [Git LFS](https://git-lfs.github.com/) to track large files like images. It reduces the size of your repository by storing the files on an external server and only tracking the pointers to those files inside Git.

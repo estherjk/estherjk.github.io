@@ -2,7 +2,7 @@
 layout: post
 title: My development tools
 tags: tools
-excerpt: TBD
+excerpt: On a number of occasions, I've been asked what tools I use while I code.
 ---
 
 On a number of occasions, I've been asked what tools I use while I code. Here's the short list:

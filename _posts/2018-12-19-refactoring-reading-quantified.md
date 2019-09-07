@@ -2,7 +2,7 @@
 layout: post
 title: Refactoring Reading Quantified
 tags: python books
-excerpt: TBD
+excerpt: Goodbye, custom UI. Hello, Metabase!
 ---
 
 ## Introducing Reading Quantified v3.0

@@ -2,7 +2,7 @@
 layout: post
 title: A few tips for managing Ruby-based projects
 tags: ruby tools web ios
-excerpt: TBD
+excerpt: A lot of my projects depend on Ruby... from this website to iOS apps using CocoaPods. Given that projects start at different times (meaning that it can require different versions of Ruby, etc.), it's important to know which specific Ruby version and dependencies are required. This is especially important if others need to reproduce the environment, as well.
 ---
 
 ## Introduction

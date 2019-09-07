@@ -2,7 +2,7 @@
 layout: post
 title: Playing with Android Things
 tags: android iot
-excerpt: TBD
+excerpt: Earlier this month, I attended the Google Women Techmakers Summit and participated in an Android Things Workshop.
 ---
 
 Earlier this month, I attended the Google Women Techmakers Summit and participated in an Android Things Workshop. Here's a tweet from that day:
