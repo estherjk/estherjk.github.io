@@ -222,6 +222,19 @@ particle-weather-station-alexa:
       name: Blog
       url: /blog/2016/08/30/asking-alexa-for-the-temperature-and-humidity-from-a-particle-photon
 
+Potter Pi:
+  category: software
+  url: /projects/potter-pi/
+  img: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/projects/potter-pi.jpg
+  description: I solemnly swear that I am up to no good.
+  excerpt: Not sure what to do with your wand after a trip to the Wizarding World of Harry Potter? Try this project. You can control smart home elements by casting spells. The IR Camera System is built with a Raspberry Pi Zero, a NoIR camera, & a couple IR LEDs. The software is built with Python, OpenCV, TensorFlow, & the Home Assistant REST API.
+  youtube: https://www.youtube.com/embed/videoseries?list=PLptYOcdK9JEyvkCDLd1lmca2Ad2-JoiTL
+  links:
+    -
+      name: GitHub
+      url: https://github.com/drejkim/potter-pi
+  showcase: true
+
 Reading Quantified:
   category: software
   url: /projects/reading-quantified/
