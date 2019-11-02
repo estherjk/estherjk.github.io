@@ -22,8 +22,12 @@ To get a better understanding of how this works, let's create a simple "Hello Wo
 See it in action here:
 
 <div class="mb-3">
-  <p data-height="265" data-theme-id="0" data-slug-hash="oLdgkp" data-default-tab="html,result" data-user="drejkim" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/drejkim/pen/oLdgkp/">Show / hide on hover</a> by Esther Kim (<a href="http://codepen.io/drejkim">@drejkim</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-  <script async src="//assets.codepen.iohttps://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/embed/ei.js"></script>
+  <p class="codepen" data-height="265" data-theme-id="0" data-default-tab="css,result" data-user="drejkim" data-slug-hash="oLdgkp" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Show / hide on hover">
+    <span>See the Pen <a href="https://codepen.io/drejkim/pen/oLdgkp">
+    Show / hide on hover</a> by Esther Kim (<a href="https://codepen.io/drejkim">@drejkim</a>)
+    on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 </div>
 
 ### HTML
