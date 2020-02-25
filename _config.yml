@@ -5,7 +5,7 @@ permalink: /blog/:year/:month/:day/:title/
 title: Esther Makes Tech
 description: A collection of projects and writings by Esther Jun Kim
 url: http://esthermakes.tech
-logo: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/brand-512.png
+logo: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/brand-512.png
 twitter:
   username: esthermakestech
   card: summary
@@ -13,13 +13,13 @@ social:
   name: Esther Jun Kim
   links:
     - https://twitter.com/esthermakestech
-    - https://github.com/drejkim
+    - https://github.com/estherjk
     - https://www.linkedin.com/in/estherjunkim
 defaults:
   - scope:
       path: ""
     values:
-      image: https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/brand-512.png
+      image: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/brand-512.png
 
 navigation:
 - title: Home

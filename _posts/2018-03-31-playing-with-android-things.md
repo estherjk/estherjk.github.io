@@ -14,4 +14,4 @@ Earlier this month, I attended the Google Women Techmakers Summit and participat
 
 My impressions so far: The integration with Android Studio is pretty nice! But, it's still a bit weird for me to write IoT code in Java. :)
 
-Since then, I've been spending my spare time going through the codelabs. Check out my implementations on [GitHub](https://github.com/drejkim/androidthings-codelabs).
+Since then, I've been spending my spare time going through the codelabs. Check out my implementations on [GitHub](https://github.com/estherjk/androidthings-codelabs).

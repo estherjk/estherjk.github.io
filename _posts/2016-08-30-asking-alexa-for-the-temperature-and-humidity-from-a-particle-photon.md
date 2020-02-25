@@ -17,7 +17,7 @@ A lot of the use cases floating around for Alexa are related to making a smarter
 
 The project still uses the [Particle](https://www.particle.io/) Photon and a [DHT11](https://www.adafruit.com/product/386) sensor. But, instead of visualizing the data on a dashboard, I can ask Alexa for the current temperature or humidity.
 
-To see how it works, check out the [source code](https://github.com/drejkim/particle-weather-station-alexa) and video:
+To see how it works, check out the [source code](https://github.com/estherjk/particle-weather-station-alexa) and video:
 
 <div class="mb-3">
   <div class="embed-responsive embed-responsive-16by9">

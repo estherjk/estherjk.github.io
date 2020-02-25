@@ -12,7 +12,7 @@ I've been using Edison for a few weeks now, and one of the issues I quickly ran 
 
 I started investigating on the forums and noticed this very helpful <a href="https://communities.intel.com/thread/55612?start=0&tstart=0">discussion</a> on changing the partition's size. After some trial and error, I was able to build a new Edison image with a larger partition for `/dev/root`, which I have summarized below. For reference, see this <a href="https://communities.intel.com/docs/DOC-23159">document</a> for details on how to build an Edison image.
 
-Before getting started, you also need a Linux machine. In my case, I created an <a href="https://github.com/drejkim/edison-imaging-vm">Ubuntu 12.04 Vagrant VM</a> on my Mac. The VM is provisioned with all the necessary packages to create an Edison image. It is also configured with 2GB of memory and with the ability to connect Edison via USB. You will also need about 30GB of disk space.
+Before getting started, you also need a Linux machine. In my case, I created an <a href="https://github.com/estherjk/edison-imaging-vm">Ubuntu 12.04 Vagrant VM</a> on my Mac. The VM is provisioned with all the necessary packages to create an Edison image. It is also configured with 2GB of memory and with the ability to connect Edison via USB. You will also need about 30GB of disk space.
 
 ## Getting the Linux source files
 

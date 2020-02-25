@@ -7,7 +7,7 @@ excerpt: It's finally here! The iOS version of Reading Quantified.
 
 ## Introduction
 
-It's finally here! The [iOS version](https://github.com/drejkim/reading-quantified-ios) of Reading Quantified.
+It's finally here! The [iOS version](https://github.com/estherjk/reading-quantified-ios) of Reading Quantified.
 
 Here's a video demonstrating its capabilities:
 
@@ -26,7 +26,7 @@ The UI is pretty barebones at the moment. The goal was to focus on the features 
 
 ## How it works
 
-The app communicates with the [REST API server](https://github.com/drejkim/reading-quantified-server) using a network abstraction library called [Moya](https://moya.github.io/). Access to the REST APIs require a JSON Web Token, which is generated for a valid username and password. The data are then stored locally in a [Realm database](https://realm.io/).
+The app communicates with the [REST API server](https://github.com/estherjk/reading-quantified-server) using a network abstraction library called [Moya](https://moya.github.io/). Access to the REST APIs require a JSON Web Token, which is generated for a valid username and password. The data are then stored locally in a [Realm database](https://realm.io/).
 
 The app also attempts to use software design best practices for Swift. (The keyword is **attempts**.... :)) This includes using an MVVM architecture, [Swinject](https://github.com/Swinject/Swinject) for dependency injection, and [RxSwift](https://github.com/ReactiveX/RxSwift) to communicate changes between logically separated portions of the app.
 

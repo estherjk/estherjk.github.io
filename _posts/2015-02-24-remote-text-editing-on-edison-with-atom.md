@@ -54,7 +54,7 @@ You should now see the same file `test.txt` open on the Atom client on your PC.
 Here's a snapshot with the Edison SSH window on the left and my Mac Atom client on the right:
 
 <div class="mb-3">
-  <img src="https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/edison/edison-atom-remote-text-editing.png" class="img-fluid" alt="Remote text-editing on Edison with Atom">
+  <img src="https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/edison/edison-atom-remote-text-editing.png" class="img-fluid" alt="Remote text-editing on Edison with Atom">
 </div>
 
 To save time when connecting via SSH in the future, add the following to `~/.ssh/config` on your PC:

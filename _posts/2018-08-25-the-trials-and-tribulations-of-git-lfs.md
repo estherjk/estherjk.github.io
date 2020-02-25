@@ -12,7 +12,7 @@ Today, I thought it'd be awesome to add Git LFS support to my website. It was pr
 To get the full URL of an asset tracked with Git LFS, navigate to it on GitHub and copy the image address like so:
 
 <figure class="figure">
-  <img class="figure-img img-fluid border rounded" src="https://media.githubusercontent.com/media/drejkim/drejkim.github.io/master/assets/img/tools/git-lfs-link.png" alt="Getting the link to your asset when using Git LFS">
+  <img class="figure-img img-fluid border rounded" src="https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/tools/git-lfs-link.png" alt="Getting the link to your asset when using Git LFS">
   <figcaption class="figure-caption text-center">Getting the link to your asset when using Git LFS</figcaption>
 </figure>
 

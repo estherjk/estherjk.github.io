@@ -43,7 +43,7 @@ Lastly, the kit also comes with a OBD dongle, which you can use on a real car. T
 
 ## Car in action
 
-For those who are interested in seeing my code, check out my [GitHub](https://github.com/drejkim/HackerBoxCar).
+For those who are interested in seeing my code, check out my [GitHub](https://github.com/estherjk/HackerBoxCar).
 
 And, here's the video of my car in action:
 

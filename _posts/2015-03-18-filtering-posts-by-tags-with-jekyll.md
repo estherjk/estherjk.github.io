@@ -128,4 +128,4 @@ if(window.location.hash) {
 }
 ```
 
-And that's pretty much it! To see it used in context, feel free to take a look at this website's source code on <a href="https://github.com/drejkim/drejkim.github.io">GitHub</a>.
+And that's pretty much it! To see it used in context, feel free to take a look at this website's source code on <a href="https://github.com/estherjk/estherjk.github.io">GitHub</a>.

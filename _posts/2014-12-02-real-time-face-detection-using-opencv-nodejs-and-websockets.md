@@ -14,4 +14,4 @@ Here's a video of it in action:
   </div>
 </div>
 
-The source code is also available on <a href="https://github.com/drejkim/face-detection-node-opencv">GitHub</a>.
+The source code is also available on <a href="https://github.com/estherjk/face-detection-node-opencv">GitHub</a>.

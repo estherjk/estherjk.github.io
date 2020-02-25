@@ -10,12 +10,12 @@ Heading into Christmas, I wanted to work on a project that commemorates what the
 Here's a picture of the final setup, all lit up:
 
 <div class="mb-3">
-  <img src="https://raw.githubusercontent.com/drejkim/o-holy-night/master/img/o-holy-night-lit.png" class="img-fluid" alt="O Holy Night">
+  <img src="https://raw.githubusercontent.com/estherjk/o-holy-night/master/img/o-holy-night-lit.png" class="img-fluid" alt="O Holy Night">
 </div>
 
 To create the Nativity Scene, the NeoPixels were cut, wired, and arranged on a foam board. Paper templates were created in Illustrator after finding silhouettes of the star, angels, and the manger scene online; they were then cut and placed on top of the foam board. Finally, the NeoPixels were wired to the Particle Photon, which exposes functions to control each set of lights, namely the sky (blue), the manger (orange), and the star and angels (white). A custom iOS app was created, so that a user-friendly UI could be used to control the lights.
 
-Details on how to set everything up is available on [GitHub](https://github.com/drejkim/o-holy-night).
+Details on how to set everything up is available on [GitHub](https://github.com/estherjk/o-holy-night).
 
 And this video shows all of the components in action... and choreographed to "O Holy Night":
 
