@@ -19,7 +19,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/brand-512.png
+      image: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/brand/brand-og.png
 
 navigation:
 - title: Home
