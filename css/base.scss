@@ -10,6 +10,7 @@
 @import "bootstrap/bootstrap";
 
 /* My bootstrap extensions */
+@import "bootstrap_extensions/callout";
 @import "bootstrap_extensions/card";
 @import "bootstrap_extensions/code";
 @import "bootstrap_extensions/text";
@@ -18,5 +19,5 @@
 @import "dracula/dracula";
 
 /* Custom components */
-@import "components/sticky-footer-navbar";
 @import "components/background";
+@import "components/sticky-footer-navbar";

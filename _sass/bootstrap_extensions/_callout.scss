@@ -1,0 +1,41 @@
+// Callout component based off the Bootstrap Callout
+// See: https://github.com/twbs/bootstrap/blob/master/site/assets/scss/_callouts.scss
+
+.callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid $gray-200;
+    border-left-width: .25rem;
+    @include border-radius();
+  
+    h4 {
+      margin-bottom: .25rem;
+    }
+  
+    p:last-child {
+      margin-bottom: 0;
+    }
+  
+    code {
+      @include border-radius();
+    }
+  
+    + .callout {
+      margin-top: -.25rem;
+    }
+}
+
+// Callout color variant
+@mixin callout-variant($color) {
+    border-left-color: $color;
+    
+    h4 { color: $color; }
+}
+
+// Create the color variant classes, e.g. .callout-primary
+@each $color, $value in $theme-colors {
+    .callout-#{$color} {
+        @include callout-variant(theme-color-level($color));
+    }
+}
