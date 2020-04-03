@@ -7,7 +7,7 @@ excerpt: TBD
 
 ## Introduction
 
-The Bootstrap docs have nice callout styles that aren't part of the official distribution. Since I wanted to use them in my own site, I created my own extension. They are based off [Bootstrap's callout Scss file](https://github.com/twbs/bootstrap/blob/master/site/assets/scss/_callouts.scss).
+The Bootstrap docs have nice callout styles that aren't part of the official distribution. Since I wanted to use them in my own site, I created my own extension. They are based off [Bootstrap's callout SCSS file](https://github.com/twbs/bootstrap/blob/master/site/assets/scss/_callouts.scss).
 
 Here they are in action:
 
@@ -46,11 +46,11 @@ Here they are in action:
 
 ## How to use this on your own site?
 
-First and foremost, this requires having the [Bootstrap Scss files](https://getbootstrap.com/docs/4.4/getting-started/download/#source-files) as part of your project. My site also uses Jekyll, so the instructions are targeted as such. But, most of these steps should hopefully be applicable to other projects using Scss.
+First and foremost, this requires having the [Bootstrap SCSS files](https://getbootstrap.com/docs/4.4/getting-started/download/#source-files) as part of your project. My site also uses Jekyll, so the instructions are targeted as such. But, most of these steps should hopefully be applicable to other projects using SCSS.
 
 ### Folder structure
 
-The Scss files for [my project](https://github.com/estherjk/estherjk.github.io) are located in the `_sass` folder:
+The SCSS files for [my project](https://github.com/estherjk/estherjk.github.io) are located in the `_sass` folder:
 
 ```bash
 .
@@ -120,7 +120,7 @@ The content of `_callout.scss` is fairly short. A mixin called `callout-variant`
 
 ### css/base.scss
 
-`css/base.scss` contains the `import` statements and the front matter block (`---`) that Jekyll requires so that the Scss files are turned into usable CSS for your site:
+`css/base.scss` contains the `import` statements and the front matter block (`---`) that Jekyll requires so that the SCSS files are turned into usable CSS for your site:
 
 ```scss
 // Content of css/base.scss
@@ -178,4 +178,4 @@ Now, I am able to use the classes in HTML. Here's the corresponding HTML for all
 
 ## Conclusion
 
-Now, you should be able to try this out in your own project! It helps to use the source Scss files and extend with your own. Customizations are a lot more maintainable this way.
+Now, you should be able to try this out in your own project! It helps to use the source SCSS files and extend with your own. Customizations are a lot more maintainable this way.
