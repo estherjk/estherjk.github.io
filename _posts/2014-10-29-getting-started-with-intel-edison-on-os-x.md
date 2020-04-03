@@ -4,7 +4,9 @@ title: Getting started with Intel Edison on OS X
 tags: edison
 ---
 
-*Note that much of the following information is available in the <a href="https://communities.intel.com/docs/DOC-23148">Getting Started Guide from Intel</a>. However, there is some additional information for assembling the Mini Breakout Board, SSH-ing over Wi-Fi, and package management.*
+<div class="callout callout-info">
+  Note that much of the following information is available in the <a href="https://communities.intel.com/docs/DOC-23148">Getting Started Guide from Intel</a>. However, there is some additional information for assembling the Mini Breakout Board, SSH-ing over Wi-Fi, and package management.
+</div>
 
 ## Introduction to Edison
 
