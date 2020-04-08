@@ -9,7 +9,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       {% assign url = page.url|remove:'index.html' %}
-      {% for link in site.navigation %}
+      {% for link in site.data.navigation %}
         {% if url == link.url %}
           <li {% if url == link.url %}class="nav-item active"{% endif %}>
               <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>

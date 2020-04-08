@@ -1,5 +1,12 @@
 github: [Repository metadata]
 permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-seo-tag
 
 # SEO
 title: Esther Makes Tech
@@ -20,20 +27,3 @@ defaults:
       path: ""
     values:
       image: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/brand/brand-og.png
-
-navigation:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Projects
-  url: /projects/
-- title: Blog
-  url: /blog/
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  hard_wrap: false
-plugins:
-  - jekyll-seo-tag
