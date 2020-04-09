@@ -86,7 +86,7 @@ google-assistant-show:
       url: https://github.com/estherjk/google-assistant-show
 
 HackerBoxCar:
-  categories: [embedded, iot]
+  categories: [embedded, ai]
   url: /projects/HackerBoxCar/
   img: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/projects/HackerBoxCar.jpg
   description: My implementation of the Autosport HackerBox

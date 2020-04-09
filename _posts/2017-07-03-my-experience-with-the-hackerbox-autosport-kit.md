@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My experience with the HackerBox Autosport kit
-categories: [embedded, iot]
+categories: [embedded, ai]
 ---
 
 ## Introduction
