@@ -1,0 +1,19 @@
+{% assign sorted_categories = categories | sort %}
+
+<form class="form-inline">
+  <div class="form-group mx-2 mb-2">
+    <select class="form-control" id="categorySelect" onchange="window.location.href=document.getElementById('categorySelect').value; return false;">
+      <option disabled selected value> -- select category -- </option>
+
+      {% for category in sorted_categories%}
+        {% assign category_label = category[0] %}
+        
+        {% if page.category == category_label %}
+          <option value="{{ category_link_prefix}}/{{ category_label }}" selected>{{ categories[category_label].title }}</option>
+        {% else %}
+          <option value="{{ category_link_prefix}}/{{ category_label }}">{{ categories[category_label].title }}</option>
+        {% endif %}
+      {% endfor %}
+    </select>
+  </div>
+</form>

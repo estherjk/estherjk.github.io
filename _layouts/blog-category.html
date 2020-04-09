@@ -22,11 +22,18 @@ layout: default
       </table>
     </div>
 
-    <!-- Categories: Do not show on smaller devices -->
-    <div class="col-lg-auto d-none d-md-block">
+    <!-- Category List Group: Do not show on smaller devices -->
+    <div class="col-lg-auto d-none d-lg-block">
       {% assign categories = site.data.blog-categories %}
       {% assign category_link_prefix = "/blog/category" %}
       {% include category-list-group.html %}
+    </div>
+
+    <!-- Category Select: Only show on smaller devices -->
+    <div class="d-xs-block d-sm-block d-md-block d-lg-none order-first mb-2">
+      {% assign categories = site.data.blog-categories %}
+      {% assign category_link_prefix = "/blog/category" %}
+      {% include category-select.html %}
     </div>
   </div>
 </div>
