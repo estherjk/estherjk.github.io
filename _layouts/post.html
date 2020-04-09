@@ -20,9 +20,9 @@ layout: default
         {% assign sorted_categories = page.categories | sort %}
         {% for category in sorted_categories %}
           {% if forloop.last %}
-            <a href="/blog/category/{{ category }}">{{ site.data.categories[category].title }}</a>
+            <a href="/blog/category/{{ category }}">{{ site.data.blog-categories[category].title }}</a>
             {% else %}
-            <a href="/blog/category/{{ category }}">{{ site.data.categories[category].title }}</a>,
+            <a href="/blog/category/{{ category }}">{{ site.data.blog-categories[category].title }}</a>,
           {% endif %}
         {% endfor %}
       </p>

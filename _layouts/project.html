@@ -29,6 +29,21 @@ layout: default
         </div>
     
         <p>{{ project.excerpt }}</p>
+
+        <hr>
+
+        <p class="text-muted mb-5">
+          <span>Categories:</span>
+  
+          {% assign sorted_categories = project.categories | sort %}
+          {% for category in sorted_categories %}
+            {% if forloop.last %}
+              <a href="/projects/category/{{ category }}">{{ site.data.project-categories[category].title }}</a>
+              {% else %}
+              <a href="/projects/category/{{ category }}">{{ site.data.project-categories[category].title }}</a>,
+            {% endif %}
+          {% endfor %}
+        </p>
       </div>
   </div>
 </div>

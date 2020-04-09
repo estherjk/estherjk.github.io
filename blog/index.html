@@ -26,7 +26,7 @@ title: Blog
         {% assign sorted_categories = site.categories | sort %}
         {% for category in sorted_categories%}
           {% assign category_label = category[0] %}
-          <li class="list-group-item"><a href="/blog/category/{{ category_label }}">{{ site.data.categories[category_label].title }}</a></li>
+          <li class="list-group-item"><a href="/blog/category/{{ category_label }}">{{ site.data.blog-categories[category_label].title }}</a></li>
         {% endfor %}
       </ul>
     </div>

@@ -1,0 +1,14 @@
+ai:
+  title: AI
+android:
+  title: Android
+embedded:
+  title: Embedded
+ios:
+  title: iOS
+iot:
+  title: IoT
+python:
+  title: Python
+web:
+  title: Web
