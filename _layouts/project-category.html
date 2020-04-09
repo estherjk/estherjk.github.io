@@ -27,18 +27,9 @@ layout: default
 
     <!-- Categories: Do not show on smaller devices -->
     <div class="col-lg-auto d-none d-md-block">
-      <ul class="list-group">
-        {% assign sorted_categories = site.data.project-categories | sort %}
-        {% for category in sorted_categories%}
-          {% assign category_label = category[0] %}
-          
-          {% if category_label == page.category %}
-            <li class="list-group-item active"><a href="/projects/category/{{ category_label }}" class="text-white">{{ site.data.project-categories[category_label].title }}</a></li>
-          {% else %}
-            <li class="list-group-item"><a href="/projects/category/{{ category_label }}">{{ site.data.project-categories[category_label].title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+      {% assign categories = site.data.project-categories %}
+      {% assign category_link_prefix = "/projects/category" %}
+      {% include category-list-group.html %}
     </div>
   </div>
 </div>

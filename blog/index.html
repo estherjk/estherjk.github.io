@@ -22,13 +22,9 @@ title: Blog
 
     <!-- Categories: Do not show on smaller devices -->
     <div class="col-lg-auto d-none d-md-block">
-      <ul class="list-group">
-        {% assign sorted_categories = site.categories | sort %}
-        {% for category in sorted_categories%}
-          {% assign category_label = category[0] %}
-          <li class="list-group-item"><a href="/blog/category/{{ category_label }}">{{ site.data.blog-categories[category_label].title }}</a></li>
-        {% endfor %}
-      </ul>
+      {% assign categories = site.data.blog-categories %}
+      {% assign category_link_prefix = "/blog/category" %}
+      {% include category-list-group.html %}
     </div>
   </div>
 </div>

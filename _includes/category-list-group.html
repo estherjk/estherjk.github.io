@@ -1,0 +1,17 @@
+{% assign sorted_categories = categories | sort %}
+
+<ul class="list-group">
+  {% for category in sorted_categories%}
+    {% assign category_label = category[0] %}
+
+    {% if category_label == page.category %}
+      <li class="list-group-item active">
+        <a href="{{category_link_prefix}}/{{ category_label }}" class="text-white stretched-link">{{ categories[category_label].title }}</a>
+      </li>
+    {% else %}
+      <li class="list-group-item">
+        <a href="{{category_link_prefix}}/{{ category_label }}" class="stretched-link">{{ categories[category_label].title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
