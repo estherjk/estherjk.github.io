@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Redesigning Reading Quantified
-tags: web angularjs parse books visualization ux
-excerpt: A couple weeks ago, I released the latest version of Reading Quantified. The biggest difference is how my reading habits are visualized&#58; before, it was primarily focused on monthly trends and now, it's focused on annual trends....
+categories: [books, ux, web]
 ---
 
 A couple weeks ago, I released the latest version of [Reading Quantified](http://esthermakes.tech/reading-quantified). The biggest difference is how my reading habits are visualized: before, it was primarily focused on monthly trends and now, it's focused on annual trends.

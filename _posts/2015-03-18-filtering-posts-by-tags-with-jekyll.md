@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Filtering posts by tags with Jekyll
-tags: web jekyll
-excerpt: The blog section has been redesigned to take advantage of Jekyll's tags. Now, it's possible to filter posts by tags and see related posts....
+categories: [web]
 ---
 
 The blog section has been redesigned to take advantage of <a href="http://jekyllrb.com/docs/frontmatter/">Jekyll's tags</a>. Now, it's possible to filter posts by tags and see related posts.

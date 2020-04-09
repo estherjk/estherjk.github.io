@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Books and notes
-tags: books
-excerpt: Reading is one of the best ways to learn. But, if you're like me and don't have a photographic memory, taking notes can really help with recalling and reinforcing what you've read. It's a habit I highly recommend when it comes to reading. And, I've found the following strategies to be most helpful.
+categories: [books]
 ---
 
 ## Introduction

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Reading Quantified, iOS Edition
-tags: ios swift books
-excerpt: It's finally here! The iOS version of Reading Quantified.
+categories: [books, ios]
 ---
 
 ## Introduction

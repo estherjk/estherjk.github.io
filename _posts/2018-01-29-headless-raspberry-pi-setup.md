@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Headless Raspberry Pi Setup
-tags: raspberry-pi
-excerpt: Have you ever run into the situation where you have a brand new Raspberry Pi, but you don't have an external keyboard, mouse, and monitor to get started? I've been in this situation too....
+categories: [embedded, tools]
 ---
 
 Have you ever run into the situation where you have a brand new Raspberry Pi, but you don't have an external keyboard, mouse, and monitor to get started? I've been in this situation too. So, when I came across this [blog post](https://www.losant.com/blog/getting-started-with-the-raspberry-pi-zero-w-without-a-monitor), I was ecstatic: the instructions were super helpful and I was able to set up my Pi "headlessly" (i.e. no monitor attached).

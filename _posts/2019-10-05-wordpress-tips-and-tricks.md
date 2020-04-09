@@ -1,8 +1,7 @@
 ---
 layout: post
 title: WordPress tips and tricks
-tags: web wordpress
-excerpt: Recently, I helped overhaul our church website using a self-hosted instance of WordPress. This was my first major experience with WordPress.org&mdash;not Wordpress.com&mdash;and there were a few things I had to get accustomed to. This article summarizes the 3 major things I learned while getting the new site up and running.
+categories: [web]
 ---
 
 ## Introduction

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connecting a USB device to the Edison Mini breakout board
-tags: edison
+categories: [embedded]
 ---
 
 ## Introduction

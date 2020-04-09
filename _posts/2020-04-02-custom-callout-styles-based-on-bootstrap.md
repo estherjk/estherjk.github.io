@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Custom callout styles based on Bootstrap
-tags: web bootstrap scss jekyll
-excerpt: TBD
+categories: [web]
 ---
 
 ## Introduction

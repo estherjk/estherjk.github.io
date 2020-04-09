@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with Intel Edison on OS X
-tags: edison
+categories: [embedded]
 ---
 
 <div class="callout callout-info">

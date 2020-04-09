@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Refactoring Reading Quantified
-tags: python books
+categories: [books, python, web]
 excerpt: Goodbye, custom UI. Hello, Metabase!
 ---
 

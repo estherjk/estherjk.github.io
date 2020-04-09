@@ -5,17 +5,30 @@ title: Blog
 
 <div class="container mt-5">
   <div class="row justify-content-center">
+
+    <!-- Posts -->
     <div class="col-lg-10 col-xl-8">
-      <table class="table table-sm">
+      <table class="table table-sm w-auto">
         <tbody>
           {% for post in site.posts %}
           <tr>
             <td class="align-middle text-nowrap"><span class="text-monospace text-muted">{{ post.date | date: "%d %b %Y" }}</span></td>
-            <td class="align-middle"><a href="{{ post.url }}">{{ post.title }}</a></td>
+            <td class="align-middle w-100"><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>
           {% endfor %}
         </tbody>
       </table>
+    </div>
+
+    <!-- Categories: Do not show on smaller devices -->
+    <div class="col-lg-auto d-none d-md-block">
+      <ul class="list-group">
+        {% assign sorted_categories = site.categories | sort %}
+        {% for category in sorted_categories%}
+          {% assign category_label = category[0] %}
+          <li class="list-group-item"><a href="/blog/category/{{ category_label }}">{{ site.data.categories[category_label].title }}</a></li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </div>

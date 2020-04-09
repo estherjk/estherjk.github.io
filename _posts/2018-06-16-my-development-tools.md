@@ -1,8 +1,7 @@
 ---
 layout: post
 title: My development tools
-tags: tools
-excerpt: On a number of occasions, I've been asked what tools I use while I code.
+categories: [tools]
 ---
 
 On a number of occasions, I've been asked what tools I use while I code. Here's the short list:

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: A new site design with Bootstrap 4
-tags: web
-excerpt: Over the years, my website has gone through several design and architectural changes. The latest iteration has been re-built from the ground up with Bootstrap 4, along with a renewed emphasis on minimal and focused content.
+categories: [web]
 ---
 
 Over the years, my website has gone through several design and architectural changes. The latest iteration has been re-built from the ground up with [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), along with a renewed emphasis on minimal and focused content.

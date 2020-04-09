@@ -1,0 +1,20 @@
+ai:
+  title: AI
+android:
+  title: Android
+books:
+  title: Books
+embedded:
+  title: Embedded
+ios:
+  title: iOS
+iot:
+  title: IoT
+python:
+  title: Python
+tools:
+  title: Tools
+ux:
+    title: UX
+web:
+  title: Web

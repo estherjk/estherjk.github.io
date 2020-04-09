@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Asking Alexa for the temperature and humidity from a Particle Photon
-tags: iot particle alexa
-excerpt: Last week, I received an Amazon Tap, which was given to those who successfully published 3 Alexa skills within 1 month of attending a sponsored Alexa 101 hackathon. I even tweeted my excitement....
+categories: [embedded, ai, iot]
 
 ---
 

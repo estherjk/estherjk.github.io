@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building an Edison image and changing the root partition size
-tags: edison
+categories: [embedded]
 ---
 
 <div class="callout callout-info">

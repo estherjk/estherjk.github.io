@@ -10,7 +10,22 @@ layout: default
         <p class="text-monospace text-muted">{{ page.date | date: "%-d %B %Y" }}</p>
       </div>
       
-      <div class="mb-5">{{ content }}</div>
+      <div>{{ content }}</div>
+
+      <hr>
+
+      <p class="text-muted mb-5">
+        <span>Categories:</span>
+
+        {% assign sorted_categories = page.categories | sort %}
+        {% for category in sorted_categories %}
+          {% if forloop.last %}
+            <a href="/blog/category/{{ category }}">{{ site.data.categories[category].title }}</a>
+            {% else %}
+            <a href="/blog/category/{{ category }}">{{ site.data.categories[category].title }}</a>,
+          {% endif %}
+        {% endfor %}
+      </p>
 
       <div id="disqus_thread"></div>
       <script type="text/javascript">
