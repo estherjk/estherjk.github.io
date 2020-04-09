@@ -8,7 +8,7 @@
       {% for category in sorted_categories%}
         {% assign category_label = category[0] %}
         
-        {% if page.category == category_label %}
+        {% if category_label == page.category %}
           <option value="{{ category_link_prefix}}/{{ category_label }}" selected>{{ categories[category_label].title }}</option>
         {% else %}
           <option value="{{ category_link_prefix}}/{{ category_label }}">{{ categories[category_label].title }}</option>
