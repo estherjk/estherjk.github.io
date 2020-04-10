@@ -13,6 +13,21 @@ AndroidWearMotionSensors:
       name: Blog
       url: /blog/2015/02/04/motion-sensors-on-android-wear
 
+Dracula Qt Creator:
+  categories: [contributions]
+  url: /projects/dracula-qtcreator/
+  img: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/projects/dracula-qtcreator-thumbnail.jpg
+  img-feature: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/projects/dracula-qtcreator.png
+  description: A dark theme for Qt Creator
+  excerpt: I've been using the Dracula theme across many applications & environments for awhile. When I started using Qt, the theme was available but out of date. I updated the styles, submitted a pull request, and the changes are now available for others.
+  links:
+    -
+      name: Site
+      url: https://draculatheme.com/qtcreator
+    -
+      name: GitHub
+      url: https://github.com/dracula/qtcreator
+
 edi-cam:
   categories: [embedded]
   url: /projects/edi-cam/
@@ -256,6 +271,21 @@ Reading Quantified:
       name: Blog
       url: /blog/2019/06/11/reading-quantifed-ios-edition/
   showcase: true
+
+Revive:
+  categories: [contributions, web]
+  url: /projects/revive/
+  img: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/projects/revive-thumbnail.jpg
+  img-feature: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/projects/revive.gif
+  description: Online presence for Revive Presbyterian Church of Silicon Valley
+  excerpt: Revive is a church plant that was established in 2019. I helped overhaul their online presence, including the website. It's a WordPress instance running on an Azure VM. Working in partnership with a designer & a backend engineer, my main focus was on the frontend implementation. The repo is currently private; reach out if you'd like to learn more about the setup.
+  links:
+    -
+      name: Site
+      url: https://revivepres.church/
+    -
+      name: Blog
+      url: /blog/2019/10/05/wordpress-tips-and-tricks/
 
 rte-angular:
   categories: [web]

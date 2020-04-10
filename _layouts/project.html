@@ -23,9 +23,19 @@ layout: default
   <div class="row justify-content-center">
     <div class="col-lg-8">
         <div class="mb-3">
+          <!-- Show feature image if it exists -->
+          {% if project.img-feature %}
+          <div class="text-center">
+            <img class="img-fluid" src="{{ project.img-feature }}" alt="{{ project.description }}">
+          </div>
+          {% endif %}
+
+          <!-- Show YouTube video if URL exists -->
+          {% if project.youtube %}
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="{{ project.youtube }}" frameborder="0" allowfullscreen=""></iframe>
           </div>
+          {% endif %}
         </div>
     
         <p>{{ project.excerpt }}</p>
