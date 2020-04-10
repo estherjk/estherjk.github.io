@@ -23,10 +23,12 @@ My demo illustrates a simple IoT example by displaying an Arduino 101's IMU (acc
 
 Here's a picture that illustrates the demo's archiecture:
 
-<figure class="figure">
-  <img class="figure-img img-fluid border rounded" src="https://raw.githubusercontent.com/estherjk/edison-arduino101-iot/master/images/edison-arduino101-iot.png" alt="Demo archiecture diagram">
-  <figcaption class="figure-caption text-center">Demo archiecture diagram; see <a class="text-dark" href="https://github.com/estherjk/edison-arduino101-iot">GitHub</a> for the source code</figcaption>
-</figure>
+<div class="text-center">
+  <figure class="figure">
+    <img class="figure-img img-fluid border rounded" src="https://raw.githubusercontent.com/estherjk/edison-arduino101-iot/master/images/edison-arduino101-iot.png" alt="Demo archiecture diagram">
+    <figcaption class="figure-caption text-center">Demo archiecture diagram; see <a class="text-dark" href="https://github.com/estherjk/edison-arduino101-iot">GitHub</a> for the source code</figcaption>
+  </figure>
+</div>
 
 ### BLE on Arduino 101
 
@@ -40,13 +42,11 @@ To read the data on Edison from Arduino 101, I used [noble](https://github.com/s
 
 The web server&mdash;which also uses Node.js and [socket.io](http://socket.io/)&mdash;is responsible for receiving data from Edison. From here, the web server can do advanced processing and analytics... but for this demo, it hosts a web page that displays the IMU data. Note that the web page is also a socket.io client&mdash;like Edison&mdash;but instead of sending data to the web server, its receiving and displaying the data.
 
-<div class="row justify-content-center mb-3">
-  <div class="col-sm-6">
-    <figure class="figure">
-      <img class="figure-img img-fluid border rounded" src="https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/edison/edison-arduino101-iot-web-client.png" alt="Demo archiecture diagram">
-      <figcaption class="figure-caption text-center">Screenshot of the web client</figcaption>
-    </figure>
-  </div>
+<div class="text-center">
+  <figure class="figure">
+    <img class="figure-img img-fluid border rounded w-50" src="https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/edison/edison-arduino101-iot-web-client.png" alt="Demo archiecture diagram">
+    <figcaption class="figure-caption text-center">Screenshot of the web client</figcaption>
+  </figure>
 </div>
 
 ### Putting it all together
