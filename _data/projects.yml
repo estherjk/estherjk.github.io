@@ -89,7 +89,7 @@ frogger:
       url: https://github.com/estherjk/frogger
 
 google-assistant-show:
-  categories: [ai, android, iot]
+  categories: [ai, android, embedded, iot]
   url: /projects/google-assistant-show/
   img: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/projects/google-assistant-show.jpg
   description: Using the Android Things Kit to create a touch screen interface for Google Assistant
@@ -99,6 +99,8 @@ google-assistant-show:
     -
       name: GitHub
       url: https://github.com/estherjk/google-assistant-show
+    - name: Blog
+      url: /blog/2018/03/31/playing-with-android-things/
 
 HackerBoxCar:
   categories: [embedded, ai]
