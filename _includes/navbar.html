@@ -10,15 +10,16 @@
     <ul class="navbar-nav">
       {% assign url = page.url|remove:'index.html' %}
       {% for link in site.data.navigation %}
+        {% assign class = nil %}
         {% if url == link.url %}
-          <li {% if url == link.url %}class="nav-item active"{% endif %}>
-              <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
-          </li>
-        {% else %}
-          <li {% if url == link.url %}class="nav-item"{% endif %}>
-              <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
-          </li>
+          {% assign class = 'active' %}
+        {% elsif link.url != '/' and url contains link.url %}
+          {% assign class = 'active' %}
         {% endif %}
+
+        <li class="nav-item {{ class }}">
+          <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
+        </li>
       {% endfor %}
     </ul>
 
