@@ -11,3 +11,14 @@ $font-family-serif: "Roboto Slab", "Times New Roman", Times, serif !default;
 .text-serif {
   font-family: $font-family-serif;
 }
+
+// Text Shadows
+
+$text-shadow-sm:  0 .125rem .125rem rgba($black, .075) !default;
+$text-shadow:     0 .25rem 0.25rem rgba($black, .15) !default;
+$text-shadow-lg:  0 .5rem .5rem rgba($black, .175) !default;
+
+.text-shadow-sm { text-shadow: $text-shadow-sm !important; }
+.text-shadow { text-shadow: $text-shadow !important; }
+.text-shadow-lg { text-shadow: $text-shadow-lg !important; }
+.text-shadow-none { text-shadow: none !important; }
