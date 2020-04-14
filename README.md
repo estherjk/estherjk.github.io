@@ -13,7 +13,7 @@ This is the source code for Esther Jun Kim's personal website.
 ### Running the server
 
 ```bash
-./scripts/start-server.sh
+./.scripts/start-server.sh
 ```
 
 ### Updating the GitHub Pages gem
