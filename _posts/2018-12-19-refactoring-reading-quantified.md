@@ -21,13 +21,20 @@ And here's a snapshot of what it looks like now:
   <figcaption class="figure-caption text-center">Reading Quantified v3.0.0</figcaption>
 </figure>
 
-The 3rd iteration of Reading Quantified is a complete overhaul, from the backend to the frontend. The backend used to be powered by Node.js & Parse; it has been replaced with [Django](https://github.com/estherjk/reading-quantified-server). A new [Python client](https://github.com/estherjk/reading-quantified-trello) has also been created that interfaces w/ the Trello & Reading Quantified APIs.
+The 3rd iteration of Reading Quantified is a complete overhaul, from the backend to the frontend. The backend used to be powered by Node.js & Parse; it has been replaced with [Django](https://github.com/estherjk/reading-quantified-server). A new [Python client](https://github.com/estherjk/reading-quantified-trello) has also been created that retrieves cards from Trello & stores them in the Django server.
 
 The repos are all available on GitHub:
 
-* [reading-quantified](https://github.com/estherjk/reading-quantified): A dashboard for analyzing my reading habits
+* [reading-quantified](https://github.com/estherjk/reading-quantified): A dashboard for analyzing my reading habits, powered by Metabase
 * [reading-quantified-server](https://github.com/estherjk/reading-quantified-server): A Django REST API server
-* [reading-quantified-trello](https://github.com/estherjk/reading-quantified-trello): A client that interfaces w/ the Trello & Reading Quantified APIs
+* [reading-quantified-trello](https://github.com/estherjk/reading-quantified-trello): Retrieves cards from Trello & stores them in the Django server
+
+And here's how the different components work together:
+
+<figure class="figure">
+  <img class="figure-img img-fluid border rounded" src="https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/reading-quantified/reading-quantified-architecture-overview.png" alt="An overview of the Reading Quantified Architecture">
+  <figcaption class="figure-caption text-center">An overview of the Reading Quantified Architecture</figcaption>
+</figure>
 
 ## Why the change?
 
