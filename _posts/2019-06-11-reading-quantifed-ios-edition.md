@@ -29,6 +29,13 @@ The app communicates with the [REST API server](https://github.com/estherjk/read
 
 The app also attempts to use software design best practices for Swift. (The keyword is **attempts**.... :)) This includes using an MVVM architecture, [Swinject](https://github.com/Swinject/Swinject) for dependency injection, and [RxSwift](https://github.com/ReactiveX/RxSwift) to communicate changes between logically separated portions of the app.
 
+Here's a high-level diagram that illustrates the architecture:
+
+<figure class="figure">
+  <img class="figure-img img-fluid border rounded" src="https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/reading-quantified/reading-quantified-ios-architecture.png" alt="Reading Quantified iOS App Architecture">
+  <figcaption class="figure-caption text-center">Reading Quantified iOS App Architecture</figcaption>
+</figure>
+
 ## Next steps
 
 This is just the beginning of the project's iOS journey. Expect enhancements and new features!
