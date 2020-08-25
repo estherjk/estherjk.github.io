@@ -258,10 +258,11 @@ Potter Pi:
 Reading Quantified:
   categories: [ios, web, python]
   url: /projects/reading-quantified/
-  img: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/projects/reading-quantified-ios.jpg
+  img: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/projects/esthers-books-swiftui.png
+  img-feature: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/reading-quantified/reading-quantified-v3.0.0.png
   description: Analyzing my reading habits
-  excerpt: This project analyzes and visualizes my reading habits. The YouTube playlist is a collection of the various iterations of this project over the years. The web version originally used Node.js, Parse, Angular, & d3; it was completely overhauled to use Django, PostgreSQL, & Metabase. The most recent edition is an iOS app written in Swift.
-  youtube: https://www.youtube.com/embed/videoseries?list=PLptYOcdK9JEy28FvDq4XTP2j4ckuTH6B9
+  excerpt: This project analyzes and visualizes my reading habits and has gone through several iterations over the years. The web version originally used Node.js, Parse, Angular, & d3. It was completely overhauled to use Django, PostgreSQL, & Metabase. The most recent edition is a SwiftUI app that runs on iPhone, iPad, & Mac.
+  instagram: https://www.instagram.com/p/CES262hDjM-/?utm_source=ig_embed&amp;utm_campaign=loading
   links:
     -
       name: Site
@@ -271,7 +272,7 @@ Reading Quantified:
       url: https://github.com/estherjk/reading-quantified
     -
       name: Blog
-      url: /blog/2019/06/11/reading-quantifed-ios-edition/
+      url: /blog/2020/08/25/esthers-books-a-swiftui-app-for-viewing-my-reads/
   showcase: true
 
 Revive:
