@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LaneNet on NVIDIA Jetson
-categories: [embedded, ai]
+categories: [embedded, ai, python]
 ---
 
 <figure class="figure">

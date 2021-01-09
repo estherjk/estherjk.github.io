@@ -118,6 +118,22 @@ HackerBoxCar:
       url: /blog/2017/07/03/my-experience-with-the-hackerbox-autosport-kit/
   showcase: true
 
+lanenet:
+  categories: [embedded, python, ai]
+  url: /projects/lanenet/
+  img: /assets/img/projects/lanenet.jpg
+  img-feature: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/lanenet/lanenet-jetson.jpg
+  description: Real-time lane detection on the NVIDIA Jetson
+  excerpt: This project extends a TensorFlow implementation of LaneNet to run on the NVIDIA Jetson platform by porting the model to TensorRT.
+  instagram: https://www.instagram.com/p/CG7fdYcjBsK/?utm_source=ig_embed&amp;utm_campaign=loading
+  links:
+    -
+      name: GitHub
+      url: https://github.com/estherjk/lanenet-lane-detection
+    -
+      name: Blog
+      url: /blog/2021/01/09/lanenet-on-nvidia-jetson/
+
 led-speech-edison:
   categories: [embedded, python]
   url: /projects/led-speech-edison/
