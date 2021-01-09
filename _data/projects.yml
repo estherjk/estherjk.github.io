@@ -121,7 +121,7 @@ HackerBoxCar:
 lanenet:
   categories: [embedded, python, ai]
   url: /projects/lanenet/
-  img: /assets/img/projects/lanenet.jpg
+  img: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/projects/lanenet.jpg
   img-feature: https://media.githubusercontent.com/media/estherjk/estherjk.github.io/master/assets/img/lanenet/lanenet-jetson.jpg
   description: Real-time lane detection on the NVIDIA Jetson
   excerpt: This project extends a TensorFlow implementation of LaneNet to run on the NVIDIA Jetson platform by porting the model to TensorRT.
