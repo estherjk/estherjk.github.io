@@ -1,5 +1,7 @@
 - title: Home
   url: /
+- title: Codelabs
+  url: https://codelabs.esthermakes.tech
 - title: Projects
   url: /projects/
 - title: Blog
